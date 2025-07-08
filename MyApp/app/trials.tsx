@@ -5,6 +5,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 import CustomText from '@/components/CustomText';
 import BottomNav from '@/components/BottomNav';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
 
 const trialsData = [
   {
@@ -43,6 +44,7 @@ const buttons = [
 ];
 
 const ClinicalTrialsScreen = () => {
+  const router = useRouter();
   return (
     <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
@@ -60,6 +62,9 @@ const ClinicalTrialsScreen = () => {
             placeholder="Search by trial name"
             placeholderTextColor="#9CA3AF"
             style={styles.searchInput}
+            onSubmitEditing={() => router.navigate('/find-trials')}
+            returnKeyType="search"
+            blurOnSubmit={true}
           />
         </View>
 
