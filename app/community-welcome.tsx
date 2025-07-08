@@ -10,10 +10,8 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useRouter } from 'expo-router';
 
 const CommunityWelcomeScreen = () => {
-  const router = useRouter();
   const [checks, setChecks] = useState<{
     respect: boolean;
     support: boolean;
@@ -78,7 +76,7 @@ const CommunityWelcomeScreen = () => {
             By joining, you agree to our community guidelines
           </Text>
 
-          <TouchableOpacity style={styles.button} onPress={() => router.replace('/home')}>
+          <TouchableOpacity style={styles.button}>
             <Text style={styles.buttonText}>Join Community</Text>
           </TouchableOpacity>
 
@@ -113,7 +111,6 @@ const styles = StyleSheet.create({
     color: '#111827',
     textAlign: 'center',
     marginBottom: 20,
-    fontFamily: 'PlusJakartaSans-Bold',
   },
   checkboxContainer: {
     width: '100%',
@@ -143,7 +140,6 @@ const styles = StyleSheet.create({
     color: '#111827',
     flex: 1,
     lineHeight: 22,
-    fontFamily: 'PlusJakartaSans-Regular',
   },
   linkText: {
     color: '#2563EB',
@@ -151,7 +147,6 @@ const styles = StyleSheet.create({
     width: '100%',
     fontSize: 14,
     marginBottom: 20,
-    fontFamily: 'PlusJakartaSans-Regular',
   },
   button: {
     backgroundColor: '#007AFF',
@@ -165,7 +160,6 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 16,
     fontWeight: '600',
-    fontFamily: 'PlusJakartaSans-Bold',
   },
   pagination: {
     flexDirection: 'row',
