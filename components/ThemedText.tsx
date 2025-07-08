@@ -15,7 +15,11 @@ export function ThemedText({
   type = 'default',
   ...rest
 }: ThemedTextProps) {
+<<<<<<< HEAD
+  const color = useThemeColor({ light: lightColor, dark: darkColor }, 'text');
+=======
   const color = useThemeColor({ light: lightColor ?? '#000', dark: darkColor ?? '#000' }, 'text');
+>>>>>>> 872b1e662735c0072ea683f31cfb3f368bfba71e
 
   return (
     <Text
@@ -32,15 +36,41 @@ export function ThemedText({
     />
   );
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 872b1e662735c0072ea683f31cfb3f368bfba71e
 const styles = StyleSheet.create({
   default: {
     fontSize: 16,
     lineHeight: 24,
+<<<<<<< HEAD
+=======
     fontFamily: 'PlusJakartaSans_400Regular',
+>>>>>>> 872b1e662735c0072ea683f31cfb3f368bfba71e
   },
   defaultSemiBold: {
     fontSize: 16,
     lineHeight: 24,
+<<<<<<< HEAD
+    fontWeight: '600',
+  },
+  title: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    lineHeight: 32,
+  },
+  subtitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+  },
+  link: {
+    lineHeight: 30,
+    fontSize: 16,
+    color: '#0a7ea4',
+  },
+});
+=======
     fontFamily: 'PlusJakartaSans_600SemiBold',
   },
   title: {
@@ -61,3 +91,4 @@ const styles = StyleSheet.create({
   },
 });
 
+>>>>>>> 872b1e662735c0072ea683f31cfb3f368bfba71e
