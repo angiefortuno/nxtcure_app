@@ -15,7 +15,11 @@ export function ThemedText({
   type = 'default',
   ...rest
 }: ThemedTextProps) {
+<<<<<<< HEAD
   const color = useThemeColor({ light: lightColor, dark: darkColor }, 'text');
+=======
+  const color = useThemeColor({ light: lightColor ?? '#000', dark: darkColor ?? '#000' }, 'text');
+>>>>>>> 872b1e662735c0072ea683f31cfb3f368bfba71e
 
   return (
     <Text
@@ -32,15 +36,23 @@ export function ThemedText({
     />
   );
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 872b1e662735c0072ea683f31cfb3f368bfba71e
 const styles = StyleSheet.create({
   default: {
     fontSize: 16,
     lineHeight: 24,
+<<<<<<< HEAD
+=======
+    fontFamily: 'PlusJakartaSans_400Regular',
+>>>>>>> 872b1e662735c0072ea683f31cfb3f368bfba71e
   },
   defaultSemiBold: {
     fontSize: 16,
     lineHeight: 24,
+<<<<<<< HEAD
     fontWeight: '600',
   },
   title: {
@@ -58,3 +70,25 @@ const styles = StyleSheet.create({
     color: '#0a7ea4',
   },
 });
+=======
+    fontFamily: 'PlusJakartaSans_600SemiBold',
+  },
+  title: {
+    fontSize: 32,
+    lineHeight: 38,
+    textAlign: 'center',
+    fontFamily: 'PlusJakartaSans_700Bold',
+  },
+  subtitle: {
+    fontSize: 18,
+    lineHeight: 26,
+    fontFamily: 'PlusJakartaSans_400Regular',
+  },
+  link: {
+    fontSize: 18,
+    lineHeight: 26,
+    fontFamily: 'PlusJakartaSans_600SemiBold',
+  },
+});
+
+>>>>>>> 872b1e662735c0072ea683f31cfb3f368bfba71e

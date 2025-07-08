@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { View, StyleSheet, Animated, Easing, Image } from 'react-native';
 
-const NxtCureLogo = require('../assets/images/logo-1.png');
+const NxtCureLogo = require('../assets/images/nxtcure-logo.png');
 
 const Loader = () => {
   const scaleAnim = useRef(new Animated.Value(0.4)).current;
@@ -92,10 +92,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'white',
   },
   logoContainer: {
-    width: 96,
-    height: 96,
-    borderRadius: 48,
-    backgroundColor: '#1E1B26', // bg-slate-900
+    width: 180,
+    height: 180,
+    borderRadius: 90,
+    backgroundColor: '#E5CFFB',
     alignItems: 'center',
     justifyContent: 'center',
     marginBottom: 32,
@@ -106,8 +106,8 @@ const styles = StyleSheet.create({
     elevation: 8,
   },
   logo: {
-    width: 48,
-    height: 48,
+    width: 170,
+    height: 170,
   },
   barsContainer: {
     flexDirection: 'row',
