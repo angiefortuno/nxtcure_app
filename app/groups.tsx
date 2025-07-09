@@ -43,7 +43,7 @@ const buttons = [
   },
   {
     title: 'View Stories',
-    route: '/Feed'
+    route: '/feed'
   }
 ];
 
