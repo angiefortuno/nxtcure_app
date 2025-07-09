@@ -29,12 +29,16 @@ const CommunityWelcomeScreen = () => {
   };
 
   return (
-    <SafeAreaView edges={['left', 'right', 'bottom']} style={{ flex: 1, backgroundColor: '#fff' }}>
+    <SafeAreaView edges={['top', 'left', 'right', 'bottom']} style={{ flex: 1, backgroundColor: '#fff' }}>
       <ScrollView
         contentContainerStyle={styles.container}
         showsVerticalScrollIndicator={false}
         bounces={false}
       >
+        {/* Back Arrow */}
+        <TouchableOpacity onPress={() => router.replace('/journey')} style={{ position: 'absolute', top: 18, left: 18, zIndex: 10 }}>
+          <Ionicons name="arrow-back-outline" size={28} color="#181A20" />
+        </TouchableOpacity>
         {/* Full-width Image (no margin, no border radius) */}
         <Image
           source={require('../assets/images/community.png')}
@@ -78,7 +82,7 @@ const CommunityWelcomeScreen = () => {
             By joining, you agree to our community guidelines
           </Text>
 
-          <TouchableOpacity style={styles.button} onPress={() => router.replace('/home')}>
+          <TouchableOpacity style={[styles.button, !(checks.respect && checks.support && checks.positivity) && { opacity: 0.5 }]} onPress={() => router.replace('/home')} disabled={!(checks.respect && checks.support && checks.positivity)}>
             <Text style={styles.buttonText}>Join Community</Text>
           </TouchableOpacity>
 
@@ -100,15 +104,16 @@ const styles = StyleSheet.create({
   image: {
     width: '100%',
     height: 260,
+
   },
   innerContainer: {
     paddingHorizontal: 20,
     alignItems: 'center',
-    paddingTop: 24,
+    paddingTop: 20,
     paddingBottom: 30,
   },
   title: {
-    fontSize: 24,
+    fontSize: 20,
     fontWeight: '700',
     color: '#111827',
     textAlign: 'center',
@@ -139,7 +144,7 @@ const styles = StyleSheet.create({
     borderColor: '#007AFF',
   },
   checkboxLabel: {
-    fontSize: 16,
+    fontSize: 13,
     color: '#111827',
     flex: 1,
     lineHeight: 22,
@@ -149,7 +154,7 @@ const styles = StyleSheet.create({
     color: '#2563EB',
     textAlign: 'left',
     width: '100%',
-    fontSize: 14,
+    fontSize: 12,
     marginBottom: 20,
     fontFamily: 'PlusJakartaSans-Regular',
   },
@@ -163,7 +168,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: '#fff',
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600',
     fontFamily: 'PlusJakartaSans-Bold',
   },

@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+*.pt
+__pycache__/
+.git/
+frontend-deploy/
+nxtcure-frontend/ 

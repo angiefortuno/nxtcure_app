@@ -1,7 +1,6 @@
 import React from 'react';
-import { View, Image, TouchableOpacity, StyleSheet, Dimensions, Alert } from 'react-native';
+import { View, Image, TouchableOpacity, StyleSheet, Dimensions, Alert, Text } from 'react-native';
 import { useRouter } from 'expo-router';
-import { ThemedText } from '@/components/ThemedText';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const screen = Dimensions.get('window');
@@ -33,9 +32,7 @@ const WelcomeScreen = () => {
 
       {/* Title Section */}
       <View style={styles.titleSection}>
-        <ThemedText allowFontScaling={false} type='title' style={styles.title}>
-          Your journey, supported{"\n"}every step
-        </ThemedText>
+        <Text style={[styles.title, { fontFamily: 'PlusJakartaSans-Bold' }]}>Your journey, supported{"\n"}every step</Text>
       </View>
 
       {/* Logo Section */}
@@ -54,22 +51,17 @@ const WelcomeScreen = () => {
           activeOpacity={0.8}
           onPress={handleSignUp}
         >
-          <ThemedText allowFontScaling={false} type='link' style={styles.buttonText}>
-            Get Started
-          </ThemedText>
+          <Text style={[styles.buttonText, { fontFamily: 'PlusJakartaSans-SemiBold' }]}>Get Started</Text>
         </TouchableOpacity>
 
-        <ThemedText allowFontScaling={false} type='subtitle' style={styles.signInText}>
-          Already have an account?{' '}
-          <ThemedText
-            allowFontScaling={false}
-            type='link'
-            style={styles.signInLink}
+        <Text style={[styles.signInText, { fontFamily: 'PlusJakartaSans-Regular' }]}>Already have an account?{' '}
+          <Text
+            style={[styles.signInLink, { fontFamily: 'PlusJakartaSans-Bold' }]}
             onPress={handleSignIn}
           >
             Sign In
-          </ThemedText>
-        </ThemedText>
+          </Text>
+        </Text>
       </View>
     </View>
   );
@@ -105,7 +97,7 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   title: {
-    fontSize: 28,
+    fontSize: 22,
     fontWeight: '700',
     textAlign: 'center',
     color: '#181A20',
@@ -117,8 +109,8 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   logo: {
-    width: 80,
-    height: 80,
+    width: 110,
+    height: 110,
   },
   bottomSection: {
     alignItems: 'center',
@@ -142,7 +134,7 @@ const styles = StyleSheet.create({
   },
   signInText: {
     color: '#181A20',
-    fontSize: 17,
+    fontSize: 13,
     textAlign: 'center',
     fontWeight: '500',
     marginBottom: 8,

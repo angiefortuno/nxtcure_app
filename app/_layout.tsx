@@ -32,6 +32,7 @@ export default function RootLayout() {
           <Stack.Screen name="express-interest" options={{ headerShown: false }} />
           <Stack.Screen name="application-submitted" options={{ headerShown: false }} />
           <Stack.Screen name="my-applications" options={{ headerShown: false }} />
+          <Stack.Screen name="trial-messages" options={{ headerShown: false }} />
           <Stack.Screen name="welcome" options={{ headerShown: false }} />
           <Stack.Screen name="signup" options={{ headerShown: false }} />
           <Stack.Screen name="role-selection" options={{ headerShown: false }} />

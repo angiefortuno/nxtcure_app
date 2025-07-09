@@ -5,30 +5,30 @@ import { useRouter, usePathname } from 'expo-router';
 import CustomText from '@/components/CustomText';
 
 const tabs = [
-  { name: 'Home', icon: 'home', route: '/home' },
-  { name: 'Trials', icon: 'flask', route: '/trials' },
-  { name: 'Calendar', icon: 'calendar', route: '/calendar' },
-  { name: 'Groups', icon: 'people', route: '/groups' },
-  { name: 'Profile', icon: 'person', route: '/profile' },
+  { name: 'Home', icon: 'home', routes: ['/home'] },
+  { name: 'Trials', icon: 'flask', routes: ['/trials'] },
+  { name: 'Calendar', icon: 'calendar', routes: ['/calendar'] },
+  { name: 'Groups', icon: 'people', routes: ['/groups', '/feed'] },
+  { name: 'Profile', icon: 'person', routes: ['/profile'] },
 ];
 
-export default function BottomNav({ activeTab }: { activeTab?: string } = {}) {
+export default function BottomNav() {
   const router = useRouter();
   const pathname = usePathname();
-  const current = activeTab || pathname;
 
   return (
     <View style={styles.wrapper}>
       <View style={styles.bottomNav}>
         {tabs.map(tab => {
-          const isActive = current === tab.route;
+          const isActive = tab.routes.includes(pathname);
           return (
             <TouchableOpacity
               key={tab.name}
               style={styles.navItem}
               onPress={() => {
-                if (current !== tab.route) {
-                  router.push(tab.route as any);
+                if (!tab.routes.includes(pathname)) {
+                  // Always navigate to the first route for the tab
+                  router.push(tab.routes[0] as any);
                 }
               }}
               accessibilityRole="button"
@@ -37,7 +37,8 @@ export default function BottomNav({ activeTab }: { activeTab?: string } = {}) {
               <Ionicons
                 name={tab.icon as any}
                 size={24}
-                color={isActive ? '#0F141A' : '#59738C'}                />
+                color={isActive ? '#0D141C' : '#4A739C'}
+              />
               <CustomText style={isActive ? styles.navLabelActive : styles.navLabel}>
                 {tab.name}
               </CustomText>

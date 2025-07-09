@@ -1,0 +1,1283 @@
+Trial ID,Cancer Type,Trial Name,Location,Contact Info,Status
+LU1000,Lung Cancer,Lung Cancer Trial #1,"Phoenix, Arizona",lung_cancer@trials.org / (800) 555-1000,Recruiting
+LU1001,Lung Cancer,Lung Cancer Trial #2,"Dallas, Texas",lung_cancer@trials.org / (800) 555-1001,Recruiting
+LU1002,Lung Cancer,Lung Cancer Trial #3,"San Diego, California",lung_cancer@trials.org / (800) 555-1002,Recruiting
+LU1003,Lung Cancer,Lung Cancer Trial #4,"Austin, Texas",lung_cancer@trials.org / (800) 555-1003,Recruiting
+LU1004,Lung Cancer,Lung Cancer Trial #5,"Seattle, Washington",lung_cancer@trials.org / (800) 555-1004,Recruiting
+LU1005,Lung Cancer,Lung Cancer Trial #6,"Columbus, Ohio",lung_cancer@trials.org / (800) 555-1005,Recruiting
+LU1006,Lung Cancer,Lung Cancer Trial #7,"Jacksonville, Florida",lung_cancer@trials.org / (800) 555-1006,Recruiting
+LU1007,Lung Cancer,Lung Cancer Trial #8,"Denver, Colorado",lung_cancer@trials.org / (800) 555-1007,Recruiting
+LU1008,Lung Cancer,Lung Cancer Trial #9,"Boston, Massachusetts",lung_cancer@trials.org / (800) 555-1008,Recruiting
+LU1009,Lung Cancer,Lung Cancer Trial #10,"Charlotte, North Carolina",lung_cancer@trials.org / (800) 555-1009,Recruiting
+LU1010,Lung Cancer,Lung Cancer Trial #11,"San Jose, California",lung_cancer@trials.org / (800) 555-1010,Recruiting
+LU1011,Lung Cancer,Lung Cancer Trial #12,"El Paso, Texas",lung_cancer@trials.org / (800) 555-1011,Recruiting
+LU1012,Lung Cancer,Lung Cancer Trial #13,"Oklahoma City, Oklahoma",lung_cancer@trials.org / (800) 555-1012,Recruiting
+LU1013,Lung Cancer,Lung Cancer Trial #14,"Indianapolis, Indiana",lung_cancer@trials.org / (800) 555-1013,Recruiting
+LU1014,Lung Cancer,Lung Cancer Trial #15,"San Francisco, California",lung_cancer@trials.org / (800) 555-1014,Recruiting
+LU1015,Lung Cancer,Lung Cancer Trial #16,"Nashville, Tennessee",lung_cancer@trials.org / (800) 555-1015,Recruiting
+LU1016,Lung Cancer,Lung Cancer Trial #17,"Washington, DC",lung_cancer@trials.org / (800) 555-1016,Recruiting
+LU1017,Lung Cancer,Lung Cancer Trial #18,"Detroit, Michigan",lung_cancer@trials.org / (800) 555-1017,Recruiting
+LU1018,Lung Cancer,Lung Cancer Trial #19,"Portland, Oregon",lung_cancer@trials.org / (800) 555-1018,Recruiting
+LU1019,Lung Cancer,Lung Cancer Trial #20,"Fort Worth, Texas",lung_cancer@trials.org / (800) 555-1019,Recruiting
+PR2000,Prostate Cancer,Prostate Cancer Trial #1,"Atlanta, Georgia",prostate_cancer@trials.org / (800) 555-2000,Recruiting
+PR2001,Prostate Cancer,Prostate Cancer Trial #2,"Chicago, Illinois",prostate_cancer@trials.org / (800) 555-2001,Recruiting
+PR2002,Prostate Cancer,Prostate Cancer Trial #3,"Philadelphia, Pennsylvania",prostate_cancer@trials.org / (800) 555-2002,Recruiting
+PR2003,Prostate Cancer,Prostate Cancer Trial #4,"Houston, Texas",prostate_cancer@trials.org / (800) 555-2003,Recruiting
+PR2004,Prostate Cancer,Prostate Cancer Trial #5,"Las Vegas, Nevada",prostate_cancer@trials.org / (800) 555-2004,Recruiting
+PR2005,Prostate Cancer,Prostate Cancer Trial #6,"Orlando, Florida",prostate_cancer@trials.org / (800) 555-2005,Recruiting
+PR2006,Prostate Cancer,Prostate Cancer Trial #7,"Kansas City, Missouri",prostate_cancer@trials.org / (800) 555-2006,Recruiting
+PR2007,Prostate Cancer,Prostate Cancer Trial #8,"Minneapolis, Minnesota",prostate_cancer@trials.org / (800) 555-2007,Recruiting
+PR2008,Prostate Cancer,Prostate Cancer Trial #9,"Raleigh, North Carolina",prostate_cancer@trials.org / (800) 555-2008,Recruiting
+PR2009,Prostate Cancer,Prostate Cancer Trial #10,"Albuquerque, New Mexico",prostate_cancer@trials.org / (800) 555-2009,Recruiting
+PR2010,Prostate Cancer,Prostate Cancer Trial #11,"Tampa, Florida",prostate_cancer@trials.org / (800) 555-2010,Recruiting
+PR2011,Prostate Cancer,Prostate Cancer Trial #12,"Cleveland, Ohio",prostate_cancer@trials.org / (800) 555-2011,Recruiting
+PR2012,Prostate Cancer,Prostate Cancer Trial #13,"Boise, Idaho",prostate_cancer@trials.org / (800) 555-2012,Recruiting
+PR2013,Prostate Cancer,Prostate Cancer Trial #14,"Fresno, California",prostate_cancer@trials.org / (800) 555-2013,Recruiting
+PR2014,Prostate Cancer,Prostate Cancer Trial #15,"Buffalo, New York",prostate_cancer@trials.org / (800) 555-2014,Recruiting
+PR2015,Prostate Cancer,Prostate Cancer Trial #16,"Des Moines, Iowa",prostate_cancer@trials.org / (800) 555-2015,Recruiting
+PR2016,Prostate Cancer,Prostate Cancer Trial #17,"Tulsa, Oklahoma",prostate_cancer@trials.org / (800) 555-2016,Recruiting
+PR2017,Prostate Cancer,Prostate Cancer Trial #18,"Birmingham, Alabama",prostate_cancer@trials.org / (800) 555-2017,Recruiting
+PR2018,Prostate Cancer,Prostate Cancer Trial #19,"Richmond, Virginia",prostate_cancer@trials.org / (800) 555-2018,Recruiting
+PR2019,Prostate Cancer,Prostate Cancer Trial #20,"Salt Lake City, Utah",prostate_cancer@trials.org / (800) 555-2019,Recruiting
+BC3000,Breast Cancer,Breast Cancer Trial #1,"New York, New York",breast_cancer@trials.org / (800) 555-3000,Recruiting
+BC3001,Breast Cancer,Breast Cancer Trial #2,"Los Angeles, California",breast_cancer@trials.org / (800) 555-3001,Recruiting
+BC3002,Breast Cancer,Breast Cancer Trial #3,"Miami, Florida",breast_cancer@trials.org / (800) 555-3002,Recruiting
+BC3003,Breast Cancer,Breast Cancer Trial #4,"Baltimore, Maryland",breast_cancer@trials.org / (800) 555-3003,Recruiting
+BC3004,Breast Cancer,Breast Cancer Trial #5,"Newark, New Jersey",breast_cancer@trials.org / (800) 555-3004,Recruiting
+BC3005,Breast Cancer,Breast Cancer Trial #6,"St. Louis, Missouri",breast_cancer@trials.org / (800) 555-3005,Recruiting
+BC3006,Breast Cancer,Breast Cancer Trial #7,"San Antonio, Texas",breast_cancer@trials.org / (800) 555-3006,Recruiting
+BC3007,Breast Cancer,Breast Cancer Trial #8,"Milwaukee, Wisconsin",breast_cancer@trials.org / (800) 555-3007,Recruiting
+BC3008,Breast Cancer,Breast Cancer Trial #9,"Omaha, Nebraska",breast_cancer@trials.org / (800) 555-3008,Recruiting
+BC3009,Breast Cancer,Breast Cancer Trial #10,"Anchorage, Alaska",breast_cancer@trials.org / (800) 555-3009,Recruiting
+BC3010,Breast Cancer,Breast Cancer Trial #11,"Louisville, Kentucky",breast_cancer@trials.org / (800) 555-3010,Recruiting
+BC3011,Breast Cancer,Breast Cancer Trial #12,"Hartford, Connecticut",breast_cancer@trials.org / (800) 555-3011,Recruiting
+BC3012,Breast Cancer,Breast Cancer Trial #13,"Baton Rouge, Louisiana",breast_cancer@trials.org / (800) 555-3012,Recruiting
+BC3013,Breast Cancer,Breast Cancer Trial #14,"Reno, Nevada",breast_cancer@trials.org / (800) 555-3013,Recruiting
+BC3014,Breast Cancer,Breast Cancer Trial #15,"Bakersfield, California",breast_cancer@trials.org / (800) 555-3014,Recruiting
+BC3015,Breast Cancer,Breast Cancer Trial #16,"Lubbock, Texas",breast_cancer@trials.org / (800) 555-3015,Recruiting
+BC3016,Breast Cancer,Breast Cancer Trial #17,"Tacoma, Washington",breast_cancer@trials.org / (800) 555-3016,Recruiting
+BC3017,Breast Cancer,Breast Cancer Trial #18,"Springfield, Illinois",breast_cancer@trials.org / (800) 555-3017,Recruiting
+BC3018,Breast Cancer,Breast Cancer Trial #19,"Rochester, New York",breast_cancer@trials.org / (800) 555-3018,Recruiting
+BC3019,Breast Cancer,Breast Cancer Trial #20,"Greensboro, North Carolina",breast_cancer@trials.org / (800) 555-3019,Recruiting
+SG4000,Stomach Cancer,Stomach Cancer Trial #1,"Chicago, Illinois",stomach_cancer@trials.org / (800) 555-4000,Recruiting
+SG4001,Stomach Cancer,Stomach Cancer Trial #2,"Los Angeles, California",stomach_cancer@trials.org / (800) 555-4001,Recruiting
+SG4002,Stomach Cancer,Stomach Cancer Trial #3,"Houston, Texas",stomach_cancer@trials.org / (800) 555-4002,Recruiting
+SG4003,Stomach Cancer,Stomach Cancer Trial #4,"New York, New York",stomach_cancer@trials.org / (800) 555-4003,Recruiting
+SG4004,Stomach Cancer,Stomach Cancer Trial #5,"Phoenix, Arizona",stomach_cancer@trials.org / (800) 555-4004,Recruiting
+SG4005,Stomach Cancer,Stomach Cancer Trial #6,"San Diego, California",stomach_cancer@trials.org / (800) 555-4005,Recruiting
+SG4006,Stomach Cancer,Stomach Cancer Trial #7,"Boston, Massachusetts",stomach_cancer@trials.org / (800) 555-4006,Recruiting
+SG4007,Stomach Cancer,Stomach Cancer Trial #8,"San Jose, California",stomach_cancer@trials.org / (800) 555-4007,Recruiting
+SG4008,Stomach Cancer,Stomach Cancer Trial #9,"Charlotte, North Carolina",stomach_cancer@trials.org / (800) 555-4008,Recruiting
+SG4009,Stomach Cancer,Stomach Cancer Trial #10,"Indianapolis, Indiana",stomach_cancer@trials.org / (800) 555-4009,Recruiting
+SG4010,Stomach Cancer,Stomach Cancer Trial #11,"Columbus, Ohio",stomach_cancer@trials.org / (800) 555-4010,Recruiting
+SG4011,Stomach Cancer,Stomach Cancer Trial #12,"Detroit, Michigan",stomach_cancer@trials.org / (800) 555-4011,Recruiting
+SG4012,Stomach Cancer,Stomach Cancer Trial #13,"Nashville, Tennessee",stomach_cancer@trials.org / (800) 555-4012,Recruiting
+SG4013,Stomach Cancer,Stomach Cancer Trial #14,"Baltimore, Maryland",stomach_cancer@trials.org / (800) 555-4013,Recruiting
+SG4014,Stomach Cancer,Stomach Cancer Trial #15,"El Paso, Texas",stomach_cancer@trials.org / (800) 555-4014,Recruiting
+SG4015,Stomach Cancer,Stomach Cancer Trial #16,"Denver, Colorado",stomach_cancer@trials.org / (800) 555-4015,Recruiting
+SG4016,Stomach Cancer,Stomach Cancer Trial #17,"Memphis, Tennessee",stomach_cancer@trials.org / (800) 555-4016,Recruiting
+SG4017,Stomach Cancer,Stomach Cancer Trial #18,"Oklahoma City, Oklahoma",stomach_cancer@trials.org / (800) 555-4017,Recruiting
+SG4018,Stomach Cancer,Stomach Cancer Trial #19,"Portland, Oregon",stomach_cancer@trials.org / (800) 555-4018,Recruiting
+SG4019,Stomach Cancer,Stomach Cancer Trial #20,"Milwaukee, Wisconsin",stomach_cancer@trials.org / (800) 555-4019,Recruiting
+GB5000,Gallbladder Cancer,Gallbladder Cancer Trial #1,"Dallas, Texas",gallbladder_cancer@trials.org / (800) 555-5000,Recruiting
+GB5001,Gallbladder Cancer,Gallbladder Cancer Trial #2,"Seattle, Washington",gallbladder_cancer@trials.org / (800) 555-5001,Recruiting
+GB5002,Gallbladder Cancer,Gallbladder Cancer Trial #3,"San Antonio, Texas",gallbladder_cancer@trials.org / (800) 555-5002,Recruiting
+GB5003,Gallbladder Cancer,Gallbladder Cancer Trial #4,"Atlanta, Georgia",gallbladder_cancer@trials.org / (800) 555-5003,Recruiting
+GB5004,Gallbladder Cancer,Gallbladder Cancer Trial #5,"Las Vegas, Nevada",gallbladder_cancer@trials.org / (800) 555-5004,Recruiting
+GB5005,Gallbladder Cancer,Gallbladder Cancer Trial #6,"Austin, Texas",gallbladder_cancer@trials.org / (800) 555-5005,Recruiting
+GB5006,Gallbladder Cancer,Gallbladder Cancer Trial #7,"Tampa, Florida",gallbladder_cancer@trials.org / (800) 555-5006,Recruiting
+GB5007,Gallbladder Cancer,Gallbladder Cancer Trial #8,"Cincinnati, Ohio",gallbladder_cancer@trials.org / (800) 555-5007,Recruiting
+GB5008,Gallbladder Cancer,Gallbladder Cancer Trial #9,"Pittsburgh, Pennsylvania",gallbladder_cancer@trials.org / (800) 555-5008,Recruiting
+GB5009,Gallbladder Cancer,Gallbladder Cancer Trial #10,"Toledo, Ohio",gallbladder_cancer@trials.org / (800) 555-5009,Recruiting
+GB5010,Gallbladder Cancer,Gallbladder Cancer Trial #11,"Lincoln, Nebraska",gallbladder_cancer@trials.org / (800) 555-5010,Recruiting
+GB5011,Gallbladder Cancer,Gallbladder Cancer Trial #12,"Reno, Nevada",gallbladder_cancer@trials.org / (800) 555-5011,Recruiting
+GB5012,Gallbladder Cancer,Gallbladder Cancer Trial #13,"Fresno, California",gallbladder_cancer@trials.org / (800) 555-5012,Recruiting
+GB5013,Gallbladder Cancer,Gallbladder Cancer Trial #14,"Anchorage, Alaska",gallbladder_cancer@trials.org / (800) 555-5013,Recruiting
+GB5014,Gallbladder Cancer,Gallbladder Cancer Trial #15,"Honolulu, Hawaii",gallbladder_cancer@trials.org / (800) 555-5014,Recruiting
+GB5015,Gallbladder Cancer,Gallbladder Cancer Trial #16,"Boise, Idaho",gallbladder_cancer@trials.org / (800) 555-5015,Recruiting
+GB5016,Gallbladder Cancer,Gallbladder Cancer Trial #17,"Billings, Montana",gallbladder_cancer@trials.org / (800) 555-5016,Recruiting
+GB5017,Gallbladder Cancer,Gallbladder Cancer Trial #18,"Mobile, Alabama",gallbladder_cancer@trials.org / (800) 555-5017,Recruiting
+GB5018,Gallbladder Cancer,Gallbladder Cancer Trial #19,"Lexington, Kentucky",gallbladder_cancer@trials.org / (800) 555-5018,Recruiting
+GB5019,Gallbladder Cancer,Gallbladder Cancer Trial #20,"Bismarck, North Dakota",gallbladder_cancer@trials.org / (800) 555-5019,Recruiting
+LV6000,Liver Cancer,Liver Cancer Trial #1,"San Francisco, California",liver_cancer@trials.org / (800) 555-6000,Recruiting
+LV6001,Liver Cancer,Liver Cancer Trial #2,"Philadelphia, Pennsylvania",liver_cancer@trials.org / (800) 555-6001,Recruiting
+LV6002,Liver Cancer,Liver Cancer Trial #3,"Miami, Florida",liver_cancer@trials.org / (800) 555-6002,Recruiting
+LV6003,Liver Cancer,Liver Cancer Trial #4,"Cleveland, Ohio",liver_cancer@trials.org / (800) 555-6003,Recruiting
+LV6004,Liver Cancer,Liver Cancer Trial #5,"San Juan, PR",liver_cancer@trials.org / (800) 555-6004,Recruiting
+LV6005,Liver Cancer,Liver Cancer Trial #6,"Tucson, Arizona",liver_cancer@trials.org / (800) 555-6005,Recruiting
+LV6006,Liver Cancer,Liver Cancer Trial #7,"Fort Lauderdale, Florida",liver_cancer@trials.org / (800) 555-6006,Recruiting
+LV6007,Liver Cancer,Liver Cancer Trial #8,"Plano, Texas",liver_cancer@trials.org / (800) 555-6007,Recruiting
+LV6008,Liver Cancer,Liver Cancer Trial #9,"Durham, North Carolina",liver_cancer@trials.org / (800) 555-6008,Recruiting
+LV6009,Liver Cancer,Liver Cancer Trial #10,"Spokane, Washington",liver_cancer@trials.org / (800) 555-6009,Recruiting
+LV6010,Liver Cancer,Liver Cancer Trial #11,"Albany, New York",liver_cancer@trials.org / (800) 555-6010,Recruiting
+LV6011,Liver Cancer,Liver Cancer Trial #12,"Little Rock, Arkansas",liver_cancer@trials.org / (800) 555-6011,Recruiting
+LV6012,Liver Cancer,Liver Cancer Trial #13,"Lubbock, Texas",liver_cancer@trials.org / (800) 555-6012,Recruiting
+LV6013,Liver Cancer,Liver Cancer Trial #14,"Modesto, California",liver_cancer@trials.org / (800) 555-6013,Recruiting
+LV6014,Liver Cancer,Liver Cancer Trial #15,"Baton Rouge, Louisiana",liver_cancer@trials.org / (800) 555-6014,Recruiting
+LV6015,Liver Cancer,Liver Cancer Trial #16,"Charleston, South Carolina",liver_cancer@trials.org / (800) 555-6015,Recruiting
+LV6016,Liver Cancer,Liver Cancer Trial #17,"Erie, Pennsylvania",liver_cancer@trials.org / (800) 555-6016,Recruiting
+LV6017,Liver Cancer,Liver Cancer Trial #18,"Eugene, Oregon",liver_cancer@trials.org / (800) 555-6017,Recruiting
+LV6018,Liver Cancer,Liver Cancer Trial #19,"Bakersfield, California",liver_cancer@trials.org / (800) 555-6018,Recruiting
+LV6019,Liver Cancer,Liver Cancer Trial #20,"Greenville, South Carolina",liver_cancer@trials.org / (800) 555-6019,Recruiting
+BL7000,Bladder Cancer,Bladder Cancer Trial #1,"Phoenix, Arizona",bladder_cancer@trials.org / (800) 555-7000,Recruiting
+BL7001,Bladder Cancer,Bladder Cancer Trial #2,"Los Angeles, California",bladder_cancer@trials.org / (800) 555-7001,Recruiting
+BL7002,Bladder Cancer,Bladder Cancer Trial #3,"Columbus, Ohio",bladder_cancer@trials.org / (800) 555-7002,Recruiting
+BL7003,Bladder Cancer,Bladder Cancer Trial #4,"Tulsa, Oklahoma",bladder_cancer@trials.org / (800) 555-7003,Recruiting
+BL7004,Bladder Cancer,Bladder Cancer Trial #5,"Minneapolis, Minnesota",bladder_cancer@trials.org / (800) 555-7004,Recruiting
+BL7005,Bladder Cancer,Bladder Cancer Trial #6,"Denver, Colorado",bladder_cancer@trials.org / (800) 555-7005,Recruiting
+BL7006,Bladder Cancer,Bladder Cancer Trial #7,"Des Moines, Iowa",bladder_cancer@trials.org / (800) 555-7006,Recruiting
+BL7007,Bladder Cancer,Bladder Cancer Trial #8,"Atlanta, Georgia",bladder_cancer@trials.org / (800) 555-7007,Recruiting
+BL7008,Bladder Cancer,Bladder Cancer Trial #9,"Raleigh, North Carolina",bladder_cancer@trials.org / (800) 555-7008,Recruiting
+BL7009,Bladder Cancer,Bladder Cancer Trial #10,"Milwaukee, Wisconsin",bladder_cancer@trials.org / (800) 555-7009,Recruiting
+BL7010,Bladder Cancer,Bladder Cancer Trial #11,"Birmingham, Alabama",bladder_cancer@trials.org / (800) 555-7010,Recruiting
+BL7011,Bladder Cancer,Bladder Cancer Trial #12,"Anchorage, Alaska",bladder_cancer@trials.org / (800) 555-7011,Recruiting
+BL7012,Bladder Cancer,Bladder Cancer Trial #13,"Louisville, Kentucky",bladder_cancer@trials.org / (800) 555-7012,Recruiting
+BL7013,Bladder Cancer,Bladder Cancer Trial #14,"Newark, New Jersey",bladder_cancer@trials.org / (800) 555-7013,Recruiting
+BL7014,Bladder Cancer,Bladder Cancer Trial #15,"St. Louis, Missouri",bladder_cancer@trials.org / (800) 555-7014,Recruiting
+BL7015,Bladder Cancer,Bladder Cancer Trial #16,"Omaha, Nebraska",bladder_cancer@trials.org / (800) 555-7015,Recruiting
+BL7016,Bladder Cancer,Bladder Cancer Trial #17,"Cincinnati, Ohio",bladder_cancer@trials.org / (800) 555-7016,Recruiting
+BL7017,Bladder Cancer,Bladder Cancer Trial #18,"Fresno, California",bladder_cancer@trials.org / (800) 555-7017,Recruiting
+BL7018,Bladder Cancer,Bladder Cancer Trial #19,"Buffalo, New York",bladder_cancer@trials.org / (800) 555-7018,Recruiting
+BL7019,Bladder Cancer,Bladder Cancer Trial #20,"Reno, Nevada",bladder_cancer@trials.org / (800) 555-7019,Recruiting
+BC8000,Blood Cancer,Blood Cancer Trial #1,"New York, New York",blood_cancer@trials.org / (800) 555-8000,Recruiting
+BC8001,Blood Cancer,Blood Cancer Trial #2,"Boston, Massachusetts",blood_cancer@trials.org / (800) 555-8001,Recruiting
+BC8002,Blood Cancer,Blood Cancer Trial #3,"Chicago, Illinois",blood_cancer@trials.org / (800) 555-8002,Recruiting
+BC8003,Blood Cancer,Blood Cancer Trial #4,"Philadelphia, Pennsylvania",blood_cancer@trials.org / (800) 555-8003,Recruiting
+BC8004,Blood Cancer,Blood Cancer Trial #5,"Houston, Texas",blood_cancer@trials.org / (800) 555-8004,Recruiting
+BC8005,Blood Cancer,Blood Cancer Trial #6,"Los Angeles, California",blood_cancer@trials.org / (800) 555-8005,Recruiting
+BC8006,Blood Cancer,Blood Cancer Trial #7,"Seattle, Washington",blood_cancer@trials.org / (800) 555-8006,Recruiting
+BC8007,Blood Cancer,Blood Cancer Trial #8,"San Diego, California",blood_cancer@trials.org / (800) 555-8007,Recruiting
+BC8008,Blood Cancer,Blood Cancer Trial #9,"Atlanta, Georgia",blood_cancer@trials.org / (800) 555-8008,Recruiting
+BC8009,Blood Cancer,Blood Cancer Trial #10,"Dallas, Texas",blood_cancer@trials.org / (800) 555-8009,Recruiting
+BC8010,Blood Cancer,Blood Cancer Trial #11,"Denver, Colorado",blood_cancer@trials.org / (800) 555-8010,Recruiting
+BC8011,Blood Cancer,Blood Cancer Trial #12,"Portland, Oregon",blood_cancer@trials.org / (800) 555-8011,Recruiting
+BC8012,Blood Cancer,Blood Cancer Trial #13,"Minneapolis, Minnesota",blood_cancer@trials.org / (800) 555-8012,Recruiting
+BC8013,Blood Cancer,Blood Cancer Trial #14,"Indianapolis, Indiana",blood_cancer@trials.org / (800) 555-8013,Recruiting
+BC8014,Blood Cancer,Blood Cancer Trial #15,"Charlotte, North Carolina",blood_cancer@trials.org / (800) 555-8014,Recruiting
+BC8015,Blood Cancer,Blood Cancer Trial #16,"Nashville, Tennessee",blood_cancer@trials.org / (800) 555-8015,Recruiting
+BC8016,Blood Cancer,Blood Cancer Trial #17,"Phoenix, Arizona",blood_cancer@trials.org / (800) 555-8016,Recruiting
+BC8017,Blood Cancer,Blood Cancer Trial #18,"Salt Lake City, Utah",blood_cancer@trials.org / (800) 555-8017,Recruiting
+BC8018,Blood Cancer,Blood Cancer Trial #19,"Columbus, Ohio",blood_cancer@trials.org / (800) 555-8018,Recruiting
+BC8019,Blood Cancer,Blood Cancer Trial #20,"Baltimore, Maryland",blood_cancer@trials.org / (800) 555-8019,Recruiting
+PC9000,Pancreatic Cancer,Pancreatic Cancer Trial #1,"Houston, Texas",pancreatic_cancer@trials.org / (800) 555-9000,Recruiting
+PC9001,Pancreatic Cancer,Pancreatic Cancer Trial #2,"San Francisco, California",pancreatic_cancer@trials.org / (800) 555-9001,Recruiting
+PC9002,Pancreatic Cancer,Pancreatic Cancer Trial #3,"Seattle, Washington",pancreatic_cancer@trials.org / (800) 555-9002,Recruiting
+PC9003,Pancreatic Cancer,Pancreatic Cancer Trial #4,"Chicago, Illinois",pancreatic_cancer@trials.org / (800) 555-9003,Recruiting
+PC9004,Pancreatic Cancer,Pancreatic Cancer Trial #5,"Los Angeles, California",pancreatic_cancer@trials.org / (800) 555-9004,Recruiting
+PC9005,Pancreatic Cancer,Pancreatic Cancer Trial #6,"Philadelphia, Pennsylvania",pancreatic_cancer@trials.org / (800) 555-9005,Recruiting
+PC9006,Pancreatic Cancer,Pancreatic Cancer Trial #7,"New York, New York",pancreatic_cancer@trials.org / (800) 555-9006,Recruiting
+PC9007,Pancreatic Cancer,Pancreatic Cancer Trial #8,"Austin, Texas",pancreatic_cancer@trials.org / (800) 555-9007,Recruiting
+PC9008,Pancreatic Cancer,Pancreatic Cancer Trial #9,"Boston, Massachusetts",pancreatic_cancer@trials.org / (800) 555-9008,Recruiting
+PC9009,Pancreatic Cancer,Pancreatic Cancer Trial #10,"Dallas, Texas",pancreatic_cancer@trials.org / (800) 555-9009,Recruiting
+PC9010,Pancreatic Cancer,Pancreatic Cancer Trial #11,"Charlotte, North Carolina",pancreatic_cancer@trials.org / (800) 555-9010,Recruiting
+PC9011,Pancreatic Cancer,Pancreatic Cancer Trial #12,"Miami, Florida",pancreatic_cancer@trials.org / (800) 555-9011,Recruiting
+PC9012,Pancreatic Cancer,Pancreatic Cancer Trial #13,"Portland, Oregon",pancreatic_cancer@trials.org / (800) 555-9012,Recruiting
+PC9013,Pancreatic Cancer,Pancreatic Cancer Trial #14,"Columbus, Ohio",pancreatic_cancer@trials.org / (800) 555-9013,Recruiting
+PC9014,Pancreatic Cancer,Pancreatic Cancer Trial #15,"Phoenix, Arizona",pancreatic_cancer@trials.org / (800) 555-9014,Recruiting
+PC9015,Pancreatic Cancer,Pancreatic Cancer Trial #16,"San Jose, California",pancreatic_cancer@trials.org / (800) 555-9015,Recruiting
+PC9016,Pancreatic Cancer,Pancreatic Cancer Trial #17,"Indianapolis, Indiana",pancreatic_cancer@trials.org / (800) 555-9016,Recruiting
+PC9017,Pancreatic Cancer,Pancreatic Cancer Trial #18,"Orlando, Florida",pancreatic_cancer@trials.org / (800) 555-9017,Recruiting
+PC9018,Pancreatic Cancer,Pancreatic Cancer Trial #19,"Detroit, Michigan",pancreatic_cancer@trials.org / (800) 555-9018,Recruiting
+PC9019,Pancreatic Cancer,Pancreatic Cancer Trial #20,"Nashville, Tennessee",pancreatic_cancer@trials.org / (800) 555-9019,Recruiting
+LE7000,Leukemia,Leukemia Trial #1,"New York, New York",leukemia@trials.org / (800) 555-7000,Recruiting
+LE7001,Leukemia,Leukemia Trial #2,"Boston, Massachusetts",leukemia@trials.org / (800) 555-7001,Recruiting
+LE7002,Leukemia,Leukemia Trial #3,"Chicago, Illinois",leukemia@trials.org / (800) 555-7002,Recruiting
+LE7003,Leukemia,Leukemia Trial #4,"Philadelphia, Pennsylvania",leukemia@trials.org / (800) 555-7003,Recruiting
+LE7004,Leukemia,Leukemia Trial #5,"Houston, Texas",leukemia@trials.org / (800) 555-7004,Recruiting
+LE7005,Leukemia,Leukemia Trial #6,"Los Angeles, California",leukemia@trials.org / (800) 555-7005,Recruiting
+LE7006,Leukemia,Leukemia Trial #7,"Seattle, Washington",leukemia@trials.org / (800) 555-7006,Recruiting
+LE7007,Leukemia,Leukemia Trial #8,"San Diego, California",leukemia@trials.org / (800) 555-7007,Recruiting
+LE7008,Leukemia,Leukemia Trial #9,"Atlanta, Georgia",leukemia@trials.org / (800) 555-7008,Recruiting
+LE7009,Leukemia,Leukemia Trial #10,"Dallas, Texas",leukemia@trials.org / (800) 555-7009,Recruiting
+LE7010,Leukemia,Leukemia Trial #11,"Denver, Colorado",leukemia@trials.org / (800) 555-7010,Recruiting
+LE7011,Leukemia,Leukemia Trial #12,"Portland, Oregon",leukemia@trials.org / (800) 555-7011,Recruiting
+LE7012,Leukemia,Leukemia Trial #13,"Minneapolis, Minnesota",leukemia@trials.org / (800) 555-7012,Recruiting
+LE7013,Leukemia,Leukemia Trial #14,"Indianapolis, Indiana",leukemia@trials.org / (800) 555-7013,Recruiting
+LE7014,Leukemia,Leukemia Trial #15,"Charlotte, North Carolina",leukemia@trials.org / (800) 555-7014,Recruiting
+LE7015,Leukemia,Leukemia Trial #16,"Nashville, Tennessee",leukemia@trials.org / (800) 555-7015,Recruiting
+LE7016,Leukemia,Leukemia Trial #17,"Phoenix, Arizona",leukemia@trials.org / (800) 555-7016,Recruiting
+LE7017,Leukemia,Leukemia Trial #18,"Salt Lake City, Utah",leukemia@trials.org / (800) 555-7017,Recruiting
+LE7018,Leukemia,Leukemia Trial #19,"Columbus, Ohio",leukemia@trials.org / (800) 555-7018,Recruiting
+LE7019,Leukemia,Leukemia Trial #20,"Baltimore, Maryland",leukemia@trials.org / (800) 555-7019,Recruiting
+LY7100,Lymphoma,Lymphoma Trial #1,"San Antonio, Texas",lymphoma@trials.org / (800) 555-7100,Recruiting
+LY7101,Lymphoma,Lymphoma Trial #2,"Tucson, Arizona",lymphoma@trials.org / (800) 555-7101,Recruiting
+LY7102,Lymphoma,Lymphoma Trial #3,"Fresno, California",lymphoma@trials.org / (800) 555-7102,Recruiting
+LY7103,Lymphoma,Lymphoma Trial #4,"Sacramento, California",lymphoma@trials.org / (800) 555-7103,Recruiting
+LY7104,Lymphoma,Lymphoma Trial #5,"San Jose, California",lymphoma@trials.org / (800) 555-7104,Recruiting
+LY7105,Lymphoma,Lymphoma Trial #6,"Miami, Florida",lymphoma@trials.org / (800) 555-7105,Recruiting
+LY7106,Lymphoma,Lymphoma Trial #7,"Tampa, Florida",lymphoma@trials.org / (800) 555-7106,Recruiting
+LY7107,Lymphoma,Lymphoma Trial #8,"Orlando, Florida",lymphoma@trials.org / (800) 555-7107,Recruiting
+LY7108,Lymphoma,Lymphoma Trial #9,"Cleveland, Ohio",lymphoma@trials.org / (800) 555-7108,Recruiting
+LY7109,Lymphoma,Lymphoma Trial #10,"Cincinnati, Ohio",lymphoma@trials.org / (800) 555-7109,Recruiting
+LY7110,Lymphoma,Lymphoma Trial #11,"Kansas City, Missouri",lymphoma@trials.org / (800) 555-7110,Recruiting
+LY7111,Lymphoma,Lymphoma Trial #12,"St. Louis, Missouri",lymphoma@trials.org / (800) 555-7111,Recruiting
+LY7112,Lymphoma,Lymphoma Trial #13,"Milwaukee, Wisconsin",lymphoma@trials.org / (800) 555-7112,Recruiting
+LY7113,Lymphoma,Lymphoma Trial #14,"Omaha, Nebraska",lymphoma@trials.org / (800) 555-7113,Recruiting
+LY7114,Lymphoma,Lymphoma Trial #15,"Albuquerque, New Mexico",lymphoma@trials.org / (800) 555-7114,Recruiting
+LY7115,Lymphoma,Lymphoma Trial #16,"Oklahoma City, Oklahoma",lymphoma@trials.org / (800) 555-7115,Recruiting
+LY7116,Lymphoma,Lymphoma Trial #17,"Richmond, Virginia",lymphoma@trials.org / (800) 555-7116,Recruiting
+LY7117,Lymphoma,Lymphoma Trial #18,"Louisville, Kentucky",lymphoma@trials.org / (800) 555-7117,Recruiting
+LY7118,Lymphoma,Lymphoma Trial #19,"Hartford, Connecticut",lymphoma@trials.org / (800) 555-7118,Recruiting
+LY7119,Lymphoma,Lymphoma Trial #20,"Providence, Rhode Island",lymphoma@trials.org / (800) 555-7119,Recruiting
+MC7200,Mouth Cancer,Mouth Cancer Trial #1,"Anchorage, Alaska",mouth_cancer@trials.org / (800) 555-7200,Recruiting
+MC7201,Mouth Cancer,Mouth Cancer Trial #2,"Boise, Idaho",mouth_cancer@trials.org / (800) 555-7201,Recruiting
+MC7202,Mouth Cancer,Mouth Cancer Trial #3,"Cheyenne, Wyoming",mouth_cancer@trials.org / (800) 555-7202,Recruiting
+MC7203,Mouth Cancer,Mouth Cancer Trial #4,"Helena, Montana",mouth_cancer@trials.org / (800) 555-7203,Recruiting
+MC7204,Mouth Cancer,Mouth Cancer Trial #5,"Bismarck, North Dakota",mouth_cancer@trials.org / (800) 555-7204,Recruiting
+MC7205,Mouth Cancer,Mouth Cancer Trial #6,"Pierre, South Dakota",mouth_cancer@trials.org / (800) 555-7205,Recruiting
+MC7206,Mouth Cancer,Mouth Cancer Trial #7,"Des Moines, Iowa",mouth_cancer@trials.org / (800) 555-7206,Recruiting
+MC7207,Mouth Cancer,Mouth Cancer Trial #8,"Little Rock, Arkansas",mouth_cancer@trials.org / (800) 555-7207,Recruiting
+MC7208,Mouth Cancer,Mouth Cancer Trial #9,"Jackson, Mississippi",mouth_cancer@trials.org / (800) 555-7208,Recruiting
+MC7209,Mouth Cancer,Mouth Cancer Trial #10,"Montpelier, Vermont",mouth_cancer@trials.org / (800) 555-7209,Recruiting
+MC7210,Mouth Cancer,Mouth Cancer Trial #11,"Concord, New Hampshire",mouth_cancer@trials.org / (800) 555-7210,Recruiting
+MC7211,Mouth Cancer,Mouth Cancer Trial #12,"Dover, Delaware",mouth_cancer@trials.org / (800) 555-7211,Recruiting
+MC7212,Mouth Cancer,Mouth Cancer Trial #13,"Charleston, West Virginia",mouth_cancer@trials.org / (800) 555-7212,Recruiting
+MC7213,Mouth Cancer,Mouth Cancer Trial #14,"Augusta, Maine",mouth_cancer@trials.org / (800) 555-7213,Recruiting
+MC7214,Mouth Cancer,Mouth Cancer Trial #15,"Honolulu, Hawaii",mouth_cancer@trials.org / (800) 555-7214,Recruiting
+MC7215,Mouth Cancer,Mouth Cancer Trial #16,"Springfield, Illinois",mouth_cancer@trials.org / (800) 555-7215,Recruiting
+MC7216,Mouth Cancer,Mouth Cancer Trial #17,"Trenton, New Jersey",mouth_cancer@trials.org / (800) 555-7216,Recruiting
+MC7217,Mouth Cancer,Mouth Cancer Trial #18,"Raleigh, North Carolina",mouth_cancer@trials.org / (800) 555-7217,Recruiting
+MC7218,Mouth Cancer,Mouth Cancer Trial #19,"Columbia, South Carolina",mouth_cancer@trials.org / (800) 555-7218,Recruiting
+MC7219,Mouth Cancer,Mouth Cancer Trial #20,"Topeka, Kansas",mouth_cancer@trials.org / (800) 555-7219,Recruiting
+BR8200,Brain Cancer,Brain Cancer Trial #1,"Seattle, Washington",brain@trials.org / (800) 555-8200,Recruiting
+BR8201,Brain Cancer,Brain Cancer Trial #2,"Boston, Massachusetts",brain@trials.org / (800) 555-8201,Recruiting
+BR8202,Brain Cancer,Brain Cancer Trial #3,"New York, New York",brain@trials.org / (800) 555-8202,Recruiting
+BR8203,Brain Cancer,Brain Cancer Trial #4,"Chicago, Illinois",brain@trials.org / (800) 555-8203,Recruiting
+BR8204,Brain Cancer,Brain Cancer Trial #5,"Los Angeles, California",brain@trials.org / (800) 555-8204,Recruiting
+BR8205,Brain Cancer,Brain Cancer Trial #6,"Philadelphia, Pennsylvania",brain@trials.org / (800) 555-8205,Recruiting
+BR8206,Brain Cancer,Brain Cancer Trial #7,"Houston, Texas",brain@trials.org / (800) 555-8206,Recruiting
+BR8207,Brain Cancer,Brain Cancer Trial #8,"San Francisco, California",brain@trials.org / (800) 555-8207,Recruiting
+BR8208,Brain Cancer,Brain Cancer Trial #9,"Dallas, Texas",brain@trials.org / (800) 555-8208,Recruiting
+BR8209,Brain Cancer,Brain Cancer Trial #10,"Denver, Colorado",brain@trials.org / (800) 555-8209,Recruiting
+BR8210,Brain Cancer,Brain Cancer Trial #11,"Portland, Oregon",brain@trials.org / (800) 555-8210,Recruiting
+BR8211,Brain Cancer,Brain Cancer Trial #12,"Minneapolis, Minnesota",brain@trials.org / (800) 555-8211,Recruiting
+BR8212,Brain Cancer,Brain Cancer Trial #13,"San Diego, California",brain@trials.org / (800) 555-8212,Recruiting
+BR8213,Brain Cancer,Brain Cancer Trial #14,"Atlanta, Georgia",brain@trials.org / (800) 555-8213,Recruiting
+BR8214,Brain Cancer,Brain Cancer Trial #15,"Charlotte, North Carolina",brain@trials.org / (800) 555-8214,Recruiting
+BR8215,Brain Cancer,Brain Cancer Trial #16,"Phoenix, Arizona",brain@trials.org / (800) 555-8215,Recruiting
+BR8216,Brain Cancer,Brain Cancer Trial #17,"Indianapolis, Indiana",brain@trials.org / (800) 555-8216,Recruiting
+BR8217,Brain Cancer,Brain Cancer Trial #18,"Columbus, Ohio",brain@trials.org / (800) 555-8217,Recruiting
+BR8218,Brain Cancer,Brain Cancer Trial #19,"St. Louis, Missouri",brain@trials.org / (800) 555-8218,Recruiting
+BR8219,Brain Cancer,Brain Cancer Trial #20,"Miami, Florida",brain@trials.org / (800) 555-8219,Recruiting
+SC7800,Skin Cancer,Skin Cancer Trial #1,"Miami, Florida",skin@trials.org / (800) 555-7800,Recruiting
+SC7801,Skin Cancer,Skin Cancer Trial #2,"Phoenix, Arizona",skin@trials.org / (800) 555-7801,Recruiting
+SC7802,Skin Cancer,Skin Cancer Trial #3,"Denver, Colorado",skin@trials.org / (800) 555-7802,Recruiting
+SC7803,Skin Cancer,Skin Cancer Trial #4,"Houston, Texas",skin@trials.org / (800) 555-7803,Recruiting
+SC7804,Skin Cancer,Skin Cancer Trial #5,"San Diego, California",skin@trials.org / (800) 555-7804,Recruiting
+SC7805,Skin Cancer,Skin Cancer Trial #6,"Los Angeles, California",skin@trials.org / (800) 555-7805,Recruiting
+SC7806,Skin Cancer,Skin Cancer Trial #7,"San Jose, California",skin@trials.org / (800) 555-7806,Recruiting
+SC7807,Skin Cancer,Skin Cancer Trial #8,"San Francisco, California",skin@trials.org / (800) 555-7807,Recruiting
+SC7808,Skin Cancer,Skin Cancer Trial #9,"Chicago, Illinois",skin@trials.org / (800) 555-7808,Recruiting
+SC7809,Skin Cancer,Skin Cancer Trial #10,"Dallas, Texas",skin@trials.org / (800) 555-7809,Recruiting
+SC7810,Skin Cancer,Skin Cancer Trial #11,"Seattle, Washington",skin@trials.org / (800) 555-7810,Recruiting
+SC7811,Skin Cancer,Skin Cancer Trial #12,"Portland, Oregon",skin@trials.org / (800) 555-7811,Recruiting
+SC7812,Skin Cancer,Skin Cancer Trial #13,"New York, New York",skin@trials.org / (800) 555-7812,Recruiting
+SC7813,Skin Cancer,Skin Cancer Trial #14,"Boston, Massachusetts",skin@trials.org / (800) 555-7813,Recruiting
+SC7814,Skin Cancer,Skin Cancer Trial #15,"Atlanta, Georgia",skin@trials.org / (800) 555-7814,Recruiting
+SC7815,Skin Cancer,Skin Cancer Trial #16,"Charlotte, North Carolina",skin@trials.org / (800) 555-7815,Recruiting
+SC7816,Skin Cancer,Skin Cancer Trial #17,"Nashville, Tennessee",skin@trials.org / (800) 555-7816,Recruiting
+SC7817,Skin Cancer,Skin Cancer Trial #18,"Columbus, Ohio",skin@trials.org / (800) 555-7817,Recruiting
+SC7818,Skin Cancer,Skin Cancer Trial #19,"Indianapolis, Indiana",skin@trials.org / (800) 555-7818,Recruiting
+SC7819,Skin Cancer,Skin Cancer Trial #20,"Tampa, Florida",skin@trials.org / (800) 555-7819,Recruiting
+TH8700,Thyroid Cancer,Thyroid Cancer Trial #1,"Atlanta, Georgia",thyroid@trials.org / (800) 555-8700,Recruiting
+TH8701,Thyroid Cancer,Thyroid Cancer Trial #2,"Salt Lake City, Utah",thyroid@trials.org / (800) 555-8701,Recruiting
+TH8702,Thyroid Cancer,Thyroid Cancer Trial #3,"Charlotte, North Carolina",thyroid@trials.org / (800) 555-8702,Recruiting
+TH8703,Thyroid Cancer,Thyroid Cancer Trial #4,"Indianapolis, Indiana",thyroid@trials.org / (800) 555-8703,Recruiting
+TH8704,Thyroid Cancer,Thyroid Cancer Trial #5,"Columbus, Ohio",thyroid@trials.org / (800) 555-8704,Recruiting
+TH8705,Thyroid Cancer,Thyroid Cancer Trial #6,"Chicago, Illinois",thyroid@trials.org / (800) 555-8705,Recruiting
+TH8706,Thyroid Cancer,Thyroid Cancer Trial #7,"New York, New York",thyroid@trials.org / (800) 555-8706,Recruiting
+TH8707,Thyroid Cancer,Thyroid Cancer Trial #8,"Boston, Massachusetts",thyroid@trials.org / (800) 555-8707,Recruiting
+TH8708,Thyroid Cancer,Thyroid Cancer Trial #9,"Dallas, Texas",thyroid@trials.org / (800) 555-8708,Recruiting
+TH8709,Thyroid Cancer,Thyroid Cancer Trial #10,"Houston, Texas",thyroid@trials.org / (800) 555-8709,Recruiting
+TH8710,Thyroid Cancer,Thyroid Cancer Trial #11,"Los Angeles, California",thyroid@trials.org / (800) 555-8710,Recruiting
+TH8711,Thyroid Cancer,Thyroid Cancer Trial #12,"San Diego, California",thyroid@trials.org / (800) 555-8711,Recruiting
+TH8712,Thyroid Cancer,Thyroid Cancer Trial #13,"San Jose, California",thyroid@trials.org / (800) 555-8712,Recruiting
+TH8713,Thyroid Cancer,Thyroid Cancer Trial #14,"Phoenix, Arizona",thyroid@trials.org / (800) 555-8713,Recruiting
+TH8714,Thyroid Cancer,Thyroid Cancer Trial #15,"Seattle, Washington",thyroid@trials.org / (800) 555-8714,Recruiting
+TH8715,Thyroid Cancer,Thyroid Cancer Trial #16,"Philadelphia, Pennsylvania",thyroid@trials.org / (800) 555-8715,Recruiting
+TH8716,Thyroid Cancer,Thyroid Cancer Trial #17,"Portland, Oregon",thyroid@trials.org / (800) 555-8716,Recruiting
+TH8717,Thyroid Cancer,Thyroid Cancer Trial #18,"St. Louis, Missouri",thyroid@trials.org / (800) 555-8717,Recruiting
+TH8718,Thyroid Cancer,Thyroid Cancer Trial #19,"Minneapolis, Minnesota",thyroid@trials.org / (800) 555-8718,Recruiting
+TH8719,Thyroid Cancer,Thyroid Cancer Trial #20,"Orlando, Florida",thyroid@trials.org / (800) 555-8719,Recruiting
+OV6000,Ovarian Cancer,Ovarian Cancer Trial #1,"New York, New York",ovarian@trials.org / (800) 555-6000,Recruiting
+OV6001,Ovarian Cancer,Ovarian Cancer Trial #2,"Boston, Massachusetts",ovarian@trials.org / (800) 555-6001,Recruiting
+OV6002,Ovarian Cancer,Ovarian Cancer Trial #3,"Chicago, Illinois",ovarian@trials.org / (800) 555-6002,Recruiting
+OV6003,Ovarian Cancer,Ovarian Cancer Trial #4,"Los Angeles, California",ovarian@trials.org / (800) 555-6003,Recruiting
+OV6004,Ovarian Cancer,Ovarian Cancer Trial #5,"Philadelphia, Pennsylvania",ovarian@trials.org / (800) 555-6004,Recruiting
+OV6005,Ovarian Cancer,Ovarian Cancer Trial #6,"Houston, Texas",ovarian@trials.org / (800) 555-6005,Recruiting
+OV6006,Ovarian Cancer,Ovarian Cancer Trial #7,"Phoenix, Arizona",ovarian@trials.org / (800) 555-6006,Recruiting
+OV6007,Ovarian Cancer,Ovarian Cancer Trial #8,"San Francisco, California",ovarian@trials.org / (800) 555-6007,Recruiting
+OV6008,Ovarian Cancer,Ovarian Cancer Trial #9,"Dallas, Texas",ovarian@trials.org / (800) 555-6008,Recruiting
+OV6009,Ovarian Cancer,Ovarian Cancer Trial #10,"Seattle, Washington",ovarian@trials.org / (800) 555-6009,Recruiting
+OV6010,Ovarian Cancer,Ovarian Cancer Trial #11,"Portland, Oregon",ovarian@trials.org / (800) 555-6010,Recruiting
+OV6011,Ovarian Cancer,Ovarian Cancer Trial #12,"Minneapolis, Minnesota",ovarian@trials.org / (800) 555-6011,Recruiting
+OV6012,Ovarian Cancer,Ovarian Cancer Trial #13,"Atlanta, Georgia",ovarian@trials.org / (800) 555-6012,Recruiting
+OV6013,Ovarian Cancer,Ovarian Cancer Trial #14,"Charlotte, North Carolina",ovarian@trials.org / (800) 555-6013,Recruiting
+OV6014,Ovarian Cancer,Ovarian Cancer Trial #15,"Indianapolis, Indiana",ovarian@trials.org / (800) 555-6014,Recruiting
+OV6015,Ovarian Cancer,Ovarian Cancer Trial #16,"Columbus, Ohio",ovarian@trials.org / (800) 555-6015,Recruiting
+OV6016,Ovarian Cancer,Ovarian Cancer Trial #17,"St. Louis, Missouri",ovarian@trials.org / (800) 555-6016,Recruiting
+OV6017,Ovarian Cancer,Ovarian Cancer Trial #18,"San Diego, California",ovarian@trials.org / (800) 555-6017,Recruiting
+OV6018,Ovarian Cancer,Ovarian Cancer Trial #19,"Tampa, Florida",ovarian@trials.org / (800) 555-6018,Recruiting
+OV6019,Ovarian Cancer,Ovarian Cancer Trial #20,"Orlando, Florida",ovarian@trials.org / (800) 555-6019,Recruiting
+BL6500,Bladder Cancer,Bladder Cancer Trial #1,"Chicago, Illinois",bladder@trials.org / (800) 555-6500,Recruiting
+BL6501,Bladder Cancer,Bladder Cancer Trial #2,"New York, New York",bladder@trials.org / (800) 555-6501,Recruiting
+BL6502,Bladder Cancer,Bladder Cancer Trial #3,"Boston, Massachusetts",bladder@trials.org / (800) 555-6502,Recruiting
+BL6503,Bladder Cancer,Bladder Cancer Trial #4,"Philadelphia, Pennsylvania",bladder@trials.org / (800) 555-6503,Recruiting
+BL6504,Bladder Cancer,Bladder Cancer Trial #5,"Houston, Texas",bladder@trials.org / (800) 555-6504,Recruiting
+BL6505,Bladder Cancer,Bladder Cancer Trial #6,"San Francisco, California",bladder@trials.org / (800) 555-6505,Recruiting
+BL6506,Bladder Cancer,Bladder Cancer Trial #7,"Phoenix, Arizona",bladder@trials.org / (800) 555-6506,Recruiting
+BL6507,Bladder Cancer,Bladder Cancer Trial #8,"Dallas, Texas",bladder@trials.org / (800) 555-6507,Recruiting
+BL6508,Bladder Cancer,Bladder Cancer Trial #9,"Seattle, Washington",bladder@trials.org / (800) 555-6508,Recruiting
+BL6509,Bladder Cancer,Bladder Cancer Trial #10,"Los Angeles, California",bladder@trials.org / (800) 555-6509,Recruiting
+BL6510,Bladder Cancer,Bladder Cancer Trial #11,"San Diego, California",bladder@trials.org / (800) 555-6510,Recruiting
+BL6511,Bladder Cancer,Bladder Cancer Trial #12,"Portland, Oregon",bladder@trials.org / (800) 555-6511,Recruiting
+BL6512,Bladder Cancer,Bladder Cancer Trial #13,"Minneapolis, Minnesota",bladder@trials.org / (800) 555-6512,Recruiting
+BL6513,Bladder Cancer,Bladder Cancer Trial #14,"Atlanta, Georgia",bladder@trials.org / (800) 555-6513,Recruiting
+BL6514,Bladder Cancer,Bladder Cancer Trial #15,"Charlotte, North Carolina",bladder@trials.org / (800) 555-6514,Recruiting
+BL6515,Bladder Cancer,Bladder Cancer Trial #16,"Indianapolis, Indiana",bladder@trials.org / (800) 555-6515,Recruiting
+BL6516,Bladder Cancer,Bladder Cancer Trial #17,"Columbus, Ohio",bladder@trials.org / (800) 555-6516,Recruiting
+BL6517,Bladder Cancer,Bladder Cancer Trial #18,"St. Louis, Missouri",bladder@trials.org / (800) 555-6517,Recruiting
+BL6518,Bladder Cancer,Bladder Cancer Trial #19,"Tampa, Florida",bladder@trials.org / (800) 555-6518,Recruiting
+BL6519,Bladder Cancer,Bladder Cancer Trial #20,"Miami, Florida",bladder@trials.org / (800) 555-6519,Recruiting
+ES7300,Esophageal Cancer,Esophageal Cancer Trial #1,"Boston, Massachusetts",esophageal@trials.org / (800) 555-7300,Recruiting
+ES7301,Esophageal Cancer,Esophageal Cancer Trial #2,"New York, New York",esophageal@trials.org / (800) 555-7301,Recruiting
+ES7302,Esophageal Cancer,Esophageal Cancer Trial #3,"Chicago, Illinois",esophageal@trials.org / (800) 555-7302,Recruiting
+ES7303,Esophageal Cancer,Esophageal Cancer Trial #4,"Philadelphia, Pennsylvania",esophageal@trials.org / (800) 555-7303,Recruiting
+ES7304,Esophageal Cancer,Esophageal Cancer Trial #5,"Los Angeles, California",esophageal@trials.org / (800) 555-7304,Recruiting
+ES7305,Esophageal Cancer,Esophageal Cancer Trial #6,"Houston, Texas",esophageal@trials.org / (800) 555-7305,Recruiting
+ES7306,Esophageal Cancer,Esophageal Cancer Trial #7,"Phoenix, Arizona",esophageal@trials.org / (800) 555-7306,Recruiting
+ES7307,Esophageal Cancer,Esophageal Cancer Trial #8,"Dallas, Texas",esophageal@trials.org / (800) 555-7307,Recruiting
+ES7308,Esophageal Cancer,Esophageal Cancer Trial #9,"San Francisco, California",esophageal@trials.org / (800) 555-7308,Recruiting
+ES7309,Esophageal Cancer,Esophageal Cancer Trial #10,"Seattle, Washington",esophageal@trials.org / (800) 555-7309,Recruiting
+ES7310,Esophageal Cancer,Esophageal Cancer Trial #11,"San Diego, California",esophageal@trials.org / (800) 555-7310,Recruiting
+ES7311,Esophageal Cancer,Esophageal Cancer Trial #12,"Portland, Oregon",esophageal@trials.org / (800) 555-7311,Recruiting
+ES7312,Esophageal Cancer,Esophageal Cancer Trial #13,"Atlanta, Georgia",esophageal@trials.org / (800) 555-7312,Recruiting
+ES7313,Esophageal Cancer,Esophageal Cancer Trial #14,"Charlotte, North Carolina",esophageal@trials.org / (800) 555-7313,Recruiting
+ES7314,Esophageal Cancer,Esophageal Cancer Trial #15,"Minneapolis, Minnesota",esophageal@trials.org / (800) 555-7314,Recruiting
+ES7315,Esophageal Cancer,Esophageal Cancer Trial #16,"Indianapolis, Indiana",esophageal@trials.org / (800) 555-7315,Recruiting
+ES7316,Esophageal Cancer,Esophageal Cancer Trial #17,"Columbus, Ohio",esophageal@trials.org / (800) 555-7316,Recruiting
+ES7317,Esophageal Cancer,Esophageal Cancer Trial #18,"St. Louis, Missouri",esophageal@trials.org / (800) 555-7317,Recruiting
+ES7318,Esophageal Cancer,Esophageal Cancer Trial #19,"Tampa, Florida",esophageal@trials.org / (800) 555-7318,Recruiting
+ES7319,Esophageal Cancer,Esophageal Cancer Trial #20,"Orlando, Florida",esophageal@trials.org / (800) 555-7319,Recruiting
+LA7300, Laryngeal Cancer, Laryngeal Trial #1,"New York, New York", laryngeal@trials.org / (800) 555-7300, Recruiting
+LA7301, Laryngeal Cancer, Laryngeal Trial #2,"Boston, Massachusetts", laryngeal@trials.org / (800) 555-7301, Recruiting
+LA7302, Laryngeal Cancer, Laryngeal Trial #3,"Chicago, Illinois", laryngeal@trials.org / (800) 555-7302, Recruiting
+LA7303, Laryngeal Cancer, Laryngeal Trial #4,"Philadelphia, Pennsylvania", laryngeal@trials.org / (800) 555-7303, Recruiting
+LA7304, Laryngeal Cancer, Laryngeal Trial #5,"Houston, Texas", laryngeal@trials.org / (800) 555-7304, Recruiting
+LA7305, Laryngeal Cancer, Laryngeal Trial #6,"Los Angeles, California", laryngeal@trials.org / (800) 555-7305, Recruiting
+LA7306, Laryngeal Cancer, Laryngeal Trial #7,"Seattle, Washington", laryngeal@trials.org / (800) 555-7306, Recruiting
+LA7307, Laryngeal Cancer, Laryngeal Trial #8,"San Diego, California", laryngeal@trials.org / (800) 555-7307, Recruiting
+LA7308, Laryngeal Cancer, Laryngeal Trial #9,"Atlanta, Georgia", laryngeal@trials.org / (800) 555-7308, Recruiting
+LA7309, Laryngeal Cancer, Laryngeal Trial #10,"Dallas, Texas", laryngeal@trials.org / (800) 555-7309, Recruiting
+LA7310, Laryngeal Cancer, Laryngeal Trial #11,"Denver, Colorado", laryngeal@trials.org / (800) 555-7310, Recruiting
+LA7311, Laryngeal Cancer, Laryngeal Trial #12,"Portland, Oregon", laryngeal@trials.org / (800) 555-7311, Recruiting
+LA7312, Laryngeal Cancer, Laryngeal Trial #13,"Minneapolis, Minnesota", laryngeal@trials.org / (800) 555-7312, Recruiting
+LA7313, Laryngeal Cancer, Laryngeal Trial #14,"Indianapolis, Indiana", laryngeal@trials.org / (800) 555-7313, Recruiting
+LA7314, Laryngeal Cancer, Laryngeal Trial #15,"Charlotte, North Carolina", laryngeal@trials.org / (800) 555-7314, Recruiting
+LA7315, Laryngeal Cancer, Laryngeal Trial #16,"Nashville, Tennessee", laryngeal@trials.org / (800) 555-7315, Recruiting
+LA7316, Laryngeal Cancer, Laryngeal Trial #17,"Phoenix, Arizona", laryngeal@trials.org / (800) 555-7316, Recruiting
+LA7317, Laryngeal Cancer, Laryngeal Trial #18,"Salt Lake City, Utah", laryngeal@trials.org / (800) 555-7317, Recruiting
+LA7318, Laryngeal Cancer, Laryngeal Trial #19,"Columbus, Ohio", laryngeal@trials.org / (800) 555-7318, Recruiting
+LA7319, Laryngeal Cancer, Laryngeal Trial #20,"Baltimore, Maryland", laryngeal@trials.org / (800) 555-7319, Recruiting
+ME7400, Melanoma, Melanoma Trial #1,"New York, New York", melanoma@trials.org / (800) 555-7400, Recruiting
+ME7401, Melanoma, Melanoma Trial #2,"Boston, Massachusetts", melanoma@trials.org / (800) 555-7401, Recruiting
+ME7402, Melanoma, Melanoma Trial #3,"Chicago, Illinois", melanoma@trials.org / (800) 555-7402, Recruiting
+ME7403, Melanoma, Melanoma Trial #4,"Philadelphia, Pennsylvania", melanoma@trials.org / (800) 555-7403, Recruiting
+ME7404, Melanoma, Melanoma Trial #5,"Houston, Texas", melanoma@trials.org / (800) 555-7404, Recruiting
+ME7405, Melanoma, Melanoma Trial #6,"Los Angeles, California", melanoma@trials.org / (800) 555-7405, Recruiting
+ME7406, Melanoma, Melanoma Trial #7,"Seattle, Washington", melanoma@trials.org / (800) 555-7406, Recruiting
+ME7407, Melanoma, Melanoma Trial #8,"San Diego, California", melanoma@trials.org / (800) 555-7407, Recruiting
+ME7408, Melanoma, Melanoma Trial #9,"Atlanta, Georgia", melanoma@trials.org / (800) 555-7408, Recruiting
+ME7409, Melanoma, Melanoma Trial #10,"Dallas, Texas", melanoma@trials.org / (800) 555-7409, Recruiting
+ME7410, Melanoma, Melanoma Trial #11,"Denver, Colorado", melanoma@trials.org / (800) 555-7410, Recruiting
+ME7411, Melanoma, Melanoma Trial #12,"Portland, Oregon", melanoma@trials.org / (800) 555-7411, Recruiting
+ME7412, Melanoma, Melanoma Trial #13,"Minneapolis, Minnesota", melanoma@trials.org / (800) 555-7412, Recruiting
+ME7413, Melanoma, Melanoma Trial #14,"Indianapolis, Indiana", melanoma@trials.org / (800) 555-7413, Recruiting
+ME7414, Melanoma, Melanoma Trial #15,"Charlotte, North Carolina", melanoma@trials.org / (800) 555-7414, Recruiting
+ME7415, Melanoma, Melanoma Trial #16,"Nashville, Tennessee", melanoma@trials.org / (800) 555-7415, Recruiting
+ME7416, Melanoma, Melanoma Trial #17,"Phoenix, Arizona", melanoma@trials.org / (800) 555-7416, Recruiting
+ME7417, Melanoma, Melanoma Trial #18,"Salt Lake City, Utah", melanoma@trials.org / (800) 555-7417, Recruiting
+ME7418, Melanoma, Melanoma Trial #19,"Columbus, Ohio", melanoma@trials.org / (800) 555-7418, Recruiting
+ME7419, Melanoma, Melanoma Trial #20,"Baltimore, Maryland", melanoma@trials.org / (800) 555-7419, Recruiting
+TC7500, Testicular Cancer, Testicular Trial #1,"New York, New York", testicular@trials.org / (800) 555-7500, Recruiting
+TC7501, Testicular Cancer, Testicular Trial #2,"Boston, Massachusetts", testicular@trials.org / (800) 555-7501, Recruiting
+TC7502, Testicular Cancer, Testicular Trial #3,"Chicago, Illinois", testicular@trials.org / (800) 555-7502, Recruiting
+TC7503, Testicular Cancer, Testicular Trial #4,"Philadelphia, Pennsylvania", testicular@trials.org / (800) 555-7503, Recruiting
+TC7504, Testicular Cancer, Testicular Trial #5,"Houston, Texas", testicular@trials.org / (800) 555-7504, Recruiting
+TC7505, Testicular Cancer, Testicular Trial #6,"Los Angeles, California", testicular@trials.org / (800) 555-7505, Recruiting
+TC7506, Testicular Cancer, Testicular Trial #7,"Seattle, Washington", testicular@trials.org / (800) 555-7506, Recruiting
+TC7507, Testicular Cancer, Testicular Trial #8,"San Diego, California", testicular@trials.org / (800) 555-7507, Recruiting
+TC7508, Testicular Cancer, Testicular Trial #9,"Atlanta, Georgia", testicular@trials.org / (800) 555-7508, Recruiting
+TC7509, Testicular Cancer, Testicular Trial #10,"Dallas, Texas", testicular@trials.org / (800) 555-7509, Recruiting
+TC7510, Testicular Cancer, Testicular Trial #11,"Denver, Colorado", testicular@trials.org / (800) 555-7510, Recruiting
+TC7511, Testicular Cancer, Testicular Trial #12,"Portland, Oregon", testicular@trials.org / (800) 555-7511, Recruiting
+TC7512, Testicular Cancer, Testicular Trial #13,"Minneapolis, Minnesota", testicular@trials.org / (800) 555-7512, Recruiting
+TC7513, Testicular Cancer, Testicular Trial #14,"Indianapolis, Indiana", testicular@trials.org / (800) 555-7513, Recruiting
+TC7514, Testicular Cancer, Testicular Trial #15,"Charlotte, North Carolina", testicular@trials.org / (800) 555-7514, Recruiting
+TC7515, Testicular Cancer, Testicular Trial #16,"Nashville, Tennessee", testicular@trials.org / (800) 555-7515, Recruiting
+TC7516, Testicular Cancer, Testicular Trial #17,"Phoenix, Arizona", testicular@trials.org / (800) 555-7516, Recruiting
+TC7517, Testicular Cancer, Testicular Trial #18,"Salt Lake City, Utah", testicular@trials.org / (800) 555-7517, Recruiting
+TC7518, Testicular Cancer, Testicular Trial #19,"Columbus, Ohio", testicular@trials.org / (800) 555-7518, Recruiting
+TC7519, Testicular Cancer, Testicular Trial #20,"Baltimore, Maryland", testicular@trials.org / (800) 555-7519, Recruiting
+BO7600, Bone Cancer, Bone Trial #1,"New York, New York", bone@trials.org / (800) 555-7600, Recruiting
+BO7601, Bone Cancer, Bone Trial #2,"Boston, Massachusetts", bone@trials.org / (800) 555-7601, Recruiting
+BO7602, Bone Cancer, Bone Trial #3,"Chicago, Illinois", bone@trials.org / (800) 555-7602, Recruiting
+BO7603, Bone Cancer, Bone Trial #4,"Philadelphia, Pennsylvania", bone@trials.org / (800) 555-7603, Recruiting
+BO7604, Bone Cancer, Bone Trial #5,"Houston, Texas", bone@trials.org / (800) 555-7604, Recruiting
+BO7605, Bone Cancer, Bone Trial #6,"Los Angeles, California", bone@trials.org / (800) 555-7605, Recruiting
+BO7606, Bone Cancer, Bone Trial #7,"Seattle, Washington", bone@trials.org / (800) 555-7606, Recruiting
+BO7607, Bone Cancer, Bone Trial #8,"San Diego, California", bone@trials.org / (800) 555-7607, Recruiting
+BO7608, Bone Cancer, Bone Trial #9,"Atlanta, Georgia", bone@trials.org / (800) 555-7608, Recruiting
+BO7609, Bone Cancer, Bone Trial #10,"Dallas, Texas", bone@trials.org / (800) 555-7609, Recruiting
+BO7610, Bone Cancer, Bone Trial #11,"Denver, Colorado", bone@trials.org / (800) 555-7610, Recruiting
+BO7611, Bone Cancer, Bone Trial #12,"Portland, Oregon", bone@trials.org / (800) 555-7611, Recruiting
+BO7612, Bone Cancer, Bone Trial #13,"Minneapolis, Minnesota", bone@trials.org / (800) 555-7612, Recruiting
+BO7613, Bone Cancer, Bone Trial #14,"Indianapolis, Indiana", bone@trials.org / (800) 555-7613, Recruiting
+BO7614, Bone Cancer, Bone Trial #15,"Charlotte, North Carolina", bone@trials.org / (800) 555-7614, Recruiting
+BO7615, Bone Cancer, Bone Trial #16,"Nashville, Tennessee", bone@trials.org / (800) 555-7615, Recruiting
+BO7616, Bone Cancer, Bone Trial #17,"Phoenix, Arizona", bone@trials.org / (800) 555-7616, Recruiting
+BO7617, Bone Cancer, Bone Trial #18,"Salt Lake City, Utah", bone@trials.org / (800) 555-7617, Recruiting
+BO7618, Bone Cancer, Bone Trial #19,"Columbus, Ohio", bone@trials.org / (800) 555-7618, Recruiting
+BO7619, Bone Cancer, Bone Trial #20,"Baltimore, Maryland", bone@trials.org / (800) 555-7619, Recruiting
+AS1000,Astrocytoma,Astrocytoma Trial #1,"Boston, Massachusetts",astro@trials.org / (800) 555-1000,Recruiting
+AS1001,Astrocytoma,Astrocytoma Trial #2,"Chicago, Illinois",astro@trials.org / (800) 555-1001,Recruiting
+AS1002,Astrocytoma,Astrocytoma Trial #3,"Seattle, Washington",astro@trials.org / (800) 555-1002,Recruiting
+AS1003,Astrocytoma,Astrocytoma Trial #4,"Miami, Florida",astro@trials.org / (800) 555-1003,Recruiting
+AS1004,Astrocytoma,Astrocytoma Trial #5,"Denver, Colorado",astro@trials.org / (800) 555-1004,Recruiting
+AS1005,Astrocytoma,Astrocytoma Trial #6,"New York, New York",astro@trials.org / (800) 555-1005,Recruiting
+AS1006,Astrocytoma,Astrocytoma Trial #7,"Philadelphia, Pennsylvania",astro@trials.org / (800) 555-1006,Recruiting
+AS1007,Astrocytoma,Astrocytoma Trial #8,"Atlanta, Georgia",astro@trials.org / (800) 555-1007,Recruiting
+AS1008,Astrocytoma,Astrocytoma Trial #9,"Los Angeles, California",astro@trials.org / (800) 555-1008,Recruiting
+AS1009,Astrocytoma,Astrocytoma Trial #10,"Houston, Texas",astro@trials.org / (800) 555-1009,Recruiting
+AS1010,Astrocytoma,Astrocytoma Trial #11,"Phoenix, Arizona",astro@trials.org / (800) 555-1010,Recruiting
+AS1011,Astrocytoma,Astrocytoma Trial #12,"Nashville, Tennessee",astro@trials.org / (800) 555-1011,Recruiting
+AS1012,Astrocytoma,Astrocytoma Trial #13,"San Diego, California",astro@trials.org / (800) 555-1012,Recruiting
+AS1013,Astrocytoma,Astrocytoma Trial #14,"Detroit, Michigan",astro@trials.org / (800) 555-1013,Recruiting
+AS1014,Astrocytoma,Astrocytoma Trial #15,"Baltimore, Maryland",astro@trials.org / (800) 555-1014,Recruiting
+AS1015,Astrocytoma,Astrocytoma Trial #16,"Cleveland, Ohio",astro@trials.org / (800) 555-1015,Recruiting
+AS1016,Astrocytoma,Astrocytoma Trial #17,"Orlando, Florida",astro@trials.org / (800) 555-1016,Recruiting
+AS1017,Astrocytoma,Astrocytoma Trial #18,"Austin, Texas",astro@trials.org / (800) 555-1017,Recruiting
+AS1018,Astrocytoma,Astrocytoma Trial #19,"Indianapolis, Indiana",astro@trials.org / (800) 555-1018,Recruiting
+AS1019,Astrocytoma,Astrocytoma Trial #20,"Minneapolis, Minnesota",astro@trials.org / (800) 555-1019,Recruiting
+OL2000,Oligodendroglioma,Oligodendroglioma Trial #1,"New York, New York",oligo@trials.org / (800) 555-2000,Recruiting
+OL2001,Oligodendroglioma,Oligodendroglioma Trial #2,"Los Angeles, California",oligo@trials.org / (800) 555-2001,Recruiting
+OL2002,Oligodendroglioma,Oligodendroglioma Trial #3,"Chicago, Illinois",oligo@trials.org / (800) 555-2002,Recruiting
+OL2003,Oligodendroglioma,Oligodendroglioma Trial #4,"San Francisco, California",oligo@trials.org / (800) 555-2003,Recruiting
+OL2004,Oligodendroglioma,Oligodendroglioma Trial #5,"Denver, Colorado",oligo@trials.org / (800) 555-2004,Recruiting
+OL2005,Oligodendroglioma,Oligodendroglioma Trial #6,"Houston, Texas",oligo@trials.org / (800) 555-2005,Recruiting
+OL2006,Oligodendroglioma,Oligodendroglioma Trial #7,"Boston, Massachusetts",oligo@trials.org / (800) 555-2006,Recruiting
+OL2007,Oligodendroglioma,Oligodendroglioma Trial #8,"Seattle, Washington",oligo@trials.org / (800) 555-2007,Recruiting
+OL2008,Oligodendroglioma,Oligodendroglioma Trial #9,"San Diego, California",oligo@trials.org / (800) 555-2008,Recruiting
+OL2009,Oligodendroglioma,Oligodendroglioma Trial #10,"Atlanta, Georgia",oligo@trials.org / (800) 555-2009,Recruiting
+OL2010,Oligodendroglioma,Oligodendroglioma Trial #11,"Portland, Oregon",oligo@trials.org / (800) 555-2010,Recruiting
+OL2011,Oligodendroglioma,Oligodendroglioma Trial #12,"Phoenix, Arizona",oligo@trials.org / (800) 555-2011,Recruiting
+OL2012,Oligodendroglioma,Oligodendroglioma Trial #13,"Minneapolis, Minnesota",oligo@trials.org / (800) 555-2012,Recruiting
+OL2013,Oligodendroglioma,Oligodendroglioma Trial #14,"Charlotte, North Carolina",oligo@trials.org / (800) 555-2013,Recruiting
+OL2014,Oligodendroglioma,Oligodendroglioma Trial #15,"Indianapolis, Indiana",oligo@trials.org / (800) 555-2014,Recruiting
+OL2015,Oligodendroglioma,Oligodendroglioma Trial #16,"Columbus, Ohio",oligo@trials.org / (800) 555-2015,Recruiting
+OL2016,Oligodendroglioma,Oligodendroglioma Trial #17,"Tampa, Florida",oligo@trials.org / (800) 555-2016,Recruiting
+OL2017,Oligodendroglioma,Oligodendroglioma Trial #18,"Detroit, Michigan",oligo@trials.org / (800) 555-2017,Recruiting
+OL2018,Oligodendroglioma,Oligodendroglioma Trial #19,"Salt Lake City, Utah",oligo@trials.org / (800) 555-2018,Recruiting
+OL2019,Oligodendroglioma,Oligodendroglioma Trial #20,"St. Louis, Missouri",oligo@trials.org / (800) 555-2019,Recruiting
+MD3000,Medulloblastoma,Medulloblastoma Trial #1,"Dallas, Texas",medullo@trials.org / (800) 555-3000,Recruiting  
+MD3001,Medulloblastoma,Medulloblastoma Trial #2,"New York, New York",medullo@trials.org / (800) 555-3001,Recruiting  
+MD3002,Medulloblastoma,Medulloblastoma Trial #3,"Los Angeles, California",medullo@trials.org / (800) 555-3002,Recruiting  
+MD3003,Medulloblastoma,Medulloblastoma Trial #4,"Boston, Massachusetts",medullo@trials.org / (800) 555-3003,Recruiting  
+MD3004,Medulloblastoma,Medulloblastoma Trial #5,"Seattle, Washington",medullo@trials.org / (800) 555-3004,Recruiting  
+MD3005,Medulloblastoma,Medulloblastoma Trial #6,"Houston, Texas",medullo@trials.org / (800) 555-3005,Recruiting  
+MD3006,Medulloblastoma,Medulloblastoma Trial #7,"Chicago, Illinois",medullo@trials.org / (800) 555-3006,Recruiting  
+MD3007,Medulloblastoma,Medulloblastoma Trial #8,"Miami, Florida",medullo@trials.org / (800) 555-3007,Recruiting  
+MD3008,Medulloblastoma,Medulloblastoma Trial #9,"Denver, Colorado",medullo@trials.org / (800) 555-3008,Recruiting  
+MD3009,Medulloblastoma,Medulloblastoma Trial #10,"San Diego, California",medullo@trials.org / (800) 555-3009,Recruiting  
+MD3010,Medulloblastoma,Medulloblastoma Trial #11,"Philadelphia, Pennsylvania",medullo@trials.org / (800) 555-3010,Recruiting  
+MD3011,Medulloblastoma,Medulloblastoma Trial #12,"Charlotte, North Carolina",medullo@trials.org / (800) 555-3011,Recruiting  
+MD3012,Medulloblastoma,Medulloblastoma Trial #13,"Phoenix, Arizona",medullo@trials.org / (800) 555-3012,Recruiting  
+MD3013,Medulloblastoma,Medulloblastoma Trial #14,"Minneapolis, Minnesota",medullo@trials.org / (800) 555-3013,Recruiting  
+MD3014,Medulloblastoma,Medulloblastoma Trial #15,"Baltimore, Maryland",medullo@trials.org / (800) 555-3014,Recruiting  
+MD3015,Medulloblastoma,Medulloblastoma Trial #16,"Columbus, Ohio",medullo@trials.org / (800) 555-3015,Recruiting  
+MD3016,Medulloblastoma,Medulloblastoma Trial #17,"Orlando, Florida",medullo@trials.org / (800) 555-3016,Recruiting  
+MD3017,Medulloblastoma,Medulloblastoma Trial #18,"Detroit, Michigan",medullo@trials.org / (800) 555-3017,Recruiting  
+MD3018,Medulloblastoma,Medulloblastoma Trial #19,"Austin, Texas",medullo@trials.org / (800) 555-3018,Recruiting  
+MD3019,Medulloblastoma,Medulloblastoma Trial #20,"San Antonio, Texas",medullo@trials.org / (800) 555-3019,Recruiting  
+EP4000,Ependymoma,Ependymoma Trial #1,"Pittsburgh, Pennsylvania",ependymo@trials.org / (800) 555-4000,Recruiting  
+EP4001,Ependymoma,Ependymoma Trial #2,"New York, New York",ependymo@trials.org / (800) 555-4001,Recruiting  
+EP4002,Ependymoma,Ependymoma Trial #3,"Chicago, Illinois",ependymo@trials.org / (800) 555-4002,Recruiting  
+EP4003,Ependymoma,Ependymoma Trial #4,"Boston, Massachusetts",ependymo@trials.org / (800) 555-4003,Recruiting  
+EP4004,Ependymoma,Ependymoma Trial #5,"San Francisco, California",ependymo@trials.org / (800) 555-4004,Recruiting  
+EP4005,Ependymoma,Ependymoma Trial #6,"Seattle, Washington",ependymo@trials.org / (800) 555-4005,Recruiting  
+EP4006,Ependymoma,Ependymoma Trial #7,"Los Angeles, California",ependymo@trials.org / (800) 555-4006,Recruiting  
+EP4007,Ependymoma,Ependymoma Trial #8,"Houston, Texas",ependymo@trials.org / (800) 555-4007,Recruiting  
+EP4008,Ependymoma,Ependymoma Trial #9,"Atlanta, Georgia",ependymo@trials.org / (800) 555-4008,Recruiting  
+EP4009,Ependymoma,Ependymoma Trial #10,"Miami, Florida",ependymo@trials.org / (800) 555-4009,Recruiting  
+EP4010,Ependymoma,Ependymoma Trial #11,"Philadelphia, Pennsylvania",ependymo@trials.org / (800) 555-4010,Recruiting  
+EP4011,Ependymoma,Ependymoma Trial #12,"Phoenix, Arizona",ependymo@trials.org / (800) 555-4011,Recruiting  
+EP4012,Ependymoma,Ependymoma Trial #13,"Denver, Colorado",ependymo@trials.org / (800) 555-4012,Recruiting  
+EP4013,Ependymoma,Ependymoma Trial #14,"Portland, Oregon",ependymo@trials.org / (800) 555-4013,Recruiting  
+EP4014,Ependymoma,Ependymoma Trial #15,"Minneapolis, Minnesota",ependymo@trials.org / (800) 555-4014,Recruiting  
+EP4015,Ependymoma,Ependymoma Trial #16,"Charlotte, North Carolina",ependymo@trials.org / (800) 555-4015,Recruiting  
+EP4016,Ependymoma,Ependymoma Trial #17,"Columbus, Ohio",ependymo@trials.org / (800) 555-4016,Recruiting  
+EP4017,Ependymoma,Ependymoma Trial #18,"Nashville, Tennessee",ependymo@trials.org / (800) 555-4017,Recruiting  
+EP4018,Ependymoma,Ependymoma Trial #19,"Austin, Texas",ependymo@trials.org / (800) 555-4018,Recruiting  
+EP4019,Ependymoma,Ependymoma Trial #20,"Oklahoma City, Oklahoma",ependymo@trials.org / (800) 555-4019,Recruiting  
+NB5000,Neuroblastoma,Neuroblastoma Trial #1,"New York, New York",neuro@trials.org / (800) 555-5000,Recruiting  
+NB5001,Neuroblastoma,Neuroblastoma Trial #2,"Chicago, Illinois",neuro@trials.org / (800) 555-5001,Recruiting  
+NB5002,Neuroblastoma,Neuroblastoma Trial #3,"Los Angeles, California",neuro@trials.org / (800) 555-5002,Recruiting  
+NB5003,Neuroblastoma,Neuroblastoma Trial #4,"Houston, Texas",neuro@trials.org / (800) 555-5003,Recruiting  
+NB5004,Neuroblastoma,Neuroblastoma Trial #5,"Boston, Massachusetts",neuro@trials.org / (800) 555-5004,Recruiting  
+NB5005,Neuroblastoma,Neuroblastoma Trial #6,"Dallas, Texas",neuro@trials.org / (800) 555-5005,Recruiting  
+NB5006,Neuroblastoma,Neuroblastoma Trial #7,"San Francisco, California",neuro@trials.org / (800) 555-5006,Recruiting  
+NB5007,Neuroblastoma,Neuroblastoma Trial #8,"Seattle, Washington",neuro@trials.org / (800) 555-5007,Recruiting  
+NB5008,Neuroblastoma,Neuroblastoma Trial #9,"Miami, Florida",neuro@trials.org / (800) 555-5008,Recruiting  
+NB5009,Neuroblastoma,Neuroblastoma Trial #10,"Philadelphia, Pennsylvania",neuro@trials.org / (800) 555-5009,Recruiting  
+NB5010,Neuroblastoma,Neuroblastoma Trial #11,"San Diego, California",neuro@trials.org / (800) 555-5010,Recruiting  
+NB5011,Neuroblastoma,Neuroblastoma Trial #12,"Denver, Colorado",neuro@trials.org / (800) 555-5011,Recruiting  
+NB5012,Neuroblastoma,Neuroblastoma Trial #13,"Phoenix, Arizona",neuro@trials.org / (800) 555-5012,Recruiting  
+NB5013,Neuroblastoma,Neuroblastoma Trial #14,"Minneapolis, Minnesota",neuro@trials.org / (800) 555-5013,Recruiting  
+NB5014,Neuroblastoma,Neuroblastoma Trial #15,"Charlotte, North Carolina",neuro@trials.org / (800) 555-5014,Recruiting  
+NB5015,Neuroblastoma,Neuroblastoma Trial #16,"Detroit, Michigan",neuro@trials.org / (800) 555-5015,Recruiting  
+NB5016,Neuroblastoma,Neuroblastoma Trial #17,"Columbus, Ohio",neuro@trials.org / (800) 555-5016,Recruiting  
+NB5017,Neuroblastoma,Neuroblastoma Trial #18,"Austin, Texas",neuro@trials.org / (800) 555-5017,Recruiting  
+NB5018,Neuroblastoma,Neuroblastoma Trial #19,"Indianapolis, Indiana",neuro@trials.org / (800) 555-5018,Recruiting  
+NB5019,Neuroblastoma,Neuroblastoma Trial #20,"Salt Lake City, Utah",neuro@trials.org / (800) 555-5019,Recruiting  
+MDS5000,Myelodysplastic Syndromes (MDS),MDS Trial #1,"Boston, Massachusetts",mds@trials.org / (800) 555-5000,Recruiting
+MDS5001,Myelodysplastic Syndromes (MDS),MDS Trial #2,"Chicago, Illinois",mds@trials.org / (800) 555-5001,Recruiting
+MDS5002,Myelodysplastic Syndromes (MDS),MDS Trial #3,"Los Angeles, California",mds@trials.org / (800) 555-5002,Recruiting
+MDS5003,Myelodysplastic Syndromes (MDS),MDS Trial #4,"New York, New York",mds@trials.org / (800) 555-5003,Recruiting
+MDS5004,Myelodysplastic Syndromes (MDS),MDS Trial #5,"Houston, Texas",mds@trials.org / (800) 555-5004,Recruiting
+MDS5005,Myelodysplastic Syndromes (MDS),MDS Trial #6,"Seattle, Washington",mds@trials.org / (800) 555-5005,Recruiting
+MDS5006,Myelodysplastic Syndromes (MDS),MDS Trial #7,"Denver, Colorado",mds@trials.org / (800) 555-5006,Recruiting
+MDS5007,Myelodysplastic Syndromes (MDS),MDS Trial #8,"Philadelphia, Pennsylvania",mds@trials.org / (800) 555-5007,Recruiting
+MDS5008,Myelodysplastic Syndromes (MDS),MDS Trial #9,"San Diego, California",mds@trials.org / (800) 555-5008,Recruiting
+MDS5009,Myelodysplastic Syndromes (MDS),MDS Trial #10,"Atlanta, Georgia",mds@trials.org / (800) 555-5009,Recruiting
+MDS5010,Myelodysplastic Syndromes (MDS),MDS Trial #11,"Miami, Florida",mds@trials.org / (800) 555-5010,Recruiting
+MDS5011,Myelodysplastic Syndromes (MDS),MDS Trial #12,"St. Louis, Missouri",mds@trials.org / (800) 555-5011,Recruiting
+MDS5012,Myelodysplastic Syndromes (MDS),MDS Trial #13,"Minneapolis, Minnesota",mds@trials.org / (800) 555-5012,Recruiting
+MDS5013,Myelodysplastic Syndromes (MDS),MDS Trial #14,"Phoenix, Arizona",mds@trials.org / (800) 555-5013,Recruiting
+MDS5014,Myelodysplastic Syndromes (MDS),MDS Trial #15,"Cleveland, Ohio",mds@trials.org / (800) 555-5014,Recruiting
+MDS5015,Myelodysplastic Syndromes (MDS),MDS Trial #16,"Austin, Texas",mds@trials.org / (800) 555-5015,Recruiting
+MDS5016,Myelodysplastic Syndromes (MDS),MDS Trial #17,"Indianapolis, Indiana",mds@trials.org / (800) 555-5016,Recruiting
+MDS5017,Myelodysplastic Syndromes (MDS),MDS Trial #18,"Detroit, Michigan",mds@trials.org / (800) 555-5017,Recruiting
+MDS5018,Myelodysplastic Syndromes (MDS),MDS Trial #19,"Baltimore, Maryland",mds@trials.org / (800) 555-5018,Recruiting
+MDS5019,Myelodysplastic Syndromes (MDS),MDS Trial #20,"Charlotte, North Carolina",mds@trials.org / (800) 555-5019,Recruiting
+MPN6000,Myeloproliferative Neoplasms (MPN),MPN Trial #1,"New York, New York",mpn@trials.org / (800) 555-6000,Recruiting
+MPN6001,Myeloproliferative Neoplasms (MPN),MPN Trial #2,"Chicago, Illinois",mpn@trials.org / (800) 555-6001,Recruiting
+MPN6002,Myeloproliferative Neoplasms (MPN),MPN Trial #3,"San Francisco, California",mpn@trials.org / (800) 555-6002,Recruiting
+MPN6003,Myeloproliferative Neoplasms (MPN),MPN Trial #4,"Los Angeles, California",mpn@trials.org / (800) 555-6003,Recruiting
+MPN6004,Myeloproliferative Neoplasms (MPN),MPN Trial #5,"Houston, Texas",mpn@trials.org / (800) 555-6004,Recruiting
+MPN6005,Myeloproliferative Neoplasms (MPN),MPN Trial #6,"Boston, Massachusetts",mpn@trials.org / (800) 555-6005,Recruiting
+MPN6006,Myeloproliferative Neoplasms (MPN),MPN Trial #7,"Denver, Colorado",mpn@trials.org / (800) 555-6006,Recruiting
+MPN6007,Myeloproliferative Neoplasms (MPN),MPN Trial #8,"Seattle, Washington",mpn@trials.org / (800) 555-6007,Recruiting
+MPN6008,Myeloproliferative Neoplasms (MPN),MPN Trial #9,"Philadelphia, Pennsylvania",mpn@trials.org / (800) 555-6008,Recruiting
+MPN6009,Myeloproliferative Neoplasms (MPN),MPN Trial #10,"San Diego, California",mpn@trials.org / (800) 555-6009,Recruiting
+MPN6010,Myeloproliferative Neoplasms (MPN),MPN Trial #11,"Minneapolis, Minnesota",mpn@trials.org / (800) 555-6010,Recruiting
+MPN6011,Myeloproliferative Neoplasms (MPN),MPN Trial #12,"Phoenix, Arizona",mpn@trials.org / (800) 555-6011,Recruiting
+MPN6012,Myeloproliferative Neoplasms (MPN),MPN Trial #13,"Charlotte, North Carolina",mpn@trials.org / (800) 555-6012,Recruiting
+MPN6013,Myeloproliferative Neoplasms (MPN),MPN Trial #14,"Atlanta, Georgia",mpn@trials.org / (800) 555-6013,Recruiting
+MPN6014,Myeloproliferative Neoplasms (MPN),MPN Trial #15,"Indianapolis, Indiana",mpn@trials.org / (800) 555-6014,Recruiting
+MPN6015,Myeloproliferative Neoplasms (MPN),MPN Trial #16,"Detroit, Michigan",mpn@trials.org / (800) 555-6015,Recruiting
+MPN6016,Myeloproliferative Neoplasms (MPN),MPN Trial #17,"St. Louis, Missouri",mpn@trials.org / (800) 555-6016,Recruiting
+MPN6017,Myeloproliferative Neoplasms (MPN),MPN Trial #18,"Nashville, Tennessee",mpn@trials.org / (800) 555-6017,Recruiting
+MPN6018,Myeloproliferative Neoplasms (MPN),MPN Trial #19,"Cleveland, Ohio",mpn@trials.org / (800) 555-6018,Recruiting
+MPN6019,Myeloproliferative Neoplasms (MPN),MPN Trial #20,"Orlando, Florida",mpn@trials.org / (800) 555-6019,Recruiting
+MPN6000,Myeloproliferative Neoplasms (MPN),MPN Trial #1,"New York, New York",mpn@trials.org / (800) 555-6000,Recruiting
+MPN6001,Myeloproliferative Neoplasms (MPN),MPN Trial #2,"Chicago, Illinois",mpn@trials.org / (800) 555-6001,Recruiting
+MPN6002,Myeloproliferative Neoplasms (MPN),MPN Trial #3,"San Francisco, California",mpn@trials.org / (800) 555-6002,Recruiting
+MPN6003,Myeloproliferative Neoplasms (MPN),MPN Trial #4,"Los Angeles, California",mpn@trials.org / (800) 555-6003,Recruiting
+MPN6004,Myeloproliferative Neoplasms (MPN),MPN Trial #5,"Houston, Texas",mpn@trials.org / (800) 555-6004,Recruiting
+MPN6005,Myeloproliferative Neoplasms (MPN),MPN Trial #6,"Boston, Massachusetts",mpn@trials.org / (800) 555-6005,Recruiting
+MPN6006,Myeloproliferative Neoplasms (MPN),MPN Trial #7,"Denver, Colorado",mpn@trials.org / (800) 555-6006,Recruiting
+MPN6007,Myeloproliferative Neoplasms (MPN),MPN Trial #8,"Seattle, Washington",mpn@trials.org / (800) 555-6007,Recruiting
+MPN6008,Myeloproliferative Neoplasms (MPN),MPN Trial #9,"Philadelphia, Pennsylvania",mpn@trials.org / (800) 555-6008,Recruiting
+MPN6009,Myeloproliferative Neoplasms (MPN),MPN Trial #10,"San Diego, California",mpn@trials.org / (800) 555-6009,Recruiting
+MPN6010,Myeloproliferative Neoplasms (MPN),MPN Trial #11,"Minneapolis, Minnesota",mpn@trials.org / (800) 555-6010,Recruiting
+MPN6011,Myeloproliferative Neoplasms (MPN),MPN Trial #12,"Phoenix, Arizona",mpn@trials.org / (800) 555-6011,Recruiting
+MPN6012,Myeloproliferative Neoplasms (MPN),MPN Trial #13,"Charlotte, North Carolina",mpn@trials.org / (800) 555-6012,Recruiting
+MPN6013,Myeloproliferative Neoplasms (MPN),MPN Trial #14,"Atlanta, Georgia",mpn@trials.org / (800) 555-6013,Recruiting
+MPN6014,Myeloproliferative Neoplasms (MPN),MPN Trial #15,"Indianapolis, Indiana",mpn@trials.org / (800) 555-6014,Recruiting
+MPN6015,Myeloproliferative Neoplasms (MPN),MPN Trial #16,"Detroit, Michigan",mpn@trials.org / (800) 555-6015,Recruiting
+MPN6016,Myeloproliferative Neoplasms (MPN),MPN Trial #17,"St. Louis, Missouri",mpn@trials.org / (800) 555-6016,Recruiting
+MPN6017,Myeloproliferative Neoplasms (MPN),MPN Trial #18,"Nashville, Tennessee",mpn@trials.org / (800) 555-6017,Recruiting
+MPN6018,Myeloproliferative Neoplasms (MPN),MPN Trial #19,"Cleveland, Ohio",mpn@trials.org / (800) 555-6018,Recruiting
+MPN6019,Myeloproliferative Neoplasms (MPN),MPN Trial #20,"Orlando, Florida",mpn@trials.org / (800) 555-6019,Recruiting
+SIC7000,Small Intestine Cancer,SIC Trial #1,"Boston, Massachusetts",sic@trials.org / (800) 555-7000,Recruiting
+SIC7001,Small Intestine Cancer,SIC Trial #2,"Chicago, Illinois",sic@trials.org / (800) 555-7001,Recruiting
+SIC7002,Small Intestine Cancer,SIC Trial #3,"Los Angeles, California",sic@trials.org / (800) 555-7002,Recruiting
+SIC7003,Small Intestine Cancer,SIC Trial #4,"New York, New York",sic@trials.org / (800) 555-7003,Recruiting
+SIC7004,Small Intestine Cancer,SIC Trial #5,"Houston, Texas",sic@trials.org / (800) 555-7004,Recruiting
+SIC7005,Small Intestine Cancer,SIC Trial #6,"Seattle, Washington",sic@trials.org / (800) 555-7005,Recruiting
+SIC7006,Small Intestine Cancer,SIC Trial #7,"Denver, Colorado",sic@trials.org / (800) 555-7006,Recruiting
+SIC7007,Small Intestine Cancer,SIC Trial #8,"Philadelphia, Pennsylvania",sic@trials.org / (800) 555-7007,Recruiting
+SIC7008,Small Intestine Cancer,SIC Trial #9,"San Diego, California",sic@trials.org / (800) 555-7008,Recruiting
+SIC7009,Small Intestine Cancer,SIC Trial #10,"Atlanta, Georgia",sic@trials.org / (800) 555-7009,Recruiting
+SIC7010,Small Intestine Cancer,SIC Trial #11,"Miami, Florida",sic@trials.org / (800) 555-7010,Recruiting
+SIC7011,Small Intestine Cancer,SIC Trial #12,"St. Louis, Missouri",sic@trials.org / (800) 555-7011,Recruiting
+SIC7012,Small Intestine Cancer,SIC Trial #13,"Minneapolis, Minnesota",sic@trials.org / (800) 555-7012,Recruiting
+SIC7013,Small Intestine Cancer,SIC Trial #14,"Phoenix, Arizona",sic@trials.org / (800) 555-7013,Recruiting
+SIC7014,Small Intestine Cancer,SIC Trial #15,"Cleveland, Ohio",sic@trials.org / (800) 555-7014,Recruiting
+SIC7015,Small Intestine Cancer,SIC Trial #16,"Austin, Texas",sic@trials.org / (800) 555-7015,Recruiting
+SIC7016,Small Intestine Cancer,SIC Trial #17,"Indianapolis, Indiana",sic@trials.org / (800) 555-7016,Recruiting
+SIC7017,Small Intestine Cancer,SIC Trial #18,"Detroit, Michigan",sic@trials.org / (800) 555-7017,Recruiting
+SIC7018,Small Intestine Cancer,SIC Trial #19,"Baltimore, Maryland",sic@trials.org / (800) 555-7018,Recruiting
+SIC7019,Small Intestine Cancer,SIC Trial #20,"Charlotte, North Carolina",sic@trials.org / (800) 555-7019,Recruiting
+AC8000,Appendix Cancer,AC Trial #1,"New York, New York",appendix@trials.org / (800) 555-8000,Recruiting
+AC8001,Appendix Cancer,AC Trial #2,"Chicago, Illinois",appendix@trials.org / (800) 555-8001,Recruiting
+AC8002,Appendix Cancer,AC Trial #3,"Los Angeles, California",appendix@trials.org / (800) 555-8002,Recruiting
+AC8003,Appendix Cancer,AC Trial #4,"Boston, Massachusetts",appendix@trials.org / (800) 555-8003,Recruiting
+AC8004,Appendix Cancer,AC Trial #5,"Houston, Texas",appendix@trials.org / (800) 555-8004,Recruiting
+AC8005,Appendix Cancer,AC Trial #6,"Seattle, Washington",appendix@trials.org / (800) 555-8005,Recruiting
+AC8006,Appendix Cancer,AC Trial #7,"Denver, Colorado",appendix@trials.org / (800) 555-8006,Recruiting
+AC8007,Appendix Cancer,AC Trial #8,"Philadelphia, Pennsylvania",appendix@trials.org / (800) 555-8007,Recruiting
+AC8008,Appendix Cancer,AC Trial #9,"San Diego, California",appendix@trials.org / (800) 555-8008,Recruiting
+AC8009,Appendix Cancer,AC Trial #10,"Atlanta, Georgia",appendix@trials.org / (800) 555-8009,Recruiting
+AC8010,Appendix Cancer,AC Trial #11,"Miami, Florida",appendix@trials.org / (800) 555-8010,Recruiting
+AC8011,Appendix Cancer,AC Trial #12,"St. Louis, Missouri",appendix@trials.org / (800) 555-8011,Recruiting
+AC8012,Appendix Cancer,AC Trial #13,"Minneapolis, Minnesota",appendix@trials.org / (800) 555-8012,Recruiting
+AC8013,Appendix Cancer,AC Trial #14,"Phoenix, Arizona",appendix@trials.org / (800) 555-8013,Recruiting
+AC8014,Appendix Cancer,AC Trial #15,"Cleveland, Ohio",appendix@trials.org / (800) 555-8014,Recruiting
+AC8015,Appendix Cancer,AC Trial #16,"Austin, Texas",appendix@trials.org / (800) 555-8015,Recruiting
+AC8016,Appendix Cancer,AC Trial #17,"Indianapolis, Indiana",appendix@trials.org / (800) 555-8016,Recruiting
+AC8017,Appendix Cancer,AC Trial #18,"Detroit, Michigan",appendix@trials.org / (800) 555-8017,Recruiting
+AC8018,Appendix Cancer,AC Trial #19,"Baltimore, Maryland",appendix@trials.org / (800) 555-8018,Recruiting
+AC8019,Appendix Cancer,AC Trial #20,"Charlotte, North Carolina",appendix@trials.org / (800) 555-8019,Recruiting
+PC9000,Peritoneal Cancer,PC Trial #1,"Los Angeles, California",peri@trials.org / (800) 555-9000,Recruiting
+PC9001,Peritoneal Cancer,PC Trial #2,"New York, New York",peri@trials.org / (800) 555-9001,Recruiting
+PC9002,Peritoneal Cancer,PC Trial #3,"Chicago, Illinois",peri@trials.org / (800) 555-9002,Recruiting
+PC9003,Peritoneal Cancer,PC Trial #4,"Boston, Massachusetts",peri@trials.org / (800) 555-9003,Recruiting
+PC9004,Peritoneal Cancer,PC Trial #5,"Houston, Texas",peri@trials.org / (800) 555-9004,Recruiting
+PC9005,Peritoneal Cancer,PC Trial #6,"Seattle, Washington",peri@trials.org / (800) 555-9005,Recruiting
+PC9006,Peritoneal Cancer,PC Trial #7,"Denver, Colorado",peri@trials.org / (800) 555-9006,Recruiting
+PC9007,Peritoneal Cancer,PC Trial #8,"Philadelphia, Pennsylvania",peri@trials.org / (800) 555-9007,Recruiting
+PC9008,Peritoneal Cancer,PC Trial #9,"San Diego, California",peri@trials.org / (800) 555-9008,Recruiting
+PC9009,Peritoneal Cancer,PC Trial #10,"Atlanta, Georgia",peri@trials.org / (800) 555-9009,Recruiting
+PC9010,Peritoneal Cancer,PC Trial #11,"Miami, Florida",peri@trials.org / (800) 555-9010,Recruiting
+PC9011,Peritoneal Cancer,PC Trial #12,"St. Louis, Missouri",peri@trials.org / (800) 555-9011,Recruiting
+PC9012,Peritoneal Cancer,PC Trial #13,"Minneapolis, Minnesota",peri@trials.org / (800) 555-9012,Recruiting
+PC9013,Peritoneal Cancer,PC Trial #14,"Phoenix, Arizona",peri@trials.org / (800) 555-9013,Recruiting
+PC9014,Peritoneal Cancer,PC Trial #15,"Cleveland, Ohio",peri@trials.org / (800) 555-9014,Recruiting
+PC9015,Peritoneal Cancer,PC Trial #16,"Austin, Texas",peri@trials.org / (800) 555-9015,Recruiting
+PC9016,Peritoneal Cancer,PC Trial #17,"Indianapolis, Indiana",peri@trials.org / (800) 555-9016,Recruiting
+PC9017,Peritoneal Cancer,PC Trial #18,"Detroit, Michigan",peri@trials.org / (800) 555-9017,Recruiting
+PC9018,Peritoneal Cancer,PC Trial #19,"Baltimore, Maryland",peri@trials.org / (800) 555-9018,Recruiting
+PC9019,Peritoneal Cancer,PC Trial #20,"Charlotte, North Carolina",peri@trials.org / (800) 555-9019,Recruiting
+AC10000,Ampullary Cancer,AMP Trial #1,"Boston, Massachusetts",amp@trials.org / (800) 555-10000,Recruiting
+AC10001,Ampullary Cancer,AMP Trial #2,"Chicago, Illinois",amp@trials.org / (800) 555-10001,Recruiting
+AC10002,Ampullary Cancer,AMP Trial #3,"Los Angeles, California",amp@trials.org / (800) 555-10002,Recruiting
+AC10003,Ampullary Cancer,AMP Trial #4,"New York, New York",amp@trials.org / (800) 555-10003,Recruiting
+AC10004,Ampullary Cancer,AMP Trial #5,"Houston, Texas",amp@trials.org / (800) 555-10004,Recruiting
+AC10005,Ampullary Cancer,AMP Trial #6,"Seattle, Washington",amp@trials.org / (800) 555-10005,Recruiting
+AC10006,Ampullary Cancer,AMP Trial #7,"Denver, Colorado",amp@trials.org / (800) 555-10006,Recruiting
+AC10007,Ampullary Cancer,AMP Trial #8,"Philadelphia, Pennsylvania",amp@trials.org / (800) 555-10007,Recruiting
+AC10008,Ampullary Cancer,AMP Trial #9,"San Diego, California",amp@trials.org / (800) 555-10008,Recruiting
+AC10009,Ampullary Cancer,AMP Trial #10,"Atlanta, Georgia",amp@trials.org / (800) 555-10009,Recruiting
+AC10010,Ampullary Cancer,AMP Trial #11,"Miami, Florida",amp@trials.org / (800) 555-10010,Recruiting
+AC10011,Ampullary Cancer,AMP Trial #12,"St. Louis, Missouri",amp@trials.org / (800) 555-10011,Recruiting
+AC10012,Ampullary Cancer,AMP Trial #13,"Minneapolis, Minnesota",amp@trials.org / (800) 555-10012,Recruiting
+AC10013,Ampullary Cancer,AMP Trial #14,"Phoenix, Arizona",amp@trials.org / (800) 555-10013,Recruiting
+AC10014,Ampullary Cancer,AMP Trial #15,"Cleveland, Ohio",amp@trials.org / (800) 555-10014,Recruiting
+AC10015,Ampullary Cancer,AMP Trial #16,"Austin, Texas",amp@trials.org / (800) 555-10015,Recruiting
+AC10016,Ampullary Cancer,AMP Trial #17,"Indianapolis, Indiana",amp@trials.org / (800) 555-10016,Recruiting
+AC10017,Ampullary Cancer,AMP Trial #18,"Detroit, Michigan",amp@trials.org / (800) 555-10017,Recruiting
+AC10018,Ampullary Cancer,AMP Trial #19,"Baltimore, Maryland",amp@trials.org / (800) 555-10018,Recruiting
+AC10019,Ampullary Cancer,AMP Trial #20,"Charlotte, North Carolina",amp@trials.org / (800) 555-10019,Recruiting
+GIST11000,GIST,GIST Trial #1,"Los Angeles, California",gist@trials.org / (800) 555-11000,Recruiting
+GIST11001,GIST,GIST Trial #2,"New York, New York",gist@trials.org / (800) 555-11001,Recruiting
+GIST11002,GIST,GIST Trial #3,"Chicago, Illinois",gist@trials.org / (800) 555-11002,Recruiting
+GIST11003,GIST,GIST Trial #4,"Boston, Massachusetts",gist@trials.org / (800) 555-11003,Recruiting
+GIST11004,GIST,GIST Trial #5,"Houston, Texas",gist@trials.org / (800) 555-11004,Recruiting
+GIST11005,GIST,GIST Trial #6,"Seattle, Washington",gist@trials.org / (800) 555-11005,Recruiting
+GIST11006,GIST,GIST Trial #7,"Denver, Colorado",gist@trials.org / (800) 555-11006,Recruiting
+GIST11007,GIST,GIST Trial #8,"Philadelphia, Pennsylvania",gist@trials.org / (800) 555-11007,Recruiting
+GIST11008,GIST,GIST Trial #9,"San Diego, California",gist@trials.org / (800) 555-11008,Recruiting
+GIST11009,GIST,GIST Trial #10,"Atlanta, Georgia",gist@trials.org / (800) 555-11009,Recruiting
+GIST11010,GIST,GIST Trial #11,"Miami, Florida",gist@trials.org / (800) 555-11010,Recruiting
+GIST11011,GIST,GIST Trial #12,"St. Louis, Missouri",gist@trials.org / (800) 555-11011,Recruiting
+GIST11012,GIST,GIST Trial #13,"Minneapolis, Minnesota",gist@trials.org / (800) 555-11012,Recruiting
+GIST11013,GIST,GIST Trial #14,"Phoenix, Arizona",gist@trials.org / (800) 555-11013,Recruiting
+GIST11014,GIST,GIST Trial #15,"Cleveland, Ohio",gist@trials.org / (800) 555-11014,Recruiting
+GIST11015,GIST,GIST Trial #16,"Austin, Texas",gist@trials.org / (800) 555-11015,Recruiting
+GIST11016,GIST,GIST Trial #17,"Indianapolis, Indiana",gist@trials.org / (800) 555-11016,Recruiting
+GIST11017,GIST,GIST Trial #18,"Detroit, Michigan",gist@trials.org / (800) 555-11017,Recruiting
+GIST11018,GIST,GIST Trial #19,"Baltimore, Maryland",gist@trials.org / (800) 555-11018,Recruiting
+GIST11019,GIST,GIST Trial #20,"Charlotte, North Carolina",gist@trials.org / (800) 555-11019,Recruiting
+THY12000,Thymoma/Thymic Carcinoma,Thymoma Trial #1,"Boston, Massachusetts",thy@trials.org / (800) 555-12000,Recruiting
+THY12001,Thymoma/Thymic Carcinoma,Thymoma Trial #2,"New York, New York",thy@trials.org / (800) 555-12001,Recruiting
+THY12002,Thymoma/Thymic Carcinoma,Thymoma Trial #3,"Chicago, Illinois",thy@trials.org / (800) 555-12002,Recruiting
+THY12003,Thymoma/Thymic Carcinoma,Thymoma Trial #4,"Los Angeles, California",thy@trials.org / (800) 555-12003,Recruiting
+THY12004,Thymoma/Thymic Carcinoma,Thymoma Trial #5,"Houston, Texas",thy@trials.org / (800) 555-12004,Recruiting
+THY12005,Thymoma/Thymic Carcinoma,Thymoma Trial #6,"Seattle, Washington",thy@trials.org / (800) 555-12005,Recruiting
+THY12006,Thymoma/Thymic Carcinoma,Thymoma Trial #7,"Denver, Colorado",thy@trials.org / (800) 555-12006,Recruiting
+THY12007,Thymoma/Thymic Carcinoma,Thymoma Trial #8,"Philadelphia, Pennsylvania",thy@trials.org / (800) 555-12007,Recruiting
+THY12008,Thymoma/Thymic Carcinoma,Thymoma Trial #9,"San Diego, California",thy@trials.org / (800) 555-12008,Recruiting
+THY12009,Thymoma/Thymic Carcinoma,Thymoma Trial #10,"Miami, Florida",thy@trials.org / (800) 555-12009,Recruiting
+THY12010,Thymoma/Thymic Carcinoma,Thymoma Trial #11,"Portland, Oregon",thy@trials.org / (800) 555-12010,Recruiting
+THY12011,Thymoma/Thymic Carcinoma,Thymoma Trial #12,"Phoenix, Arizona",thy@trials.org / (800) 555-12011,Recruiting
+THY12012,Thymoma/Thymic Carcinoma,Thymoma Trial #13,"Minneapolis, Minnesota",thy@trials.org / (800) 555-12012,Recruiting
+THY12013,Thymoma/Thymic Carcinoma,Thymoma Trial #14,"St. Louis, Missouri",thy@trials.org / (800) 555-12013,Recruiting
+THY12014,Thymoma/Thymic Carcinoma,Thymoma Trial #15,"Baltimore, Maryland",thy@trials.org / (800) 555-12014,Recruiting
+THY12015,Thymoma/Thymic Carcinoma,Thymoma Trial #16,"Cleveland, Ohio",thy@trials.org / (800) 555-12015,Recruiting
+THY12016,Thymoma/Thymic Carcinoma,Thymoma Trial #17,"Austin, Texas",thy@trials.org / (800) 555-12016,Recruiting
+THY12017,Thymoma/Thymic Carcinoma,Thymoma Trial #18,"Indianapolis, Indiana",thy@trials.org / (800) 555-12017,Recruiting
+THY12018,Thymoma/Thymic Carcinoma,Thymoma Trial #19,"Detroit, Michigan",thy@trials.org / (800) 555-12018,Recruiting
+THY12019,Thymoma/Thymic Carcinoma,Thymoma Trial #20,"Charlotte, North Carolina",thy@trials.org / (800) 555-12019,Recruiting
+PLE13000,Pleural Cancer,Pleural Trial #1,"New York, New York",ple@trials.org / (800) 555-13000,Recruiting
+PLE13001,Pleural Cancer,Pleural Trial #2,"Chicago, Illinois",ple@trials.org / (800) 555-13001,Recruiting
+PLE13002,Pleural Cancer,Pleural Trial #3,"Los Angeles, California",ple@trials.org / (800) 555-13002,Recruiting
+PLE13003,Pleural Cancer,Pleural Trial #4,"Boston, Massachusetts",ple@trials.org / (800) 555-13003,Recruiting
+PLE13004,Pleural Cancer,Pleural Trial #5,"Houston, Texas",ple@trials.org / (800) 555-13004,Recruiting
+PLE13005,Pleural Cancer,Pleural Trial #6,"Seattle, Washington",ple@trials.org / (800) 555-13005,Recruiting
+PLE13006,Pleural Cancer,Pleural Trial #7,"Denver, Colorado",ple@trials.org / (800) 555-13006,Recruiting
+PLE13007,Pleural Cancer,Pleural Trial #8,"Philadelphia, Pennsylvania",ple@trials.org / (800) 555-13007,Recruiting
+PLE13008,Pleural Cancer,Pleural Trial #9,"San Diego, California",ple@trials.org / (800) 555-13008,Recruiting
+PLE13009,Pleural Cancer,Pleural Trial #10,"Miami, Florida",ple@trials.org / (800) 555-13009,Recruiting
+PLE13010,Pleural Cancer,Pleural Trial #11,"Portland, Oregon",ple@trials.org / (800) 555-13010,Recruiting
+PLE13011,Pleural Cancer,Pleural Trial #12,"Phoenix, Arizona",ple@trials.org / (800) 555-13011,Recruiting
+PLE13012,Pleural Cancer,Pleural Trial #13,"Minneapolis, Minnesota",ple@trials.org / (800) 555-13012,Recruiting
+PLE13013,Pleural Cancer,Pleural Trial #14,"St. Louis, Missouri",ple@trials.org / (800) 555-13013,Recruiting
+PLE13014,Pleural Cancer,Pleural Trial #15,"Baltimore, Maryland",ple@trials.org / (800) 555-13014,Recruiting
+PLE13015,Pleural Cancer,Pleural Trial #16,"Cleveland, Ohio",ple@trials.org / (800) 555-13015,Recruiting
+PLE13016,Pleural Cancer,Pleural Trial #17,"Austin, Texas",ple@trials.org / (800) 555-13016,Recruiting
+PLE13017,Pleural Cancer,Pleural Trial #18,"Indianapolis, Indiana",ple@trials.org / (800) 555-13017,Recruiting
+PLE13018,Pleural Cancer,Pleural Trial #19,"Detroit, Michigan",ple@trials.org / (800) 555-13018,Recruiting
+PLE13019,Pleural Cancer,Pleural Trial #20,"Charlotte, North Carolina",ple@trials.org / (800) 555-13019,Recruiting
+TRC14000,Tracheal Cancer,Tracheal Trial #1,"Chicago, Illinois",trc@trials.org / (800) 555-14000,Recruiting
+TRC14001,Tracheal Cancer,Tracheal Trial #2,"New York, New York",trc@trials.org / (800) 555-14001,Recruiting
+TRC14002,Tracheal Cancer,Tracheal Trial #3,"Los Angeles, California",trc@trials.org / (800) 555-14002,Recruiting
+TRC14003,Tracheal Cancer,Tracheal Trial #4,"Boston, Massachusetts",trc@trials.org / (800) 555-14003,Recruiting
+TRC14004,Tracheal Cancer,Tracheal Trial #5,"Houston, Texas",trc@trials.org / (800) 555-14004,Recruiting
+TRC14005,Tracheal Cancer,Tracheal Trial #6,"Seattle, Washington",trc@trials.org / (800) 555-14005,Recruiting
+TRC14006,Tracheal Cancer,Tracheal Trial #7,"Denver, Colorado",trc@trials.org / (800) 555-14006,Recruiting
+TRC14007,Tracheal Cancer,Tracheal Trial #8,"Philadelphia, Pennsylvania",trc@trials.org / (800) 555-14007,Recruiting
+TRC14008,Tracheal Cancer,Tracheal Trial #9,"San Diego, California",trc@trials.org / (800) 555-14008,Recruiting
+TRC14009,Tracheal Cancer,Tracheal Trial #10,"Miami, Florida",trc@trials.org / (800) 555-14009,Recruiting
+TRC14010,Tracheal Cancer,Tracheal Trial #11,"Portland, Oregon",trc@trials.org / (800) 555-14010,Recruiting
+TRC14011,Tracheal Cancer,Tracheal Trial #12,"Phoenix, Arizona",trc@trials.org / (800) 555-14011,Recruiting
+TRC14012,Tracheal Cancer,Tracheal Trial #13,"Minneapolis, Minnesota",trc@trials.org / (800) 555-14012,Recruiting
+TRC14013,Tracheal Cancer,Tracheal Trial #14,"St. Louis, Missouri",trc@trials.org / (800) 555-14013,Recruiting
+TRC14014,Tracheal Cancer,Tracheal Trial #15,"Baltimore, Maryland",trc@trials.org / (800) 555-14014,Recruiting
+TRC14015,Tracheal Cancer,Tracheal Trial #16,"Cleveland, Ohio",trc@trials.org / (800) 555-14015,Recruiting
+TRC14016,Tracheal Cancer,Tracheal Trial #17,"Austin, Texas",trc@trials.org / (800) 555-14016,Recruiting
+TRC14017,Tracheal Cancer,Tracheal Trial #18,"Indianapolis, Indiana",trc@trials.org / (800) 555-14017,Recruiting
+TRC14018,Tracheal Cancer,Tracheal Trial #19,"Detroit, Michigan",trc@trials.org / (800) 555-14018,Recruiting
+TRC14019,Tracheal Cancer,Tracheal Trial #20,"Charlotte, North Carolina",trc@trials.org / (800) 555-14019,Recruiting
+CAR15000,Pulmonary Carcinoid Tumor,Carcinoid Trial #1,"New York, New York",car@trials.org / (800) 555-15000,Recruiting
+CAR15001,Pulmonary Carcinoid Tumor,Carcinoid Trial #2,"Chicago, Illinois",car@trials.org / (800) 555-15001,Recruiting
+CAR15002,Pulmonary Carcinoid Tumor,Carcinoid Trial #3,"Los Angeles, California",car@trials.org / (800) 555-15002,Recruiting
+CAR15003,Pulmonary Carcinoid Tumor,Carcinoid Trial #4,"Boston, Massachusetts",car@trials.org / (800) 555-15003,Recruiting
+CAR15004,Pulmonary Carcinoid Tumor,Carcinoid Trial #5,"Houston, Texas",car@trials.org / (800) 555-15004,Recruiting
+CAR15005,Pulmonary Carcinoid Tumor,Carcinoid Trial #6,"Seattle, Washington",car@trials.org / (800) 555-15005,Recruiting
+CAR15006,Pulmonary Carcinoid Tumor,Carcinoid Trial #7,"Denver, Colorado",car@trials.org / (800) 555-15006,Recruiting
+CAR15007,Pulmonary Carcinoid Tumor,Carcinoid Trial #8,"Philadelphia, Pennsylvania",car@trials.org / (800) 555-15007,Recruiting
+CAR15008,Pulmonary Carcinoid Tumor,Carcinoid Trial #9,"San Diego, California",car@trials.org / (800) 555-15008,Recruiting
+CAR15009,Pulmonary Carcinoid Tumor,Carcinoid Trial #10,"Miami, Florida",car@trials.org / (800) 555-15009,Recruiting
+CAR15010,Pulmonary Carcinoid Tumor,Carcinoid Trial #11,"Portland, Oregon",car@trials.org / (800) 555-15010,Recruiting
+CAR15011,Pulmonary Carcinoid Tumor,Carcinoid Trial #12,"Phoenix, Arizona",car@trials.org / (800) 555-15011,Recruiting
+CAR15012,Pulmonary Carcinoid Tumor,Carcinoid Trial #13,"Minneapolis, Minnesota",car@trials.org / (800) 555-15012,Recruiting
+CAR15013,Pulmonary Carcinoid Tumor,Carcinoid Trial #14,"St. Louis, Missouri",car@trials.org / (800) 555-15013,Recruiting
+CAR15014,Pulmonary Carcinoid Tumor,Carcinoid Trial #15,"Baltimore, Maryland",car@trials.org / (800) 555-15014,Recruiting
+CAR15015,Pulmonary Carcinoid Tumor,Carcinoid Trial #16,"Cleveland, Ohio",car@trials.org / (800) 555-15015,Recruiting
+CAR15016,Pulmonary Carcinoid Tumor,Carcinoid Trial #17,"Austin, Texas",car@trials.org / (800) 555-15016,Recruiting
+CAR15017,Pulmonary Carcinoid Tumor,Carcinoid Trial #18,"Indianapolis, Indiana",car@trials.org / (800) 555-15017,Recruiting
+CAR15018,Pulmonary Carcinoid Tumor,Carcinoid Trial #19,"Detroit, Michigan",car@trials.org / (800) 555-15018,Recruiting
+CAR15019,Pulmonary Carcinoid Tumor,Carcinoid Trial #20,"Charlotte, North Carolina",car@trials.org / (800) 555-15019,Recruiting
+UVM16000,Uveal Melanoma,Uveal Trial #1,"Albany, New York",uveal@trials.org / (800) 555-16000,Recruiting
+UVM16001,Uveal Melanoma,Uveal Trial #2,"Boise, Idaho",uveal@trials.org / (800) 555-16001,Recruiting
+UVM16002,Uveal Melanoma,Uveal Trial #3,"Anchorage, Alaska",uveal@trials.org / (800) 555-16002,Recruiting
+UVM16003,Uveal Melanoma,Uveal Trial #4,"Burlington, Vermont",uveal@trials.org / (800) 555-16003,Recruiting
+UVM16004,Uveal Melanoma,Uveal Trial #5,"Billings, Montana",uveal@trials.org / (800) 555-16004,Recruiting
+UVM16005,Uveal Melanoma,Uveal Trial #6,"Juneau, Alaska",uveal@trials.org / (800) 555-16005,Recruiting
+UVM16006,Uveal Melanoma,Uveal Trial #7,"Cheyenne, Wyoming",uveal@trials.org / (800) 555-16006,Recruiting
+UVM16007,Uveal Melanoma,Uveal Trial #8,"Manchester, New Hampshire",uveal@trials.org / (800) 555-16007,Recruiting
+UVM16008,Uveal Melanoma,Uveal Trial #9,"Des Moines, Iowa",uveal@trials.org / (800) 555-16008,Recruiting
+UVM16009,Uveal Melanoma,Uveal Trial #10,"Little Rock, Arkansas",uveal@trials.org / (800) 555-16009,Recruiting
+UVM16010,Uveal Melanoma,Uveal Trial #11,"Columbia, South Carolina",uveal@trials.org / (800) 555-16010,Recruiting
+UVM16011,Uveal Melanoma,Uveal Trial #12,"Lansing, Michigan",uveal@trials.org / (800) 555-16011,Recruiting
+UVM16012,Uveal Melanoma,Uveal Trial #13,"Omaha, Nebraska",uveal@trials.org / (800) 555-16012,Recruiting
+UVM16013,Uveal Melanoma,Uveal Trial #14,"Topeka, Kansas",uveal@trials.org / (800) 555-16013,Recruiting
+UVM16014,Uveal Melanoma,Uveal Trial #15,"Mobile, Alabama",uveal@trials.org / (800) 555-16014,Recruiting
+UVM16015,Uveal Melanoma,Uveal Trial #16,"Jackson, Mississippi",uveal@trials.org / (800) 555-16015,Recruiting
+UVM16016,Uveal Melanoma,Uveal Trial #17,"Bismarck, North Dakota",uveal@trials.org / (800) 555-16016,Recruiting
+UVM16017,Uveal Melanoma,Uveal Trial #18,"Sioux Falls, South Dakota",uveal@trials.org / (800) 555-16017,Recruiting
+UVM16018,Uveal Melanoma,Uveal Trial #19,"Fargo, North Dakota",uveal@trials.org / (800) 555-16018,Recruiting
+UVM16019,Uveal Melanoma,Uveal Trial #20,"Rapid City, South Dakota",uveal@trials.org / (800) 555-16019,Recruiting
+CON17000,Conjunctival Cancer,Conjunctival Trial #1,"Spokane, Washington",conj@trials.org / (800) 555-17000,Recruiting
+CON17001,Conjunctival Cancer,Conjunctival Trial #2,"Knoxville, Tennessee",conj@trials.org / (800) 555-17001,Recruiting
+CON17002,Conjunctival Cancer,Conjunctival Trial #3,"Fort Wayne, Indiana",conj@trials.org / (800) 555-17002,Recruiting
+CON17003,Conjunctival Cancer,Conjunctival Trial #4,"Shreveport, Louisiana",conj@trials.org / (800) 555-17003,Recruiting
+CON17004,Conjunctival Cancer,Conjunctival Trial #5,"Charleston, West Virginia",conj@trials.org / (800) 555-17004,Recruiting
+CON17005,Conjunctival Cancer,Conjunctival Trial #6,"Bozeman, Montana",conj@trials.org / (800) 555-17005,Recruiting
+CON17006,Conjunctival Cancer,Conjunctival Trial #7,"Dover, Delaware",conj@trials.org / (800) 555-17006,Recruiting
+CON17007,Conjunctival Cancer,Conjunctival Trial #8,"Concord, New Hampshire",conj@trials.org / (800) 555-17007,Recruiting
+CON17008,Conjunctival Cancer,Conjunctival Trial #9,"New Haven, Connecticut",conj@trials.org / (800) 555-17008,Recruiting
+CON17009,Conjunctival Cancer,Conjunctival Trial #10,"Syracuse, New York",conj@trials.org / (800) 555-17009,Recruiting
+CON17010,Conjunctival Cancer,Conjunctival Trial #11,"Chattanooga, Tennessee",conj@trials.org / (800) 555-17010,Recruiting
+CON17011,Conjunctival Cancer,Conjunctival Trial #12,"Erie, Pennsylvania",conj@trials.org / (800) 555-17011,Recruiting
+CON17012,Conjunctival Cancer,Conjunctival Trial #13,"Jackson, Tennessee",conj@trials.org / (800) 555-17012,Recruiting
+CON17013,Conjunctival Cancer,Conjunctival Trial #14,"Huntsville, Alabama",conj@trials.org / (800) 555-17013,Recruiting
+CON17014,Conjunctival Cancer,Conjunctival Trial #15,"Champaign, Illinois",conj@trials.org / (800) 555-17014,Recruiting
+CON17015,Conjunctival Cancer,Conjunctival Trial #16,"Green Bay, Wisconsin",conj@trials.org / (800) 555-17015,Recruiting
+CON17016,Conjunctival Cancer,Conjunctival Trial #17,"Eugene, Oregon",conj@trials.org / (800) 555-17016,Recruiting
+CON17017,Conjunctival Cancer,Conjunctival Trial #18,"Provo, Utah",conj@trials.org / (800) 555-17017,Recruiting
+CON17018,Conjunctival Cancer,Conjunctival Trial #19,"Bakersfield, California",conj@trials.org / (800) 555-17018,Recruiting
+CON17019,Conjunctival Cancer,Conjunctival Trial #20,"Lubbock, Texas",conj@trials.org / (800) 555-17019,Recruiting
+OPT18000,Optic Glioma,Optic Glioma Trial #1,"Amarillo, Texas",opt@trials.org / (800) 555-18000,Recruiting
+OPT18001,Optic Glioma,Optic Glioma Trial #2,"Medford, Oregon",opt@trials.org / (800) 555-18001,Recruiting
+OPT18002,Optic Glioma,Optic Glioma Trial #3,"Yakima, Washington",opt@trials.org / (800) 555-18002,Recruiting
+OPT18003,Optic Glioma,Optic Glioma Trial #4,"Bangor, Maine",opt@trials.org / (800) 555-18003,Recruiting
+OPT18004,Optic Glioma,Optic Glioma Trial #5,"Reno, Nevada",opt@trials.org / (800) 555-18004,Recruiting
+OPT18005,Optic Glioma,Optic Glioma Trial #6,"Casper, Wyoming",opt@trials.org / (800) 555-18005,Recruiting
+OPT18006,Optic Glioma,Optic Glioma Trial #7,"Bend, Oregon",opt@trials.org / (800) 555-18006,Recruiting
+OPT18007,Optic Glioma,Optic Glioma Trial #8,"Tacoma, Washington",opt@trials.org / (800) 555-18007,Recruiting
+OPT18008,Optic Glioma,Optic Glioma Trial #9,"Kalamazoo, Michigan",opt@trials.org / (800) 555-18008,Recruiting
+OPT18009,Optic Glioma,Optic Glioma Trial #10,"Roanoke, Virginia",opt@trials.org / (800) 555-18009,Recruiting
+OPT18010,Optic Glioma,Optic Glioma Trial #11,"Laredo, Texas",opt@trials.org / (800) 555-18010,Recruiting
+OPT18011,Optic Glioma,Optic Glioma Trial #12,"Baton Rouge, Louisiana",opt@trials.org / (800) 555-18011,Recruiting
+OPT18012,Optic Glioma,Optic Glioma Trial #13,"Evansville, Indiana",opt@trials.org / (800) 555-18012,Recruiting
+OPT18013,Optic Glioma,Optic Glioma Trial #14,"Wichita, Kansas",opt@trials.org / (800) 555-18013,Recruiting
+OPT18014,Optic Glioma,Optic Glioma Trial #15,"Peoria, Illinois",opt@trials.org / (800) 555-18014,Recruiting
+OPT18015,Optic Glioma,Optic Glioma Trial #16,"Duluth, Minnesota",opt@trials.org / (800) 555-18015,Recruiting
+OPT18016,Optic Glioma,Optic Glioma Trial #17,"Cedar Rapids, Iowa",opt@trials.org / (800) 555-18016,Recruiting
+OPT18017,Optic Glioma,Optic Glioma Trial #18,"Fort Collins, Colorado",opt@trials.org / (800) 555-18017,Recruiting
+OPT18018,Optic Glioma,Optic Glioma Trial #19,"Trenton, New Jersey",opt@trials.org / (800) 555-18018,Recruiting
+OPT18019,Optic Glioma,Optic Glioma Trial #20,"Grand Junction, Colorado",opt@trials.org / (800) 555-18019,Recruiting
+PNC19000,Penile Cancer,Penile Trial #1,"Salem, Oregon",penile@trials.org / (800) 555-19000,Recruiting
+PNC19001,Penile Cancer,Penile Trial #2,"Toledo, Ohio",penile@trials.org / (800) 555-19001,Recruiting
+PNC19002,Penile Cancer,Penile Trial #3,"Hickory, North Carolina",penile@trials.org / (800) 555-19002,Recruiting
+PNC19003,Penile Cancer,Penile Trial #4,"Savannah, Georgia",penile@trials.org / (800) 555-19003,Recruiting
+PNC19004,Penile Cancer,Penile Trial #5,"Boise, Idaho",penile@trials.org / (800) 555-19004,Recruiting
+PNC19005,Penile Cancer,Penile Trial #6,"Tulsa, Oklahoma",penile@trials.org / (800) 555-19005,Recruiting
+PNC19006,Penile Cancer,Penile Trial #7,"Springfield, Missouri",penile@trials.org / (800) 555-19006,Recruiting
+PNC19007,Penile Cancer,Penile Trial #8,"Sioux City, Iowa",penile@trials.org / (800) 555-19007,Recruiting
+PNC19008,Penile Cancer,Penile Trial #9,"Pueblo, Colorado",penile@trials.org / (800) 555-19008,Recruiting
+PNC19009,Penile Cancer,Penile Trial #10,"Augusta, Georgia",penile@trials.org / (800) 555-19009,Recruiting
+PNC19010,Penile Cancer,Penile Trial #11,"Fayetteville, Arkansas",penile@trials.org / (800) 555-19010,Recruiting
+PNC19011,Penile Cancer,Penile Trial #12,"Odessa, Texas",penile@trials.org / (800) 555-19011,Recruiting
+PNC19012,Penile Cancer,Penile Trial #13,"Rochester, Minnesota",penile@trials.org / (800) 555-19012,Recruiting
+PNC19013,Penile Cancer,Penile Trial #14,"Greensboro, North Carolina",penile@trials.org / (800) 555-19013,Recruiting
+PNC19014,Penile Cancer,Penile Trial #15,"Biloxi, Mississippi",penile@trials.org / (800) 555-19014,Recruiting
+PNC19015,Penile Cancer,Penile Trial #16,"Spartanburg, South Carolina",penile@trials.org / (800) 555-19015,Recruiting
+PNC19016,Penile Cancer,Penile Trial #17,"Hattiesburg, Mississippi",penile@trials.org / (800) 555-19016,Recruiting
+PNC19017,Penile Cancer,Penile Trial #18,"Casper, Wyoming",penile@trials.org / (800) 555-19017,Recruiting
+PNC19018,Penile Cancer,Penile Trial #19,"El Paso, Texas",penile@trials.org / (800) 555-19018,Recruiting
+PNC19019,Penile Cancer,Penile Trial #20,"Corpus Christi, Texas",penile@trials.org / (800) 555-19019,Recruiting
+URC20000,Urethral Cancer,Urethral Trial #1,"Wilmington, Delaware",urethral@trials.org / (800) 555-20000,Recruiting
+URC20001,Urethral Cancer,Urethral Trial #2,"Hilo, Hawaii",urethral@trials.org / (800) 555-20001,Recruiting
+URC20002,Urethral Cancer,Urethral Trial #3,"Lewiston, Idaho",urethral@trials.org / (800) 555-20002,Recruiting
+URC20003,Urethral Cancer,Urethral Trial #4,"Valdosta, Georgia",urethral@trials.org / (800) 555-20003,Recruiting
+URC20004,Urethral Cancer,Urethral Trial #5,"Beaumont, Texas",urethral@trials.org / (800) 555-20004,Recruiting
+URC20005,Urethral Cancer,Urethral Trial #6,"Abilene, Texas",urethral@trials.org / (800) 555-20005,Recruiting
+URC20006,Urethral Cancer,Urethral Trial #7,"Waco, Texas",urethral@trials.org / (800) 555-20006,Recruiting
+URC20007,Urethral Cancer,Urethral Trial #8,"Frederick, Maryland",urethral@trials.org / (800) 555-20007,Recruiting
+URC20008,Urethral Cancer,Urethral Trial #9,"Lynchburg, Virginia",urethral@trials.org / (800) 555-20008,Recruiting
+URC20009,Urethral Cancer,Urethral Trial #10,"Florence, South Carolina",urethral@trials.org / (800) 555-20009,Recruiting
+URC20010,Urethral Cancer,Urethral Trial #11,"Dothan, Alabama",urethral@trials.org / (800) 555-20010,Recruiting
+URC20011,Urethral Cancer,Urethral Trial #12,"Rockford, Illinois",urethral@trials.org / (800) 555-20011,Recruiting
+URC20012,Urethral Cancer,Urethral Trial #13,"Lincoln, Nebraska",urethral@trials.org / (800) 555-20012,Recruiting
+URC20013,Urethral Cancer,Urethral Trial #14,"Ogden, Utah",urethral@trials.org / (800) 555-20013,Recruiting
+URC20014,Urethral Cancer,Urethral Trial #15,"Montgomery, Alabama",urethral@trials.org / (800) 555-20014,Recruiting
+URC20015,Urethral Cancer,Urethral Trial #16,"Pasco, Washington",urethral@trials.org / (800) 555-20015,Recruiting
+URC20016,Urethral Cancer,Urethral Trial #17,"Lawton, Oklahoma",urethral@trials.org / (800) 555-20016,Recruiting
+URC20017,Urethral Cancer,Urethral Trial #18,"Killeen, Texas",urethral@trials.org / (800) 555-20017,Recruiting
+URC20018,Urethral Cancer,Urethral Trial #19,"St. George, Utah",urethral@trials.org / (800) 555-20018,Recruiting
+URC20019,Urethral Cancer,Urethral Trial #20,"Kennewick, Washington",urethral@trials.org / (800) 555-20019,Recruiting
+RPU30000,Renal Pelvis and Ureter Cancer,RPU Trial #1,"Erie, Pennsylvania",rpu@trials.org / (800) 555-30000,Recruiting
+RPU30001,Renal Pelvis and Ureter Cancer,RPU Trial #2,"Amarillo, Texas",rpu@trials.org / (800) 555-30001,Recruiting
+RPU30002,Renal Pelvis and Ureter Cancer,RPU Trial #3,"Reading, Pennsylvania",rpu@trials.org / (800) 555-30002,Recruiting
+RPU30003,Renal Pelvis and Ureter Cancer,RPU Trial #4,"Davenport, Iowa",rpu@trials.org / (800) 555-30003,Recruiting
+RPU30004,Renal Pelvis and Ureter Cancer,RPU Trial #5,"Laredo, Texas",rpu@trials.org / (800) 555-30004,Recruiting
+RPU30005,Renal Pelvis and Ureter Cancer,RPU Trial #6,"Topeka, Kansas",rpu@trials.org / (800) 555-30005,Recruiting
+RPU30006,Renal Pelvis and Ureter Cancer,RPU Trial #7,"Champaign, Illinois",rpu@trials.org / (800) 555-30006,Recruiting
+RPU30007,Renal Pelvis and Ureter Cancer,RPU Trial #8,"Yuma, Arizona",rpu@trials.org / (800) 555-30007,Recruiting
+RPU30008,Renal Pelvis and Ureter Cancer,RPU Trial #9,"Muncie, Indiana",rpu@trials.org / (800) 555-30008,Recruiting
+RPU30009,Renal Pelvis and Ureter Cancer,RPU Trial #10,"Lawrence, Kansas",rpu@trials.org / (800) 555-30009,Recruiting
+RPU30010,Renal Pelvis and Ureter Cancer,RPU Trial #11,"Kalamazoo, Michigan",rpu@trials.org / (800) 555-30010,Recruiting
+RPU30011,Renal Pelvis and Ureter Cancer,RPU Trial #12,"Las Cruces, New Mexico",rpu@trials.org / (800) 555-30011,Recruiting
+RPU30012,Renal Pelvis and Ureter Cancer,RPU Trial #13,"Green Bay, Wisconsin",rpu@trials.org / (800) 555-30012,Recruiting
+RPU30013,Renal Pelvis and Ureter Cancer,RPU Trial #14,"Grand Forks, North Dakota",rpu@trials.org / (800) 555-30013,Recruiting
+RPU30014,Renal Pelvis and Ureter Cancer,RPU Trial #15,"Duluth, Minnesota",rpu@trials.org / (800) 555-30014,Recruiting
+RPU30015,Renal Pelvis and Ureter Cancer,RPU Trial #16,"College Station, Texas",rpu@trials.org / (800) 555-30015,Recruiting
+RPU30016,Renal Pelvis and Ureter Cancer,RPU Trial #17,"Bismarck, North Dakota",rpu@trials.org / (800) 555-30016,Recruiting
+RPU30017,Renal Pelvis and Ureter Cancer,RPU Trial #18,"Medford, Oregon",rpu@trials.org / (800) 555-30017,Recruiting
+RPU30018,Renal Pelvis and Ureter Cancer,RPU Trial #19,"Flagstaff, Arizona",rpu@trials.org / (800) 555-30018,Recruiting
+RPU30019,Renal Pelvis and Ureter Cancer,RPU Trial #20,"Missoula, Montana",rpu@trials.org / (800) 555-30019,Recruiting
+VAG40000,Vaginal Cancer,Vaginal Trial #1,"Longview, Texas",vaginal@trials.org / (800) 555-40000,Recruiting
+VAG40001,Vaginal Cancer,Vaginal Trial #2,"Macon, Georgia",vaginal@trials.org / (800) 555-40001,Recruiting
+VAG40002,Vaginal Cancer,Vaginal Trial #3,"Casper, Wyoming",vaginal@trials.org / (800) 555-40002,Recruiting
+VAG40003,Vaginal Cancer,Vaginal Trial #4,"Joplin, Missouri",vaginal@trials.org / (800) 555-40003,Recruiting
+VAG40004,Vaginal Cancer,Vaginal Trial #5,"Kenner, Louisiana",vaginal@trials.org / (800) 555-40004,Recruiting
+VAG40005,Vaginal Cancer,Vaginal Trial #6,"Waterloo, Iowa",vaginal@trials.org / (800) 555-40005,Recruiting
+VAG40006,Vaginal Cancer,Vaginal Trial #7,"Port Arthur, Texas",vaginal@trials.org / (800) 555-40006,Recruiting
+VAG40007,Vaginal Cancer,Vaginal Trial #8,"Bowling Green, Kentucky",vaginal@trials.org / (800) 555-40007,Recruiting
+VAG40008,Vaginal Cancer,Vaginal Trial #9,"Cedar Rapids, Iowa",vaginal@trials.org / (800) 555-40008,Recruiting
+VAG40009,Vaginal Cancer,Vaginal Trial #10,"Newark, Ohio",vaginal@trials.org / (800) 555-40009,Recruiting
+VAG40010,Vaginal Cancer,Vaginal Trial #11,"Bend, Oregon",vaginal@trials.org / (800) 555-40010,Recruiting
+VAG40011,Vaginal Cancer,Vaginal Trial #12,"Monroe, Louisiana",vaginal@trials.org / (800) 555-40011,Recruiting
+VAG40012,Vaginal Cancer,Vaginal Trial #13,"Vallejo, California",vaginal@trials.org / (800) 555-40012,Recruiting
+VAG40013,Vaginal Cancer,Vaginal Trial #14,"St. Cloud, Minnesota",vaginal@trials.org / (800) 555-40013,Recruiting
+VAG40014,Vaginal Cancer,Vaginal Trial #15,"Dover, Delaware",vaginal@trials.org / (800) 555-40014,Recruiting
+VAG40015,Vaginal Cancer,Vaginal Trial #16,"Huntington, West Virginia",vaginal@trials.org / (800) 555-40015,Recruiting
+VAG40016,Vaginal Cancer,Vaginal Trial #17,"Beaverton, Oregon",vaginal@trials.org / (800) 555-40016,Recruiting
+VAG40017,Vaginal Cancer,Vaginal Trial #18,"Wenatchee, Washington",vaginal@trials.org / (800) 555-40017,Recruiting
+VAG40018,Vaginal Cancer,Vaginal Trial #19,"Rapid City, South Dakota",vaginal@trials.org / (800) 555-40018,Recruiting
+VAG40019,Vaginal Cancer,Vaginal Trial #20,"Cheyenne, Wyoming",vaginal@trials.org / (800) 555-40019,Recruiting
+VUL50000,Vulvar Cancer,Vulvar Trial #1,"Lufkin, Texas",vulvar@trials.org / (800) 555-50000,Recruiting
+VUL50001,Vulvar Cancer,Vulvar Trial #2,"Great Falls, Montana",vulvar@trials.org / (800) 555-50001,Recruiting
+VUL50002,Vulvar Cancer,Vulvar Trial #3,"Pocatello, Idaho",vulvar@trials.org / (800) 555-50002,Recruiting
+VUL50003,Vulvar Cancer,Vulvar Trial #4,"Danville, Virginia",vulvar@trials.org / (800) 555-50003,Recruiting
+VUL50004,Vulvar Cancer,Vulvar Trial #5,"Yakima, Washington",vulvar@trials.org / (800) 555-50004,Recruiting
+VUL50005,Vulvar Cancer,Vulvar Trial #6,"Blacksburg, Virginia",vulvar@trials.org / (800) 555-50005,Recruiting
+VUL50006,Vulvar Cancer,Vulvar Trial #7,"Watertown, New York",vulvar@trials.org / (800) 555-50006,Recruiting
+VUL50007,Vulvar Cancer,Vulvar Trial #8,"Meridian, Mississippi",vulvar@trials.org / (800) 555-50007,Recruiting
+VUL50008,Vulvar Cancer,Vulvar Trial #9,"Texarkana, Arkansas",vulvar@trials.org / (800) 555-50008,Recruiting
+VUL50009,Vulvar Cancer,Vulvar Trial #10,"Clovis, New Mexico",vulvar@trials.org / (800) 555-50009,Recruiting
+VUL50010,Vulvar Cancer,Vulvar Trial #11,"Altoona, Pennsylvania",vulvar@trials.org / (800) 555-50010,Recruiting
+VUL50011,Vulvar Cancer,Vulvar Trial #12,"Beckley, West Virginia",vulvar@trials.org / (800) 555-50011,Recruiting
+VUL50012,Vulvar Cancer,Vulvar Trial #13,"Morgantown, West Virginia",vulvar@trials.org / (800) 555-50012,Recruiting
+VUL50013,Vulvar Cancer,Vulvar Trial #14,"Carbondale, Illinois",vulvar@trials.org / (800) 555-50013,Recruiting
+VUL50014,Vulvar Cancer,Vulvar Trial #15,"Steubenville, Ohio",vulvar@trials.org / (800) 555-50014,Recruiting
+VUL50015,Vulvar Cancer,Vulvar Trial #16,"Helena, Montana",vulvar@trials.org / (800) 555-50015,Recruiting
+VUL50016,Vulvar Cancer,Vulvar Trial #17,"North Platte, Nebraska",vulvar@trials.org / (800) 555-50016,Recruiting
+VUL50017,Vulvar Cancer,Vulvar Trial #18,"Anderson, Indiana",vulvar@trials.org / (800) 555-50017,Recruiting
+VUL50018,Vulvar Cancer,Vulvar Trial #19,"Midland, Michigan",vulvar@trials.org / (800) 555-50018,Recruiting
+VUL50019,Vulvar Cancer,Vulvar Trial #20,"Hammond, Louisiana",vulvar@trials.org / (800) 555-50019,Recruiting
+MCC60000,Merkel Cell Carcinoma,Merkel Trial #1,"Birmingham, Alabama",merkel@trials.org / (800) 555-60000,Recruiting
+MCC60001,Merkel Cell Carcinoma,Merkel Trial #2,"Buffalo, New York",merkel@trials.org / (800) 555-60001,Recruiting
+MCC60002,Merkel Cell Carcinoma,Merkel Trial #3,"Chattanooga, Tennessee",merkel@trials.org / (800) 555-60002,Recruiting
+MCC60003,Merkel Cell Carcinoma,Merkel Trial #4,"Eugene, Oregon",merkel@trials.org / (800) 555-60003,Recruiting
+MCC60004,Merkel Cell Carcinoma,Merkel Trial #5,"Fort Collins, Colorado",merkel@trials.org / (800) 555-60004,Recruiting
+MCC60005,Merkel Cell Carcinoma,Merkel Trial #6,"Greenville, South Carolina",merkel@trials.org / (800) 555-60005,Recruiting
+MCC60006,Merkel Cell Carcinoma,Merkel Trial #7,"Hialeah, Florida",merkel@trials.org / (800) 555-60006,Recruiting
+MCC60007,Merkel Cell Carcinoma,Merkel Trial #8,"Independence, Missouri",merkel@trials.org / (800) 555-60007,Recruiting
+MCC60008,Merkel Cell Carcinoma,Merkel Trial #9,"Killeen, Texas",merkel@trials.org / (800) 555-60008,Recruiting
+MCC60009,Merkel Cell Carcinoma,Merkel Trial #10,"Lansing, Michigan",merkel@trials.org / (800) 555-60009,Recruiting
+MCC60010,Merkel Cell Carcinoma,Merkel Trial #11,"Meridian, Idaho",merkel@trials.org / (800) 555-60010,Recruiting
+MCC60011,Merkel Cell Carcinoma,Merkel Trial #12,"Norwalk, Connecticut",merkel@trials.org / (800) 555-60011,Recruiting
+MCC60012,Merkel Cell Carcinoma,Merkel Trial #13,"Oceanside, California",merkel@trials.org / (800) 555-60012,Recruiting
+MCC60013,Merkel Cell Carcinoma,Merkel Trial #14,"Pueblo, Colorado",merkel@trials.org / (800) 555-60013,Recruiting
+MCC60014,Merkel Cell Carcinoma,Merkel Trial #15,"Rockford, Illinois",merkel@trials.org / (800) 555-60014,Recruiting
+MCC60015,Merkel Cell Carcinoma,Merkel Trial #16,"Sugar Land, Texas",merkel@trials.org / (800) 555-60015,Recruiting
+MCC60016,Merkel Cell Carcinoma,Merkel Trial #17,"Tacoma, Washington",merkel@trials.org / (800) 555-60016,Recruiting
+MCC60017,Merkel Cell Carcinoma,Merkel Trial #18,"Utica, New York",merkel@trials.org / (800) 555-60017,Recruiting
+MCC60018,Merkel Cell Carcinoma,Merkel Trial #19,"Victorville, California",merkel@trials.org / (800) 555-60018,Recruiting
+MCC60019,Merkel Cell Carcinoma,Merkel Trial #20,"Yonkers, New York",merkel@trials.org / (800) 555-60019,Recruiting
+MEL70000,Melanoma,Melanoma Trial #1,"San Diego, California",melanoma@trials.org / (800) 555-70000,Recruiting
+MEL70001,Melanoma,Melanoma Trial #2,"Austin, Texas",melanoma@trials.org / (800) 555-70001,Recruiting
+MEL70002,Melanoma,Melanoma Trial #3,"Miami, Florida",melanoma@trials.org / (800) 555-70002,Recruiting
+MEL70003,Melanoma,Melanoma Trial #4,"Seattle, Washington",melanoma@trials.org / (800) 555-70003,Recruiting
+MEL70004,Melanoma,Melanoma Trial #5,"Atlanta, Georgia",melanoma@trials.org / (800) 555-70004,Recruiting
+MEL70005,Melanoma,Melanoma Trial #6,"Charlotte, North Carolina",melanoma@trials.org / (800) 555-70005,Recruiting
+MEL70006,Melanoma,Melanoma Trial #7,"Tampa, Florida",melanoma@trials.org / (800) 555-70006,Recruiting
+MEL70007,Melanoma,Melanoma Trial #8,"Albuquerque, New Mexico",melanoma@trials.org / (800) 555-70007,Recruiting
+MEL70008,Melanoma,Melanoma Trial #9,"Columbus, Ohio",melanoma@trials.org / (800) 555-70008,Recruiting
+MEL70009,Melanoma,Melanoma Trial #10,"Baltimore, Maryland",melanoma@trials.org / (800) 555-70009,Recruiting
+MEL70010,Melanoma,Melanoma Trial #11,"Boise, Idaho",melanoma@trials.org / (800) 555-70010,Recruiting
+MEL70011,Melanoma,Melanoma Trial #12,"Lincoln, Nebraska",melanoma@trials.org / (800) 555-70011,Recruiting
+MEL70012,Melanoma,Melanoma Trial #13,"Anchorage, Alaska",melanoma@trials.org / (800) 555-70012,Recruiting
+MEL70013,Melanoma,Melanoma Trial #14,"Des Moines, Iowa",melanoma@trials.org / (800) 555-70013,Recruiting
+MEL70014,Melanoma,Melanoma Trial #15,"Providence, Rhode Island",melanoma@trials.org / (800) 555-70014,Recruiting
+MEL70015,Melanoma,Melanoma Trial #16,"Sioux Falls, South Dakota",melanoma@trials.org / (800) 555-70015,Recruiting
+MEL70016,Melanoma,Melanoma Trial #17,"Hartford, Connecticut",melanoma@trials.org / (800) 555-70016,Recruiting
+MEL70017,Melanoma,Melanoma Trial #18,"Little Rock, Arkansas",melanoma@trials.org / (800) 555-70017,Recruiting
+MEL70018,Melanoma,Melanoma Trial #19,"Reno, Nevada",melanoma@trials.org / (800) 555-70018,Recruiting
+MEL70019,Melanoma,Melanoma Trial #20,"Springfield, Massachusetts",melanoma@trials.org / (800) 555-70019,Recruiting
+Trial ID,Cancer Type,Trial Name,Location,Contact Info,Status
+HEP80000,Hepatoblastoma,Hepato Trial #1,"Philadelphia, Pennsylvania",hepato@trials.org / (800) 555-80000,Recruiting
+HEP80001,Hepatoblastoma,Hepato Trial #2,"Cleveland, Ohio",hepato@trials.org / (800) 555-80001,Recruiting
+HEP80002,Hepatoblastoma,Hepato Trial #3,"Nashville, Tennessee",hepato@trials.org / (800) 555-80002,Recruiting
+HEP80003,Hepatoblastoma,Hepato Trial #4,"Milwaukee, Wisconsin",hepato@trials.org / (800) 555-80003,Recruiting
+HEP80004,Hepatoblastoma,Hepato Trial #5,"Honolulu, Hawaii",hepato@trials.org / (800) 555-80004,Recruiting
+HEP80005,Hepatoblastoma,Hepato Trial #6,"Richmond, Virginia",hepato@trials.org / (800) 555-80005,Recruiting
+HEP80006,Hepatoblastoma,Hepato Trial #7,"Omaha, Nebraska",hepato@trials.org / (800) 555-80006,Recruiting
+HEP80007,Hepatoblastoma,Hepato Trial #8,"Manchester, New Hampshire",hepato@trials.org / (800) 555-80007,Recruiting
+HEP80008,Hepatoblastoma,Hepato Trial #9,"Charleston, South Carolina",hepato@trials.org / (800) 555-80008,Recruiting
+HEP80009,Hepatoblastoma,Hepato Trial #10,"Lexington, Kentucky",hepato@trials.org / (800) 555-80009,Recruiting
+HEP80010,Hepatoblastoma,Hepato Trial #11,"Baton Rouge, Louisiana",hepato@trials.org / (800) 555-80010,Recruiting
+HEP80011,Hepatoblastoma,Hepato Trial #12,"Billings, Montana",hepato@trials.org / (800) 555-80011,Recruiting
+HEP80012,Hepatoblastoma,Hepato Trial #13,"Wichita, Kansas",hepato@trials.org / (800) 555-80012,Recruiting
+HEP80013,Hepatoblastoma,Hepato Trial #14,"Augusta, Georgia",hepato@trials.org / (800) 555-80013,Recruiting
+HEP80014,Hepatoblastoma,Hepato Trial #15,"Portland, Maine",hepato@trials.org / (800) 555-80014,Recruiting
+HEP80015,Hepatoblastoma,Hepato Trial #16,"Bozeman, Montana",hepato@trials.org / (800) 555-80015,Recruiting
+HEP80016,Hepatoblastoma,Hepato Trial #17,"Madison, Wisconsin",hepato@trials.org / (800) 555-80016,Recruiting
+HEP80017,Hepatoblastoma,Hepato Trial #18,"Anchorage, Alaska",hepato@trials.org / (800) 555-80017,Recruiting
+HEP80018,Hepatoblastoma,Hepato Trial #19,"Tulsa, Oklahoma",hepato@trials.org / (800) 555-80018,Recruiting
+HEP80019,Hepatoblastoma,Hepato Trial #20,"Louisville, Kentucky",hepato@trials.org / (800) 555-80019,Recruiting
+TCL90000,T‑Cell Lymphoma,TCL Trial #1,"Aberdeen, South Dakota",tcl@trials.org / (800) 555‑90000,Recruiting
+TCL90001,T‑Cell Lymphoma,TCL Trial #2,"Albany, New York",tcl@trials.org / (800) 555‑90001,Recruiting
+TCL90002,T‑Cell Lymphoma,TCL Trial #3,"Augusta, Georgia",tcl@trials.org / (800) 555‑90002,Recruiting
+TCL90003,T‑Cell Lymphoma,TCL Trial #4,"Binghamton, New York",tcl@trials.org / (800) 555‑90003,Recruiting
+TCL90004,T‑Cell Lymphoma,TCL Trial #5,"Cedar Rapids, Iowa",tcl@trials.org / (800) 555‑90004,Recruiting
+TCL90005,T‑Cell Lymphoma,TCL Trial #6,"Danville, Virginia",tcl@trials.org / (800) 555‑90005,Recruiting
+TCL90006,T‑Cell Lymphoma,TCL Trial #7,"El Paso, Texas",tcl@trials.org / (800) 555‑90006,Recruiting
+TCL90007,T‑Cell Lymphoma,TCL Trial #8,"Fort Smith, Arkansas",tcl@trials.org / (800) 555‑90007,Recruiting
+TCL90008,T‑Cell Lymphoma,TCL Trial #9,"Green Bay, Wisconsin",tcl@trials.org / (800) 555‑90008,Recruiting
+TCL90009,T‑Cell Lymphoma,TCL Trial #10,"Huntsville, Alabama",tcl@trials.org / (800) 555‑90009,Recruiting
+TCL90010,T‑Cell Lymphoma,TCL Trial #11,"Indio, California",tcl@trials.org / (800) 555‑90010,Recruiting
+TCL90011,T‑Cell Lymphoma,TCL Trial #12,"Jacksonville, North Carolina",tcl@trials.org / (800) 555‑90011,Recruiting
+TCL90012,T‑Cell Lymphoma,TCL Trial #13,"Kalamazoo, Michigan",tcl@trials.org / (800) 555‑90012,Recruiting
+TCL90013,T‑Cell Lymphoma,TCL Trial #14,"Lubbock, Texas",tcl@trials.org / (800) 555‑90013,Recruiting
+TCL90014,T‑Cell Lymphoma,TCL Trial #15,"Mankato, Minnesota",tcl@trials.org / (800) 555‑90014,Recruiting
+TCL90015,T‑Cell Lymphoma,TCL Trial #16,"Niles, Illinois",tcl@trials.org / (800) 555‑90015,Recruiting
+TCL90016,T‑Cell Lymphoma,TCL Trial #17,"Oxnard, California",tcl@trials.org / (800) 555‑90016,Recruiting
+TCL90017,T‑Cell Lymphoma,TCL Trial #18,"Portsmouth, New Hampshire",tcl@trials.org / (800) 555‑90017,Recruiting
+TCL90018,T‑Cell Lymphoma,TCL Trial #19,"Quincy, Illinois",tcl@trials.org / (800) 555‑90018,Recruiting
+TCL90019,T‑Cell Lymphoma,TCL Trial #20,"Rapid City, South Dakota",tcl@trials.org / (800) 555‑90019,Recruiting
+HCL91000,Hairy Cell Leukemia,HCL Trial #1,"Alpena, Michigan",hcl@trials.org / (800) 555‑91000,Recruiting
+HCL91001,Hairy Cell Leukemia,HCL Trial #2,"Bloomington, Illinois",hcl@trials.org / (800) 555‑91001,Recruiting
+HCL91002,Hairy Cell Leukemia,HCL Trial #3,"Burlington, North Carolina",hcl@trials.org / (800) 555‑91002,Recruiting
+HCL91003,Hairy Cell Leukemia,HCL Trial #4,"Concord, California",hcl@trials.org / (800) 555‑91003,Recruiting
+HCL91004,Hairy Cell Leukemia,HCL Trial #5,"Daytona Beach, Florida",hcl@trials.org / (800) 555‑91004,Recruiting
+HCL91005,Hairy Cell Leukemia,HCL Trial #6,"Everett, Washington",hcl@trials.org / (800) 555‑91005,Recruiting
+HCL91006,Hairy Cell Leukemia,HCL Trial #7,"Fayetteville, North Carolina",hcl@trials.org / (800) 555‑91006,Recruiting
+HCL91007,Hairy Cell Leukemia,HCL Trial #8,"Gulfport, Mississippi",hcl@trials.org / (800) 555‑91007,Recruiting
+HCL91008,Hairy Cell Leukemia,HCL Trial #9,"Hot Springs, Arkansas",hcl@trials.org / (800) 555‑91008,Recruiting
+HCL91009,Hairy Cell Leukemia,HCL Trial #10,"Irving, Texas",hcl@trials.org / (800) 555‑91009,Recruiting
+HCL91010,Hairy Cell Leukemia,HCL Trial #11,"Jackson, Tennessee",hcl@trials.org / (800) 555‑91010,Recruiting
+HCL91011,Hairy Cell Leukemia,HCL Trial #12,"Keene, New Hampshire",hcl@trials.org / (800) 555‑91011,Recruiting
+HCL91012,Hairy Cell Leukemia,HCL Trial #13,"Lincoln, Nebraska",hcl@trials.org / (800) 555‑91012,Recruiting
+HCL91013,Hairy Cell Leukemia,HCL Trial #14,"Mobile, Alabama",hcl@trials.org / (800) 555‑91013,Recruiting
+HCL91014,Hairy Cell Leukemia,HCL Trial #15,"North Platte, Nebraska",hcl@trials.org / (800) 555‑91014,Recruiting
+HCL91015,Hairy Cell Leukemia,HCL Trial #16,"Oceanside, California",hcl@trials.org / (800) 555‑91015,Recruiting
+HCL91016,Hairy Cell Leukemia,HCL Trial #17,"Peoria, Illinois",hcl@trials.org / (800) 555‑91016,Recruiting
+HCL91017,Hairy Cell Leukemia,HCL Trial #18,"Rochester, New York",hcl@trials.org / (800) 555‑91017,Recruiting
+HCL91018,Hairy Cell Leukemia,HCL Trial #19,"Saginaw, Michigan",hcl@trials.org / (800) 555‑91018,Recruiting
+HCL91019,Hairy Cell Leukemia,HCL Trial #20,"Tulsa, Oklahoma",hcl@trials.org / (800) 555‑91019,Recruiting
+FTC92000,Follicular Thyroid Cancer,FTC Trial #1,"Ann Arbor, Michigan",ftc@trials.org / (800) 555‑92000,Recruiting
+FTC92001,Follicular Thyroid Cancer,FTC Trial #2,"Baton Rouge, Louisiana",ftc@trials.org / (800) 555‑92001,Recruiting
+FTC92002,Follicular Thyroid Cancer,FTC Trial #3,"Cape Coral, Florida",ftc@trials.org / (800) 555‑92002,Recruiting
+FTC92003,Follicular Thyroid Cancer,FTC Trial #4,"Decatur, Alabama",ftc@trials.org / (800) 555‑92003,Recruiting
+FTC92004,Follicular Thyroid Cancer,FTC Trial #5,"Elkhart, Indiana",ftc@trials.org / (800) 555‑92004,Recruiting
+FTC92005,Follicular Thyroid Cancer,FTC Trial #6,"Florence, South Carolina",ftc@trials.org / (800) 555‑92005,Recruiting
+FTC92006,Follicular Thyroid Cancer,FTC Trial #7,"Grand Junction, Colorado",ftc@trials.org / (800) 555‑92006,Recruiting
+FTC92007,Follicular Thyroid Cancer,FTC Trial #8,"Helena, Montana",ftc@trials.org / (800) 555‑92007,Recruiting
+FTC92008,Follicular Thyroid Cancer,FTC Trial #9,"Idaho Falls, Idaho",ftc@trials.org / (800) 555‑92008,Recruiting
+FTC92009,Follicular Thyroid Cancer,FTC Trial #10,"Jamestown, New York",ftc@trials.org / (800) 555‑92009,Recruiting
+FTC92010,Follicular Thyroid Cancer,FTC Trial #11,"Kearney, Nebraska",ftc@trials.org / (800) 555‑92010,Recruiting
+FTC92011,Follicular Thyroid Cancer,FTC Trial #12,"Lancaster, Pennsylvania",ftc@trials.org / (800) 555‑92011,Recruiting
+FTC92012,Follicular Thyroid Cancer,FTC Trial #13,"Medford, Oregon",ftc@trials.org / (800) 555‑92012,Recruiting
+FTC92013,Follicular Thyroid Cancer,FTC Trial #14,"Niagara Falls, New York",ftc@trials.org / (800) 555‑92013,Recruiting
+FTC92014,Follicular Thyroid Cancer,FTC Trial #15,"Oshkosh, Wisconsin",ftc@trials.org / (800) 555‑92014,Recruiting
+FTC92015,Follicular Thyroid Cancer,FTC Trial #16,"Pensacola, Florida",ftc@trials.org / (800) 555‑92015,Recruiting
+FTC92016,Follicular Thyroid Cancer,FTC Trial #17,"Quincy, Massachusetts",ftc@trials.org / (800) 555‑92016,Recruiting
+FTC92017,Follicular Thyroid Cancer,FTC Trial #18,"Roseburg, Oregon",ftc@trials.org / (800) 555‑92017,Recruiting
+FTC92018,Follicular Thyroid Cancer,FTC Trial #19,"Salem, Oregon",ftc@trials.org / (800) 555‑92018,Recruiting
+FTC92019,Follicular Thyroid Cancer,FTC Trial #20,"Toledo, Ohio",ftc@trials.org / (800) 555‑92019,Recruiting
+ATC93000,Anaplastic Thyroid Cancer,ATC Trial #1,"Allentown, Pennsylvania",atc@trials.org / (800) 555‑93000,Recruiting
+ATC93001,Anaplastic Thyroid Cancer,ATC Trial #2,"Bellingham, Washington",atc@trials.org / (800) 555‑93001,Recruiting
+ATC93002,Anaplastic Thyroid Cancer,ATC Trial #3,"Casper, Wyoming",atc@trials.org / (800) 555‑93002,Recruiting
+ATC93003,Anaplastic Thyroid Cancer,ATC Trial #4,"Danville, Illinois",atc@trials.org / (800) 555‑93003,Recruiting
+ATC93004,Anaplastic Thyroid Cancer,ATC Trial #5,"Elizabethtown, Kentucky",atc@trials.org / (800) 555‑93004,Recruiting
+ATC93005,Anaplastic Thyroid Cancer,ATC Trial #6,"Flagstaff, Arizona",atc@trials.org / (800) 555‑93005,Recruiting
+ATC93006,Anaplastic Thyroid Cancer,ATC Trial #7,"Glens Falls, New York",atc@trials.org / (800) 555‑93006,Recruiting
+ATC93007,Anaplastic Thyroid Cancer,ATC Trial #8,"Hammond, Indiana",atc@trials.org / (800) 555‑93007,Recruiting
+ATC93008,Anaplastic Thyroid Cancer,ATC Trial #9,"Idaho Falls, Idaho",atc@trials.org / (800) 555‑93008,Recruiting
+ATC93009,Anaplastic Thyroid Cancer,ATC Trial #10,"Janesville, Wisconsin",atc@trials.org / (800) 555‑93009,Recruiting
+ATC93010,Anaplastic Thyroid Cancer,ATC Trial #11,"Kalispell, Montana",atc@trials.org / (800) 555‑93010,Recruiting
+ATC93011,Anaplastic Thyroid Cancer,ATC Trial #12,"Lynchburg, Virginia",atc@trials.org / (800) 555‑93011,Recruiting
+ATC93012,Anaplastic Thyroid Cancer,ATC Trial #13,"Midlothian, Texas",atc@trials.org / (800) 555‑93012,Recruiting
+ATC93013,Anaplastic Thyroid Cancer,ATC Trial #14,"Nogales, Arizona",atc@trials.org / (800) 555‑93013,Recruiting
+ATC93014,Anaplastic Thyroid Cancer,ATC Trial #15,"Oceanside, California",atc@trials.org / (800) 555‑93014,Recruiting
+ATC93015,Anaplastic Thyroid Cancer,ATC Trial #16,"Prescott, Arizona",atc@trials.org / (800) 555‑93015,Recruiting
+ATC93016,Anaplastic Thyroid Cancer,ATC Trial #17,"Quincy, Illinois",atc@trials.org / (800) 555‑93016,Recruiting
+ATC93017,Anaplastic Thyroid Cancer,ATC Trial #18,"Roanoke, Virginia",atc@trials.org / (800) 555‑93017,Recruiting
+ATC93018,Anaplastic Thyroid Cancer,ATC Trial #19,"Syracuse, New York",atc@trials.org / (800) 555‑93018,Recruiting
+ATC93019,Anaplastic Thyroid Cancer,ATC Trial #20,"Tulsa, Oklahoma",atc@trials.org / (800) 555‑93019,Recruiting
+EWG94000,Ewing Sarcoma,Ewing Trial #1,"Chico, California",ewing@trials.org / (800) 555-94000,Recruiting
+EWG94001,Ewing Sarcoma,Ewing Trial #2,"Clovis, New Mexico",ewing@trials.org / (800) 555-94001,Recruiting
+EWG94002,Ewing Sarcoma,Ewing Trial #3,"Decatur, Illinois",ewing@trials.org / (800) 555-94002,Recruiting
+EWG94003,Ewing Sarcoma,Ewing Trial #4,"Flagstaff, Arizona",ewing@trials.org / (800) 555-94003,Recruiting
+EWG94004,Ewing Sarcoma,Ewing Trial #5,"Glendive, Montana",ewing@trials.org / (800) 555-94004,Recruiting
+EWG94005,Ewing Sarcoma,Ewing Trial #6,"Hilo, Hawaii",ewing@trials.org / (800) 555-94005,Recruiting
+EWG94006,Ewing Sarcoma,Ewing Trial #7,"Jackson, Wyoming",ewing@trials.org / (800) 555-94006,Recruiting
+EWG94007,Ewing Sarcoma,Ewing Trial #8,"Key West, Florida",ewing@trials.org / (800) 555-94007,Recruiting
+EWG94008,Ewing Sarcoma,Ewing Trial #9,"Lafayette, Louisiana",ewing@trials.org / (800) 555-94008,Recruiting
+EWG94009,Ewing Sarcoma,Ewing Trial #10,"Muncie, Indiana",ewing@trials.org / (800) 555-94009,Recruiting
+EWG94010,Ewing Sarcoma,Ewing Trial #11,"Nantucket, Massachusetts",ewing@trials.org / (800) 555-94010,Recruiting
+EWG94011,Ewing Sarcoma,Ewing Trial #12,"Oshkosh, Wisconsin",ewing@trials.org / (800) 555-94011,Recruiting
+EWG94012,Ewing Sarcoma,Ewing Trial #13,"Pell City, Alabama",ewing@trials.org / (800) 555-94012,Recruiting
+EWG94013,Ewing Sarcoma,Ewing Trial #14,"Quincy, Florida",ewing@trials.org / (800) 555-94013,Recruiting
+EWG94014,Ewing Sarcoma,Ewing Trial #15,"Rapid City, South Dakota",ewing@trials.org / (800) 555-94014,Recruiting
+EWG94015,Ewing Sarcoma,Ewing Trial #16,"Salem, Oregon",ewing@trials.org / (800) 555-94015,Recruiting
+EWG94016,Ewing Sarcoma,Ewing Trial #17,"Topeka, Kansas",ewing@trials.org / (800) 555-94016,Recruiting
+EWG94017,Ewing Sarcoma,Ewing Trial #18,"Valdosta, Georgia",ewing@trials.org / (800) 555-94017,Recruiting
+EWG94018,Ewing Sarcoma,Ewing Trial #19,"Wenatchee, Washington",ewing@trials.org / (800) 555-94018,Recruiting
+EWG94019,Ewing Sarcoma,Ewing Trial #20,"Yuma, Arizona",ewing@trials.org / (800) 555-94019,Recruiting
+CHO95000,Chondrosarcoma,Chondro Trial #1,"Abilene, Texas",chondro@trials.org / (800) 555-95000,Recruiting
+CHO95001,Chondrosarcoma,Chondro Trial #2,"Bismarck, North Dakota",chondro@trials.org / (800) 555-95001,Recruiting
+CHO95002,Chondrosarcoma,Chondro Trial #3,"Cedar City, Utah",chondro@trials.org / (800) 555-95002,Recruiting
+CHO95003,Chondrosarcoma,Chondro Trial #4,"Danville, Virginia",chondro@trials.org / (800) 555-95003,Recruiting
+CHO95004,Chondrosarcoma,Chondro Trial #5,"Elmira, New York",chondro@trials.org / (800) 555-95004,Recruiting
+CHO95005,Chondrosarcoma,Chondro Trial #6,"Fort Wayne, Indiana",chondro@trials.org / (800) 555-95005,Recruiting
+CHO95006,Chondrosarcoma,Chondro Trial #7,"Gainesville, Florida",chondro@trials.org / (800) 555-95006,Recruiting
+CHO95007,Chondrosarcoma,Chondro Trial #8,"Hammond, Louisiana",chondro@trials.org / (800) 555-95007,Recruiting
+CHO95008,Chondrosarcoma,Chondro Trial #9,"Independence, Missouri",chondro@trials.org / (800) 555-95008,Recruiting
+CHO95009,Chondrosarcoma,Chondro Trial #10,"Jackson, Mississippi",chondro@trials.org / (800) 555-95009,Recruiting
+CHO95010,Chondrosarcoma,Chondro Trial #11,"Kalamazoo, Michigan",chondro@trials.org / (800) 555-95010,Recruiting
+CHO95011,Chondrosarcoma,Chondro Trial #12,"Lancaster, Pennsylvania",chondro@trials.org / (800) 555-95011,Recruiting
+CHO95012,Chondrosarcoma,Chondro Trial #13,"Madison, Wisconsin",chondro@trials.org / (800) 555-95012,Recruiting
+CHO95013,Chondrosarcoma,Chondro Trial #14,"Newark, Ohio",chondro@trials.org / (800) 555-95013,Recruiting
+CHO95014,Chondrosarcoma,Chondro Trial #15,"Ogden, Utah",chondro@trials.org / (800) 555-95014,Recruiting
+CHO95015,Chondrosarcoma,Chondro Trial #16,"Peoria, Illinois",chondro@trials.org / (800) 555-95015,Recruiting
+CHO95016,Chondrosarcoma,Chondro Trial #17,"Rapid City, South Dakota",chondro@trials.org / (800) 555-95016,Recruiting
+CHO95017,Chondrosarcoma,Chondro Trial #18,"Spokane, Washington",chondro@trials.org / (800) 555-95017,Recruiting
+CHO95018,Chondrosarcoma,Chondro Trial #19,"Tuscaloosa, Alabama",chondro@trials.org / (800) 555-95018,Recruiting
+CHO95019,Chondrosarcoma,Chondro Trial #20,"Valparaiso, Indiana",chondro@trials.org / (800) 555-95019,Recruiting
+FIB96000,Fibrosarcoma,Fibro Trial #1,"Athens, Georgia",fibro@trials.org / (800) 555-96000,Recruiting
+FIB96001,Fibrosarcoma,Fibro Trial #2,"Bakersfield, California",fibro@trials.org / (800) 555-96001,Recruiting
+FIB96002,Fibrosarcoma,Fibro Trial #3,"Cape Girardeau, Missouri",fibro@trials.org / (800) 555-96002,Recruiting
+FIB96003,Fibrosarcoma,Fibro Trial #4,"Durango, Colorado",fibro@trials.org / (800) 555-96003,Recruiting
+FIB96004,Fibrosarcoma,Fibro Trial #5,"El Centro, California",fibro@trials.org / (800) 555-96004,Recruiting
+FIB96005,Fibrosarcoma,Fibro Trial #6,"Fargo, North Dakota",fibro@trials.org / (800) 555-96005,Recruiting
+FIB96006,Fibrosarcoma,Fibro Trial #7,"Greenville, North Carolina",fibro@trials.org / (800) 555-96006,Recruiting
+FIB96007,Fibrosarcoma,Fibro Trial #8,"Hattiesburg, Mississippi",fibro@trials.org / (800) 555-96007,Recruiting
+FIB96008,Fibrosarcoma,Fibro Trial #9,"Idaho Falls, Idaho",fibro@trials.org / (800) 555-96008,Recruiting
+FIB96009,Fibrosarcoma,Fibro Trial #10,"Jackson, Michigan",fibro@trials.org / (800) 555-96009,Recruiting
+FIB96010,Fibrosarcoma,Fibro Trial #11,"Kearney, Nebraska",fibro@trials.org / (800) 555-96010,Recruiting
+FIB96011,Fibrosarcoma,Fibro Trial #12,"Lancaster, Pennsylvania",fibro@trials.org / (800) 555-96011,Recruiting
+FIB96012,Fibrosarcoma,Fibro Trial #13,"Meridian, Mississippi",fibro@trials.org / (800) 555-96012,Recruiting
+FIB96013,Fibrosarcoma,Fibro Trial #14,"Nampa, Idaho",fibro@trials.org / (800) 555-96013,Recruiting
+FIB96014,Fibrosarcoma,Fibro Trial #15,"Ocala, Florida",fibro@trials.org / (800) 555-96014,Recruiting
+FIB96015,Fibrosarcoma,Fibro Trial #16,"Prescott, Arizona",fibro@trials.org / (800) 555-96015,Recruiting
+FIB96016,Fibrosarcoma,Fibro Trial #17,"Quincy, Illinois",fibro@trials.org / (800) 555-96016,Recruiting
+FIB96017,Fibrosarcoma,Fibro Trial #18,"Richmond, Indiana",fibro@trials.org / (800) 555-96017,Recruiting
+FIB96018,Fibrosarcoma,Fibro Trial #19,"Sierra Vista, Arizona",fibro@trials.org / (800) 555-96018,Recruiting
+FIB96019,Fibrosarcoma,Fibro Trial #20,"Twin Falls, Idaho",fibro@trials.org / (800) 555-96019,Recruiting
+LIP97000,Liposarcoma,Lipo Trial #1,"Augusta, Maine",lipo@trials.org / (800) 555-97000,Recruiting
+LIP97001,Liposarcoma,Lipo Trial #2,"Brownsville, Texas",lipo@trials.org / (800) 555-97001,Recruiting
+LIP97002,Liposarcoma,Lipo Trial #3,"Champaign, Illinois",lipo@trials.org / (800) 555-97002,Recruiting
+LIP97003,Liposarcoma,Lipo Trial #4,"Del Rio, Texas",lipo@trials.org / (800) 555-97003,Recruiting
+LIP97004,Liposarcoma,Lipo Trial #5,"Easton, Pennsylvania",lipo@trials.org / (800) 555-97004,Recruiting
+LIP97005,Liposarcoma,Lipo Trial #6,"Fairbanks, Alaska",lipo@trials.org / (800) 555-97005,Recruiting
+LIP97006,Liposarcoma,Lipo Trial #7,"Gulfport, Mississippi",lipo@trials.org / (800) 555-97006,Recruiting
+LIP97007,Liposarcoma,Lipo Trial #8,"Hilo, Hawaii",lipo@trials.org / (800) 555-97007,Recruiting
+LIP97008,Liposarcoma,Lipo Trial #9,"Jackson, Wyoming",lipo@trials.org / (800) 555-97008,Recruiting
+LIP97009,Liposarcoma,Lipo Trial #10,"Keene, New Hampshire",lipo@trials.org / (800) 555-97009,Recruiting
+LIP97010,Liposarcoma,Lipo Trial #11,"Lubbock, Texas",lipo@trials.org / (800) 555-97010,Recruiting
+LIP97011,Liposarcoma,Lipo Trial #12,"Morgantown, West Virginia",lipo@trials.org / (800) 555-97011,Recruiting
+LIP97012,Liposarcoma,Lipo Trial #13,"Newark, New Jersey",lipo@trials.org / (800) 555-97012,Recruiting
+LIP97013,Liposarcoma,Lipo Trial #14,"Orem, Utah",lipo@trials.org / (800) 555-97013,Recruiting
+LIP97014,Liposarcoma,Lipo Trial #15,"Portland, Maine",lipo@trials.org / (800) 555-97014,Recruiting
+LIP97015,Liposarcoma,Lipo Trial #16,"Quincy, Massachusetts",lipo@trials.org / (800) 555-97015,Recruiting
+LIP97016,Liposarcoma,Lipo Trial #17,"Rome, Georgia",lipo@trials.org / (800) 555-97016,Recruiting
+LIP97017,Liposarcoma,Lipo Trial #18,"Sarasota, Florida",lipo@trials.org / (800) 555-97017,Recruiting
+LIP97018,Liposarcoma,Lipo Trial #19,"Tuscaloosa, Alabama",lipo@trials.org / (800) 555-97018,Recruiting
+LIP97019,Liposarcoma,Lipo Trial #20,"Vero Beach, Florida",lipo@trials.org / (800) 555-97019,Recruiting
+RMS98000,Rhabdomyosarcoma,RMS Trial #1,"Appleton, Wisconsin",rms@trials.org / (800) 555-98000,Recruiting
+RMS98001,Rhabdomyosarcoma,RMS Trial #2,"Bismarck, North Dakota",rms@trials.org / (800) 555-98001,Recruiting
+RMS98002,Rhabdomyosarcoma,RMS Trial #3,"Casper, Wyoming",rms@trials.org / (800) 555-98002,Recruiting
+RMS98003,Rhabdomyosarcoma,RMS Trial #4,"Dover, Delaware",rms@trials.org / (800) 555-98003,Recruiting
+RMS98004,Rhabdomyosarcoma,RMS Trial #5,"Evansville, Indiana",rms@trials.org / (800) 555-98004,Recruiting
+RMS98005,Rhabdomyosarcoma,RMS Trial #6,"Fort Wayne, Indiana",rms@trials.org / (800) 555-98005,Recruiting
+RMS98006,Rhabdomyosarcoma,RMS Trial #7,"Green Bay, Wisconsin",rms@trials.org / (800) 555-98006,Recruiting
+RMS98007,Rhabdomyosarcoma,RMS Trial #8,"Hattiesburg, Mississippi",rms@trials.org / (800) 555-98007,Recruiting
+RMS98008,Rhabdomyosarcoma,RMS Trial #9,"Irving, Texas",rms@trials.org / (800) 555-98008,Recruiting
+RMS98009,Rhabdomyosarcoma,RMS Trial #10,"Jackson, Tennessee",rms@trials.org / (800) 555-98009,Recruiting
+RMS98010,Rhabdomyosarcoma,RMS Trial #11,"Kalamazoo, Michigan",rms@trials.org / (800) 555-98010,Recruiting
+RMS98011,Rhabdomyosarcoma,RMS Trial #12,"Lancaster, Pennsylvania",rms@trials.org / (800) 555-98011,Recruiting
+RMS98012,Rhabdomyosarcoma,RMS Trial #13,"Medford, Oregon",rms@trials.org / (800) 555-98012,Recruiting
+RMS98013,Rhabdomyosarcoma,RMS Trial #14,"Nashua, New Hampshire",rms@trials.org / (800) 555-98013,Recruiting
+RMS98014,Rhabdomyosarcoma,RMS Trial #15,"Oxnard, California",rms@trials.org / (800) 555-98014,Recruiting
+RMS98015,Rhabdomyosarcoma,RMS Trial #16,"Peoria, Illinois",rms@trials.org / (800) 555-98015,Recruiting
+RMS98016,Rhabdomyosarcoma,RMS Trial #17,"Quincy, Illinois",rms@trials.org / (800) 555-98016,Recruiting
+RMS98017,Rhabdomyosarcoma,RMS Trial #18,"Rockford, Illinois",rms@trials.org / (800) 555-98017,Recruiting
+RMS98018,Rhabdomyosarcoma,RMS Trial #19,"Spokane, Washington",rms@trials.org / (800) 555-98018,Recruiting
+RMS98019,Rhabdomyosarcoma,RMS Trial #20,"Visalia, California",rms@trials.org / (800) 555-98019,Recruiting
+CAR001,Carcinoid Tumor,Carcinoid Trial #1,"Albany, New York",carcinoid@trials.org / (800) 555-0001,Recruiting
+CAR002,Carcinoid Tumor,Carcinoid Trial #2,"Bakersfield, California",carcinoid@trials.org / (800) 555-0002,Recruiting
+CAR003,Carcinoid Tumor,Carcinoid Trial #3,"Cedar Rapids, Iowa",carcinoid@trials.org / (800) 555-0003,Recruiting
+CAR004,Carcinoid Tumor,Carcinoid Trial #4,"Des Moines, Iowa",carcinoid@trials.org / (800) 555-0004,Recruiting
+CAR005,Carcinoid Tumor,Carcinoid Trial #5,"El Paso, Texas",carcinoid@trials.org / (800) 555-0005,Recruiting
+CAR006,Carcinoid Tumor,Carcinoid Trial #6,"Flint, Michigan",carcinoid@trials.org / (800) 555-0006,Recruiting
+CAR007,Carcinoid Tumor,Carcinoid Trial #7,"Green Bay, Wisconsin",carcinoid@trials.org / (800) 555-0007,Recruiting
+CAR008,Carcinoid Tumor,Carcinoid Trial #8,"Huntsville, Alabama",carcinoid@trials.org / (800) 555-0008,Recruiting
+CAR009,Carcinoid Tumor,Carcinoid Trial #9,"Idaho Falls, Idaho",carcinoid@trials.org / (800) 555-0009,Recruiting
+CAR010,Carcinoid Tumor,Carcinoid Trial #10,"Jackson, Mississippi",carcinoid@trials.org / (800) 555-0010,Recruiting
+CAR011,Carcinoid Tumor,Carcinoid Trial #11,"Keene, New Hampshire",carcinoid@trials.org / (800) 555-0011,Recruiting
+CAR012,Carcinoid Tumor,Carcinoid Trial #12,"Laredo, Texas",carcinoid@trials.org / (800) 555-0012,Recruiting
+CAR013,Carcinoid Tumor,Carcinoid Trial #13,"Mobile, Alabama",carcinoid@trials.org / (800) 555-0013,Recruiting
+CAR014,Carcinoid Tumor,Carcinoid Trial #14,"Newark, Ohio",carcinoid@trials.org / (800) 555-0014,Recruiting
+CAR015,Carcinoid Tumor,Carcinoid Trial #15,"Ogden, Utah",carcinoid@trials.org / (800) 555-0015,Recruiting
+CAR016,Carcinoid Tumor,Carcinoid Trial #16,"Peoria, Illinois",carcinoid@trials.org / (800) 555-0016,Recruiting
+CAR017,Carcinoid Tumor,Carcinoid Trial #17,"Quincy, Illinois",carcinoid@trials.org / (800) 555-0017,Recruiting
+CAR018,Carcinoid Tumor,Carcinoid Trial #18,"Reno, Nevada",carcinoid@trials.org / (800) 555-0018,Recruiting
+CAR019,Carcinoid Tumor,Carcinoid Trial #19,"Saginaw, Michigan",carcinoid@trials.org / (800) 555-0019,Recruiting
+CAR020,Carcinoid Tumor,Carcinoid Trial #20,"Tulsa, Oklahoma",carcinoid@trials.org / (800) 555-0020,Recruiting
+Trial ID,Cancer Type,Trial Name,Location,Contact Info,Status
+INS101,Insulinoma,Insulinoma Trial #1,"Fort Collins, Colorado",insulinoma@trials.org / (800) 555-0101,Recruiting
+INS102,Insulinoma,Insulinoma Trial #2,"Gainesville, Florida",insulinoma@trials.org / (800) 555-0102,Recruiting
+INS103,Insulinoma,Insulinoma Trial #3,"Harrisburg, Pennsylvania",insulinoma@trials.org / (800) 555-0103,Recruiting
+INS104,Insulinoma,Insulinoma Trial #4,"Jackson, Mississippi",insulinoma@trials.org / (800) 555-0104,Recruiting
+INS105,Insulinoma,Insulinoma Trial #5,"Knoxville, Tennessee",insulinoma@trials.org / (800) 555-0105,Recruiting
+INS106,Insulinoma,Insulinoma Trial #6,"Lansing, Michigan",insulinoma@trials.org / (800) 555-0106,Recruiting
+INS107,Insulinoma,Insulinoma Trial #7,"Madison, Wisconsin",insulinoma@trials.org / (800) 555-0107,Recruiting
+INS108,Insulinoma,Insulinoma Trial #8,"Nampa, Idaho",insulinoma@trials.org / (800) 555-0108,Recruiting
+INS109,Insulinoma,Insulinoma Trial #9,"Omaha, Nebraska",insulinoma@trials.org / (800) 555-0109,Recruiting
+INS110,Insulinoma,Insulinoma Trial #10,"Providence, Rhode Island",insulinoma@trials.org / (800) 555-0110,Recruiting
+INS111,Insulinoma,Insulinoma Trial #11,"Quincy, Massachusetts",insulinoma@trials.org / (800) 555-0111,Recruiting
+INS112,Insulinoma,Insulinoma Trial #12,"Raleigh, North Carolina",insulinoma@trials.org / (800) 555-0112,Recruiting
+INS113,Insulinoma,Insulinoma Trial #13,"Salem, Oregon",insulinoma@trials.org / (800) 555-0113,Recruiting
+INS114,Insulinoma,Insulinoma Trial #14,"Tampa, Florida",insulinoma@trials.org / (800) 555-0114,Recruiting
+INS115,Insulinoma,Insulinoma Trial #15,"Urbana, Illinois",insulinoma@trials.org / (800) 555-0115,Recruiting
+INS116,Insulinoma,Insulinoma Trial #16,"Valdosta, Georgia",insulinoma@trials.org / (800) 555-0116,Recruiting
+INS117,Insulinoma,Insulinoma Trial #17,"Waco, Texas",insulinoma@trials.org / (800) 555-0117,Recruiting
+INS118,Insulinoma,Insulinoma Trial #18,"Xenia, Ohio",insulinoma@trials.org / (800) 555-0118,Recruiting
+INS119,Insulinoma,Insulinoma Trial #19,"Youngstown, Ohio",insulinoma@trials.org / (800) 555-0119,Recruiting
+INS120,Insulinoma,Insulinoma Trial #20,"Zanesville, Ohio",insulinoma@trials.org / (800) 555-0120,Recruiting
+VIP001,VIPoma,VIPoma Trial #1,"Akron, Ohio",vipoma@trials.org / (800) 555-0201,Recruiting
+VIP002,VIPoma,VIPoma Trial #2,"Boise, Idaho",vipoma@trials.org / (800) 555-0202,Recruiting
+VIP003,VIPoma,VIPoma Trial #3,"Chattanooga, Tennessee",vipoma@trials.org / (800) 555-0203,Recruiting
+VIP004,VIPoma,VIPoma Trial #4,"Duluth, Minnesota",vipoma@trials.org / (800) 555-0204,Recruiting
+VIP005,VIPoma,VIPoma Trial #5,"Eugene, Oregon",vipoma@trials.org / (800) 555-0205,Recruiting
+VIP006,VIPoma,VIPoma Trial #6,"Fargo, North Dakota",vipoma@trials.org / (800) 555-0206,Recruiting
+VIP007,VIPoma,VIPoma Trial #7,"Gilbert, Arizona",vipoma@trials.org / (800) 555-0207,Recruiting
+VIP008,VIPoma,VIPoma Trial #8,"Hilo, Hawaii",vipoma@trials.org / (800) 555-0208,Recruiting
+VIP009,VIPoma,VIPoma Trial #9,"Independence, Missouri",vipoma@trials.org / (800) 555-0209,Recruiting
+VIP010,VIPoma,VIPoma Trial #10,"Joplin, Missouri",vipoma@trials.org / (800) 555-0210,Recruiting
+VIP011,VIPoma,VIPoma Trial #11,"Killeen, Texas",vipoma@trials.org / (800) 555-0211,Recruiting
+VIP012,VIPoma,VIPoma Trial #12,"Lincoln, Nebraska",vipoma@trials.org / (800) 555-0212,Recruiting
+VIP013,VIPoma,VIPoma Trial #13,"Medford, Oregon",vipoma@trials.org / (800) 555-0213,Recruiting
+VIP014,VIPoma,VIPoma Trial #14,"Norman, Oklahoma",vipoma@trials.org / (800) 555-0214,Recruiting
+VIP015,VIPoma,VIPoma Trial #15,"Olympia, Washington",vipoma@trials.org / (800) 555-0215,Recruiting
+VIP016,VIPoma,VIPoma Trial #16,"Prescott, Arizona",vipoma@trials.org / (800) 555-0216,Recruiting
+VIP017,VIPoma,VIPoma Trial #17,"Roanoke, Virginia",vipoma@trials.org / (800) 555-0217,Recruiting
+VIP018,VIPoma,VIPoma Trial #18,"Spokane, Washington",vipoma@trials.org / (800) 555-0218,Recruiting
+VIP019,VIPoma,VIPoma Trial #19,"Toledo, Ohio",vipoma@trials.org / (800) 555-0219,Recruiting
+VIP020,VIPoma,VIPoma Trial #20,"Utica, New York",vipoma@trials.org / (800) 555-0220,Recruiting
+GLU001,Glucagonoma,Glucagonoma Trial #1,"Ames, Iowa",glucagonoma@trials.org / (800) 555-0401,Recruiting
+GLU002,Glucagonoma,Glucagonoma Trial #2,"Bismarck, North Dakota",glucagonoma@trials.org / (800) 555-0402,Recruiting
+GLU003,Glucagonoma,Glucagonoma Trial #3,"Concord, New Hampshire",glucagonoma@trials.org / (800) 555-0403,Recruiting
+GLU004,Glucagonoma,Glucagonoma Trial #4,"Dover, Delaware",glucagonoma@trials.org / (800) 555-0404,Recruiting
+GLU005,Glucagonoma,Glucagonoma Trial #5,"Evanston, Illinois",glucagonoma@trials.org / (800) 555-0405,Recruiting
+GLU006,Glucagonoma,Glucagonoma Trial #6,"Frederick, Maryland",glucagonoma@trials.org / (800) 555-0406,Recruiting
+GLU007,Glucagonoma,Glucagonoma Trial #7,"Grand Forks, North Dakota",glucagonoma@trials.org / (800) 555-0407,Recruiting
+GLU008,Glucagonoma,Glucagonoma Trial #8,"Henderson, Nevada",glucagonoma@trials.org / (800) 555-0408,Recruiting
+GLU009,Glucagonoma,Glucagonoma Trial #9,"Inglewood, California",glucagonoma@trials.org / (800) 555-0409,Recruiting
+GLU010,Glucagonoma,Glucagonoma Trial #10,"Jacksonville, North Carolina",glucagonoma@trials.org / (800) 555-0410,Recruiting
+GLU011,Glucagonoma,Glucagonoma Trial #11,"Kalamazoo, Michigan",glucagonoma@trials.org / (800) 555-0411,Recruiting
+GLU012,Glucagonoma,Glucagonoma Trial #12,"Lake Charles, Louisiana",glucagonoma@trials.org / (800) 555-0412,Recruiting
+GLU013,Glucagonoma,Glucagonoma Trial #13,"Manchester, New Hampshire",glucagonoma@trials.org / (800) 555-0413,Recruiting
+GLU014,Glucagonoma,Glucagonoma Trial #14,"Norfolk, Virginia",glucagonoma@trials.org / (800) 555-0414,Recruiting
+GLU015,Glucagonoma,Glucagonoma Trial #15,"Ocala, Florida",glucagonoma@trials.org / (800) 555-0415,Recruiting
+GLU016,Glucagonoma,Glucagonoma Trial #16,"Pasadena, Texas",glucagonoma@trials.org / (800) 555-0416,Recruiting
+GLU017,Glucagonoma,Glucagonoma Trial #17,"Rochester, Minnesota",glucagonoma@trials.org / (800) 555-0417,Recruiting
+GLU018,Glucagonoma,Glucagonoma Trial #18,"Spartanburg, South Carolina",glucagonoma@trials.org / (800) 555-0418,Recruiting
+GLU019,Glucagonoma,Glucagonoma Trial #19,"Trenton, New Jersey",glucagonoma@trials.org / (800) 555-0419,Recruiting
+GLU020,Glucagonoma,Glucagonoma Trial #20,"Visalia, California",glucagonoma@trials.org / (800) 555-0420,Recruiting
+PAR001,Paraganglioma,Paraganglioma Trial #1,"Abilene, Texas",paraganglioma@trials.org / (800) 555-0501,Recruiting
+PAR002,Paraganglioma,Paraganglioma Trial #2,"Boca Raton, Florida",paraganglioma@trials.org / (800) 555-0502,Recruiting
+PAR003,Paraganglioma,Paraganglioma Trial #3,"Casper, Wyoming",paraganglioma@trials.org / (800) 555-0503,Recruiting
+PAR004,Paraganglioma,Paraganglioma Trial #4,"Davenport, Iowa",paraganglioma@trials.org / (800) 555-0504,Recruiting
+PAR005,Paraganglioma,Paraganglioma Trial #5,"Escondido, California",paraganglioma@trials.org / (800) 555-0505,Recruiting
+PAR006,Paraganglioma,Paraganglioma Trial #6,"Fremont, California",paraganglioma@trials.org / (800) 555-0506,Recruiting
+PAR007,Paraganglioma,Paraganglioma Trial #7,"Greenville, South Carolina",paraganglioma@trials.org / (800) 555-0507,Recruiting
+PAR008,Paraganglioma,Paraganglioma Trial #8,"Hemet, California",paraganglioma@trials.org / (800) 555-0508,Recruiting
+PAR009,Paraganglioma,Paraganglioma Trial #9,"Irving, Texas",paraganglioma@trials.org / (800) 555-0509,Recruiting
+PAR010,Paraganglioma,Paraganglioma Trial #10,"Jupiter, Florida",paraganglioma@trials.org / (800) 555-0510,Recruiting
+PAR011,Paraganglioma,Paraganglioma Trial #11,"Kennewick, Washington",paraganglioma@trials.org / (800) 555-0511,Recruiting
+PAR012,Paraganglioma,Paraganglioma Trial #12,"Lubbock, Texas",paraganglioma@trials.org / (800) 555-0512,Recruiting
+PAR013,Paraganglioma,Paraganglioma Trial #13,"Marietta, Georgia",paraganglioma@trials.org / (800) 555-0513,Recruiting
+PAR014,Paraganglioma,Paraganglioma Trial #14,"New Haven, Connecticut",paraganglioma@trials.org / (800) 555-0514,Recruiting
+PAR015,Paraganglioma,Paraganglioma Trial #15,"Oceanside, California",paraganglioma@trials.org / (800) 555-0515,Recruiting
+PAR016,Paraganglioma,Paraganglioma Trial #16,"Pasco, Washington",paraganglioma@trials.org / (800) 555-0516,Recruiting
+PAR017,Paraganglioma,Paraganglioma Trial #17,"Redlands, California",paraganglioma@trials.org / (800) 555-0517,Recruiting
+PAR018,Paraganglioma,Paraganglioma Trial #18,"San Mateo, California",paraganglioma@trials.org / (800) 555-0518,Recruiting
+PAR019,Paraganglioma,Paraganglioma Trial #19,"Thornton, Colorado",paraganglioma@trials.org / (800) 555-0519,Recruiting
+PAR020,Paraganglioma,Paraganglioma Trial #20,"Ventura, California",paraganglioma@trials.org / (800) 555-0520,Recruiting
