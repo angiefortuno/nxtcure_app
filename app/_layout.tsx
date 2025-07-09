@@ -32,6 +32,8 @@ export default function RootLayout() {
           <Stack.Screen name="trials" options={{ headerShown: false }} />
           <Stack.Screen name="find-trials" options={{ headerShown: false }} />
           <Stack.Screen name="groups" options={{ headerShown: false }} />
+          <Stack.Screen name="feed" options={{ headerShown: false }} />
+          <Stack.Screen name="createPost" options={{ headerShown: false }} />
           <Stack.Screen name="messages" options={{ headerShown: false }} />
           <Stack.Screen name="welcome" options={{ headerShown: false }} />
           <Stack.Screen name="signup" options={{ headerShown: false }} />

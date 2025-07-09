@@ -37,8 +37,14 @@ const categories = [
 ];
 
 const buttons = [
-  'Share your Story',
-  'View Stories',
+  {
+    title: 'Share your Story',
+    route: '/createPost'
+  },
+  {
+    title: 'View Stories',
+    route: '/Feed'
+  }
 ];
 
 
@@ -90,9 +96,16 @@ const GroupScreen = () => {
 
         {/* Buttons */}
         <View style={styles.buttonGroup}>
-          {buttons.map((label, idx) => (
-            <TouchableOpacity key={idx} style={styles.actionButton}>
-              <CustomText style={styles.actionButtonText}>{label}</CustomText>
+          {buttons.map((buttonContent, idx) => (
+            <TouchableOpacity 
+              key={idx} 
+              style={styles.actionButton}
+              onPress = {() => {
+                if (buttonContent.route) {
+                  router.push(buttonContent.route as any);
+                }
+              }}>
+              <CustomText style={styles.actionButtonText}>{buttonContent.title}</CustomText>
             </TouchableOpacity>
           ))}
         </View>
