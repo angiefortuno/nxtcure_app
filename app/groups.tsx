@@ -1,10 +1,10 @@
 import React from 'react';
-import { ScrollView, View, TextInput, Image, StyleSheet } from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+import { ScrollView, View, TextInput, Image, StyleSheet, TouchableOpacity } from 'react-native';
+import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import CustomText from '@/components/CustomText';
 import BottomNav from '@/components/BottomNav';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
 
 const trendingData = [
   {
@@ -48,26 +48,30 @@ const suggestedData = [
     postContent: 'Connect with others undergoing similar treatments',
     likes: '23',
     comments: '5',
-    img: require('../assets/images/patient.png'),
+    route: null
   },
   {
     profileName: 'Side Effect Management',
     postContent: 'Share experiences and tips for managing side effects',
     likes: '45',
     comments: '12',
-    img: require('../assets/images/caregiver.png'),
+    route: null
   },
 ];
 
 const GroupScreen = () => {
+  const router = useRouter();
   return (
     <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
         {/* Header */}
         <View style={styles.headerRow}>
           <CustomText style={styles.headerTitle}>Community</CustomText>
-	{/*TODO: Change to Chat Icon   <Ionicons name="options-outline" size={20} color="#4B5563" /> */}
-                 </View>
+          <TouchableOpacity style={styles.headerIcon} onPress={() => router.push('/messages')}>
+            <MaterialCommunityIcons name="comment-text-outline" size={24} color="#0D141C" /> 
+          </TouchableOpacity>
+	        
+        </View>
 
         {/* Trending Feed */}
         {trendingData.map((trending, idx) => (
@@ -96,19 +100,29 @@ const GroupScreen = () => {
         {/* Suggested Groups */}
         <CustomText style={styles.sectionTitle}>Suggested Groups</CustomText>
         {/* Trending Feed */}
-        {suggestedData.map((suggested, idx) => (
-          <View key={idx} style={styles.suggestedCard}>
-            <Image
-              source={suggested.img}
-              style={styles.suggestedImage}
-              resizeMode="cover"
-            />
-            <View style={{ flex: 1 }}>
-              <CustomText style={styles.suggestedTitle}>{suggested.profileName}</CustomText>
-              <CustomText style={styles.suggestedMeta}>{`${suggested.postContent}`}</CustomText>
-            </View>
-          </View>
-        ))}
+        {suggestedData.map((suggested, idx) => {
+          
+          return(
+            <TouchableOpacity 
+              key={idx}
+              style = {styles.suggestedCard}
+              onPress = {() => {
+                if (suggested.route) {
+                  router.push(suggested.route as any);
+                }
+              }}>
+
+              <View style = {styles.suggestedIcon}>
+                <Ionicons name = 'people-outline' size = {28} color= "#0D141C"/>
+              </View>
+
+              <View style={{ flex: 1 }}>
+                <CustomText style={styles.suggestedTitle}>{suggested.profileName}</CustomText>
+                <CustomText style={styles.suggestedMeta}>{`${suggested.postContent}`}</CustomText>
+              </View>
+            </TouchableOpacity>
+          );
+        })}
 
         <View style={{ height: 80 }} />
       </ScrollView>
@@ -134,10 +148,19 @@ const styles = StyleSheet.create({
     paddingBottom: 0,
   },
   headerRow: {
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 24,
+      flexDirection: 'row',
+      alignItems: 'center',
+      justifyContent: 'center',
+      position: 'relative',
+      marginTop: 18,
+      marginBottom: 10,
+  },
+  headerIcon : {
+    position: 'absolute',
+    paddingLeft: 16,
+    paddingRight: 16,
+    right: 0,
+    top: 0
   },
   headerTitle: {
     fontSize: 22,
@@ -208,7 +231,7 @@ const styles = StyleSheet.create({
   actionButton: {
     width: '100%',
     paddingVertical: 14,
-    borderRadius: 20,
+    borderRadius: 24,
     backgroundColor: '#908DDC',
     alignItems: 'center',
     marginBottom: 8,
@@ -256,6 +279,7 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     shadowOffset: { width: 0, height: 2 },
     elevation: 1,
+    gap: 10
   },
   suggestedTitle: {
     fontSize: 18,
@@ -269,10 +293,12 @@ const styles = StyleSheet.create({
     color: '#6B7280',
     fontFamily: 'PlusJakartaSans-Regular',
   },
-  suggestedImage: {
-    height: 70,
-    width: 70,
+  suggestedIcon: {
+    width: 50,
+    height: 50,
     borderRadius: 12,
-    marginLeft: 12,
+    backgroundColor: '#E8EDF5',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 }); 
