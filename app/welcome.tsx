@@ -1,8 +1,10 @@
 import React from 'react';
-import { View, Text, Image, TouchableOpacity, StyleSheet, Dimensions, Alert } from 'react-native';
+import { View, Image, TouchableOpacity, StyleSheet, Dimensions, Alert } from 'react-native';
 import { useRouter } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+
+const screen = Dimensions.get('window');
 
 const WelcomeScreen = () => {
   const safeInset = useSafeAreaInsets();
@@ -12,50 +14,59 @@ const WelcomeScreen = () => {
     router.replace('/signup');
   };
 
-  const HandleSignIn = () => {
+  const handleSignIn = () => {
     Alert.alert('To be Implemented', 'Sign in section is yet to be implemented to the app flow');
   };
 
   return (
     <View style={styles.container}>
-      {/* Top : Image + Title */}
-      <View style={styles.topHalf}>
-        <Image
-          source={require('../assets/images/welcome.png')}
-          style={[styles.imageContainer, { paddingTop: safeInset.top }]}
-          resizeMode='contain'
-        />
-
-        <View style={styles.titleContainer}>
-          <ThemedText allowFontScaling={false} type='title'>Your journey, supported{'\n'}every step</ThemedText>
+      {/* Top Illustration Section */}
+      <View style={styles.illustrationSection}>
+        <View style={styles.illustrationBg}>
+          <Image
+            source={require('../assets/images/welcome.png')}
+            style={styles.illustration}
+            resizeMode='contain'
+          />
         </View>
       </View>
 
-      {/* Middle : Logo */}
-      <Image
-        source={require('../assets/images/nxtcure-logo.png')}
-        style={styles.logoContainer}
-        resizeMode='contain'
-      />
+      {/* Title Section */}
+      <View style={styles.titleSection}>
+        <ThemedText allowFontScaling={false} type='title' style={styles.title}>
+          Your journey, supported{"\n"}every step
+        </ThemedText>
+      </View>
 
-      {/* Bottom : Sign Up & Sign In */}
-      <View
-        style={[styles.bottomHalf, { paddingBottom: safeInset.bottom || 30 }]}>
+      {/* Logo Section */}
+      <View style={styles.logoSection}>
+        <Image
+          source={require('../assets/images/nxtcure-logo.png')}
+          style={styles.logo}
+          resizeMode='contain'
+        />
+      </View>
+
+      {/* Button and Sign In Section */}
+      <View style={[styles.bottomSection, { paddingBottom: safeInset.bottom || 30 }]}> 
         <TouchableOpacity
           style={styles.button}
-          activeOpacity={0.5}
-          onPress={handleSignUp}>
-          <ThemedText allowFontScaling={false} type='link' style={styles.buttonText}>Get Started</ThemedText>
+          activeOpacity={0.8}
+          onPress={handleSignUp}
+        >
+          <ThemedText allowFontScaling={false} type='link' style={styles.buttonText}>
+            Get Started
+          </ThemedText>
         </TouchableOpacity>
 
-        <ThemedText
-          allowFontScaling={false}
-          type='subtitle'>
+        <ThemedText allowFontScaling={false} type='subtitle' style={styles.signInText}>
           Already have an account?{' '}
           <ThemedText
             allowFontScaling={false}
             type='link'
-            onPress={HandleSignIn}>
+            style={styles.signInLink}
+            onPress={handleSignIn}
+          >
             Sign In
           </ThemedText>
         </ThemedText>
@@ -64,68 +75,81 @@ const WelcomeScreen = () => {
   );
 };
 
-const screen = Dimensions.get('window');
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FDFFF5',
-  },
-  topHalf: {
-    flex: 3.5,
-    alignItems: 'center',
     justifyContent: 'flex-start',
+  },
+  illustrationSection: {
+    height: screen.height * 0.36,
     width: '100%',
-  },
-  bottomHalf: {
-    flex: 1.5,
+    backgroundColor: '#E6B89C', // peach/tan background
     alignItems: 'center',
     justifyContent: 'flex-end',
-    gap: 10,
   },
-  imageContainer: {
-    flex: 2,
-    backgroundColor: '#DBA283',
-    justifyContent: 'flex-end',
+  illustrationBg: {
+    width: '100%',
+    height: '100%',
     alignItems: 'center',
-    width: '100%'
-  },
-  logoContainer: {
-    flex: 1,
-    backgroundColor: '#FDFFF5',
     justifyContent: 'flex-end',
-    alignItems: 'center',
-    width: '100%'
   },
-  titleContainer: {
-    flex: 1.5,
-    backgroundColor: '#FDFFF5',
+  illustration: {
+    width: '80%',
+    height: '90%',
+  },
+  titleSection: {
+    alignItems: 'center',
     justifyContent: 'center',
+    marginTop: 16,
+    marginBottom: 16,
   },
   title: {
-    fontSize: 36,
-    fontWeight: '600',
+    fontSize: 28,
+    fontWeight: '700',
     textAlign: 'center',
-    color: '#000',
+    color: '#181A20',
+    lineHeight: 36,
+  },
+  logoSection: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 24,
+  },
+  logo: {
+    width: 80,
+    height: 80,
+  },
+  bottomSection: {
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    width: '100%',
+    marginTop: 8,
   },
   button: {
     backgroundColor: '#908DDC',
     paddingVertical: 16,
-    paddingHorizontal: 100,
     borderRadius: 30,
     width: '90%',
+    marginBottom: 18,
+    alignItems: 'center',
   },
   buttonText: {
     color: '#FDFFF5',
     textAlign: 'center',
+    fontSize: 18,
+    fontWeight: '600',
   },
   signInText: {
-    color: '#000',
-    fontSize: 16,
+    color: '#181A20',
+    fontSize: 17,
+    textAlign: 'center',
+    fontWeight: '500',
+    marginBottom: 8,
   },
   signInLink: {
-    fontWeight: '600',
-    color: '#000',
+    fontWeight: '700',
+    color: '#181A20',
   },
 });
 

@@ -3,8 +3,9 @@ import { ScrollView, View, TextInput, Image, StyleSheet } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import CustomText from '@/components/CustomText';
-import BottomNav from '@/components/BottomNav';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
+import BottomNav from '@/components/BottomNav';
 
 const trialsData = [
   {
@@ -43,6 +44,7 @@ const buttons = [
 ];
 
 const ClinicalTrialsScreen = () => {
+  const router = useRouter();
   return (
     <SafeAreaView style={styles.container} edges={['top', 'left', 'right']}>
       <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={false}>
@@ -60,13 +62,14 @@ const ClinicalTrialsScreen = () => {
             placeholder="Search by trial name"
             placeholderTextColor="#9CA3AF"
             style={styles.searchInput}
+            onSubmitEditing={() => router.push('/find-trials')}
           />
         </View>
 
         {/* Recommended for You */}
         <CustomText style={styles.sectionTitle}>Recommended for You</CustomText>
         {trialsData.map((trial, idx) => (
-          <View key={idx} style={styles.trialCard}>
+          <TouchableOpacity key={idx} style={styles.trialCard} onPress={() => router.push('/trial-details')}>
             <View style={{ flex: 1 }}>
               <CustomText style={styles.trialTitle}>{trial.title}</CustomText>
               <CustomText style={styles.trialMeta}>{`${trial.match} · ${trial.distance} · ${trial.phase}`}</CustomText>
@@ -76,13 +79,17 @@ const ClinicalTrialsScreen = () => {
               style={styles.trialImage}
               resizeMode="cover"
             />
-          </View>
+          </TouchableOpacity>
         ))}
 
         {/* Buttons */}
         <View style={styles.buttonGroup}>
           {buttons.map((label, idx) => (
-            <TouchableOpacity key={idx} style={styles.actionButton}>
+            <TouchableOpacity
+              key={idx}
+              style={styles.actionButton}
+              onPress={label === 'My Applications' ? () => router.push('/my-applications') : undefined}
+            >
               <CustomText style={styles.actionButtonText}>{label}</CustomText>
             </TouchableOpacity>
           ))}
@@ -115,6 +122,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
+    paddingTop: 16,
   },
   scrollContent: {
     paddingHorizontal: 16,
@@ -129,8 +137,8 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 18,
-    fontWeight: '600',
-    color: '#0D141C',
+    fontWeight: '700',
+    color: '#181A20',
     fontFamily: 'PlusJakartaSans-Bold',
   },
   searchBar: {
@@ -151,8 +159,8 @@ const styles = StyleSheet.create({
   },
   sectionTitle: {
     fontSize: 18,
-    fontWeight: '600',
-    color: '#0D141C',
+    fontWeight: '700',
+    color: '#181A20',
     fontFamily: 'PlusJakartaSans-Bold',
     marginBottom: 12,
   },
@@ -171,9 +179,9 @@ const styles = StyleSheet.create({
     elevation: 1,
   },
   trialTitle: {
-    fontSize: 15,
-    fontWeight: '600',
-    color: '#0D141C',
+    fontSize: 18,
+    fontWeight: '700',
+    color: '#181A20',
     fontFamily: 'PlusJakartaSans-Bold',
     marginBottom: 2,
   },
@@ -201,9 +209,9 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   actionButtonText: {
-    fontSize: 15,
-    fontWeight: '500',
-    color: '#0D141C',
+    fontSize: 18,
+    fontWeight: '700',
+    color: '#181A20',
     fontFamily: 'PlusJakartaSans-Bold',
   },
   categoriesRow: {

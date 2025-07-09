@@ -82,10 +82,9 @@ const styles = StyleSheet.create({
   headerTitle: {
     fontSize: 18,
     fontWeight: '700',
-    color: '#0D141C',
+    color: '#181A20',
     fontFamily: 'PlusJakartaSans-Bold',
     textAlign: 'center',
-    // flex: 1,
   },
   headerIcon: {
     position: 'absolute',
@@ -108,9 +107,9 @@ const styles = StyleSheet.create({
     alignSelf: 'stretch',
   },
   welcomeText: {
-    fontSize: 24,
+    fontSize: 18,
     fontWeight: '700',
-    color: '#0D141C',
+    color: '#181A20',
     fontFamily: 'PlusJakartaSans-Bold',
     marginTop: 12,
     marginBottom: 12,
@@ -133,7 +132,7 @@ const styles = StyleSheet.create({
   overviewTitle: {
     fontSize: 18,
     fontWeight: '700',
-    color: '#0D141C',
+    color: '#181A20',
     fontFamily: 'PlusJakartaSans-Bold',
     marginBottom: 2,
   },
@@ -193,9 +192,9 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   findTrialsText: {
-    fontSize: 16,
+    fontSize: 18,
     fontWeight: '700',
-    color: '#0D141C',
+    color: '#181A20',
     fontFamily: 'PlusJakartaSans-Bold',
   },
 }); 

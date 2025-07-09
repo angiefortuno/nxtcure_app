@@ -12,21 +12,22 @@ const tabs = [
   { name: 'Profile', icon: 'person', route: '/profile' },
 ];
 
-export default function BottomNav() {
+export default function BottomNav({ activeTab }: { activeTab?: string } = {}) {
   const router = useRouter();
   const pathname = usePathname();
+  const current = activeTab || pathname;
 
   return (
     <View style={styles.wrapper}>
       <View style={styles.bottomNav}>
         {tabs.map(tab => {
-          const isActive = pathname === tab.route;
+          const isActive = current === tab.route;
           return (
             <TouchableOpacity
               key={tab.name}
               style={styles.navItem}
               onPress={() => {
-                if (pathname !== tab.route) {
+                if (current !== tab.route) {
                   router.push(tab.route as any);
                 }
               }}
@@ -36,8 +37,7 @@ export default function BottomNav() {
               <Ionicons
                 name={tab.icon as any}
                 size={24}
-                color={isActive ? '#0D141C' : '#4A739C'}
-              />
+                color={isActive ? '#0F141A' : '#59738C'}                />
               <CustomText style={isActive ? styles.navLabelActive : styles.navLabel}>
                 {tab.name}
               </CustomText>

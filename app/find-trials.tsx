@@ -6,10 +6,12 @@ import {
   ScrollView,
   TouchableOpacity,
   Image,
+  SafeAreaView,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import CustomText from '@/components/CustomText';
+import BottomNav from '@/components/BottomNav';
 
 const trials = [
   { name: 'Trial for Breast Cancer', hospital: 'City Cancer Center', match: 95 },
@@ -23,7 +25,7 @@ const trials = [
 export default function FindTrialsScreen() {
   const router = useRouter();
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       {/* Header */}
       <View style={styles.header}>
         <Ionicons name="arrow-back" size={22} color="#111827" onPress={() => router.push('/trials')} />
@@ -53,46 +55,25 @@ export default function FindTrialsScreen() {
       {/* Result Count & Sort */}
       <View style={styles.sortRow}>
         <CustomText style={styles.resultsCount}>12 trials found</CustomText>
-        <CustomText style={styles.sortText}>Sort by <CustomText style={{ fontWeight: '600', fontFamily: 'PlusJakartaSans-Bold' }}>Relevance</CustomText></CustomText>
+        <CustomText style={styles.sortText}>
+          Sort by <CustomText style={styles.sortLink}>Relevance</CustomText>
+        </CustomText>
       </View>
 
       {/* Trial List */}
-      <ScrollView contentContainerStyle={styles.trialList}>
+      <ScrollView contentContainerStyle={{ paddingBottom: 80, paddingHorizontal: 20, flexGrow: 1 }}>
         {trials.map((trial, index) => (
-          <View key={index} style={styles.trialItem}>
+          <TouchableOpacity key={index} style={styles.trialItem} onPress={() => router.push('/trial-details')}>
             <View>
               <CustomText style={styles.trialTitle}>{trial.name}</CustomText>
               <CustomText style={styles.trialHospital}>Hospital: {trial.hospital}</CustomText>
             </View>
             <CustomText style={styles.matchPercent}>{trial.match}%</CustomText>
-          </View>
+          </TouchableOpacity>
         ))}
       </ScrollView>
-
-      {/* Bottom Tab */}
-      <View style={styles.bottomNav}>
-        <TouchableOpacity style={styles.navItem}>
-          <Ionicons name="home-outline" size={22} color="#9CA3AF" />
-          <CustomText style={styles.navLabel}>Home</CustomText>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem}>
-          <Ionicons name="flask" size={22} color="#111827" />
-          <CustomText style={[styles.navLabel, styles.activeNavLabel]}>Trials</CustomText>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem}>
-          <Ionicons name="calendar-outline" size={22} color="#9CA3AF" />
-          <CustomText style={styles.navLabel}>Calendar</CustomText>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem}>
-          <Ionicons name="people-outline" size={22} color="#9CA3AF" />
-          <CustomText style={styles.navLabel}>Groups</CustomText>
-        </TouchableOpacity>
-        <TouchableOpacity style={styles.navItem}>
-          <Ionicons name="person-outline" size={22} color="#9CA3AF" />
-          <CustomText style={styles.navLabel}>Profile</CustomText>
-        </TouchableOpacity>
-      </View>
-    </View>
+      <BottomNav activeTab="/trials" />
+    </SafeAreaView>
   );
 }
 
@@ -104,8 +85,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingTop: 50,
-    paddingHorizontal: 20,
+    paddingTop: 16,
+    paddingLeft:10,
+    paddingRight:10,
+
   },
   header: {
     flexDirection: 'row',
@@ -115,26 +98,29 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     fontSize: 18,
-    fontWeight: '600',
-    color: '#111827',
-    flex: 1,
+    fontWeight: '700',
+    color: '#181A20',
     textAlign: 'center',
+    fontFamily: 'PlusJakartaSans-Bold',
+    flex: 1,
   },
   searchBox: {
     flexDirection: 'row',
     backgroundColor: '#F1F5F9',
-    padding: 12,
-    borderRadius: 10,
+    padding: 14,
+    borderRadius: 24,
     alignItems: 'center',
-    marginBottom: 12,
+    marginBottom: 18,
+    marginHorizontal: 0,
   },
   searchInput: {
     flex: 1,
     fontSize: 14,
+    fontFamily: 'PlusJakartaSans-Regular',
   },
   filterRow: {
     flexDirection: 'row',
-    marginBottom: 12,
+    marginBottom: 18,
     gap: 10,
   },
   filterPill: {
@@ -146,67 +132,56 @@ const styles = StyleSheet.create({
   filterText: {
     fontSize: 14,
     color: '#111827',
+    fontFamily: 'PlusJakartaSans-Regular',
   },
   sortRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 14,
+    alignItems: 'center',
+    marginBottom: 18,
+    marginHorizontal: 0,
   },
   resultsCount: {
     fontSize: 16,
-    fontWeight: '600',
-    color: '#111827',
+    fontWeight: '700',
+    color: '#181A20',
+    fontFamily: 'PlusJakartaSans-Bold',
   },
   sortText: {
-    fontSize: 14,
+    fontSize: 15,
     color: '#6B7280',
+    fontFamily: 'PlusJakartaSans-Regular',
+    textAlign: 'right',
+  },
+  sortLink: {
+    color: '#59738C',
+    fontWeight: '700',
+    fontFamily: 'PlusJakartaSans-Bold',
   },
   trialList: {
-    paddingBottom: 90,
+    paddingHorizontal: 20,
   },
   trialItem: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 20,
+    marginBottom: 24,
   },
   trialTitle: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#111827',
+    fontSize: 18,
+    fontWeight: '700',
+    color: '#181A20',
+    fontFamily: 'PlusJakartaSans-Bold',
   },
   trialHospital: {
     fontSize: 14,
     color: '#6B7280',
     marginTop: 2,
+    fontFamily: 'PlusJakartaSans-Regular',
   },
   matchPercent: {
     fontSize: 16,
     fontWeight: '600',
     color: '#111827',
-  },
-  bottomNav: {
-    flexDirection: 'row',
-    justifyContent: 'space-around',
-    alignItems: 'center',
-    paddingVertical: 10,
-    borderTopWidth: 1,
-    borderColor: '#E5E7EB',
-    position: 'absolute',
-    bottom: 0,
-    left: 0,
-    right: 0,
-    backgroundColor: '#fff',
-  },
-  navItem: {
-    alignItems: 'center',
-  },
-  navLabel: {
-    fontSize: 12,
-    color: '#9CA3AF',
-    marginTop: 2,
-  },
-  activeNavLabel: {
-    color: '#111827',
-    fontWeight: '600',
+    fontFamily: 'PlusJakartaSans-Bold',
   },
 }); 
