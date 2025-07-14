@@ -1,7 +1,9 @@
 import React from 'react';
 import { View, Image, TouchableOpacity, StyleSheet, Dimensions, Alert, Text } from 'react-native';
 import { useRouter } from 'expo-router';
+import { ThemedText } from '@/components/ThemedText';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
 
 const screen = Dimensions.get('window');
 
@@ -10,8 +12,8 @@ const WelcomeScreen = () => {
   const router = useRouter();
 
   const handleSignUp = () => {
-    router.replace('/signup');
-  };
+    router.replace ('/signup');
+  }
 
   const handleSignIn = () => {
     Alert.alert('To be Implemented', 'Sign in section is yet to be implemented to the app flow');
@@ -62,6 +64,7 @@ const WelcomeScreen = () => {
             Sign In
           </Text>
         </Text>
+
       </View>
     </View>
   );

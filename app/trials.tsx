@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ScrollView, View, TextInput, Image, StyleSheet, ActivityIndicator } from 'react-native';
+import { ScrollView, View, TextInput, Image, StyleSheet, ActivityIndicator, TouchableOpacity } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 import CustomText from '@/components/CustomText';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter, useLocalSearchParams } from 'expo-router';

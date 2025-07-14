@@ -5,7 +5,6 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
-
 import { useColorScheme } from '@/hooks/useColorScheme';
 
 export default function RootLayout() {
@@ -16,6 +15,7 @@ export default function RootLayout() {
     PlusJakartaSans_400Regular,
     PlusJakartaSans_600SemiBold,
     PlusJakartaSans_700Bold,
+    // Add other weights if you have them
   });
 
   if (!loaded) {
@@ -36,11 +36,19 @@ export default function RootLayout() {
           <Stack.Screen name="application-submitted" options={{ headerShown: false }} />
           <Stack.Screen name="my-applications" options={{ headerShown: false }} />
           <Stack.Screen name="trial-messages" options={{ headerShown: false }} />
+          <Stack.Screen name="groups" options={{ headerShown: false }} />
+          <Stack.Screen name="feed" options={{ headerShown: false }} />
+          <Stack.Screen name="createPost" options={{ headerShown: false }} />
+          <Stack.Screen name="messages" options={{ headerShown: false }} />
           <Stack.Screen name="welcome" options={{ headerShown: false }} />
           <Stack.Screen name="signup" options={{ headerShown: false }} />
           <Stack.Screen name="role-selection" options={{ headerShown: false }} />
           <Stack.Screen name="journey" options={{ headerShown: false }} />
           <Stack.Screen name="community-welcome" options={{ headerShown: false }} />
+          <Stack.Screen name="calendar" options={{ headerShown: false }} />
+          <Stack.Screen name="todayAgenda" options={{ headerShown: false }} />
+          <Stack.Screen name="medicationList" options={{ headerShown: false }} />
+          <Stack.Screen name="addEvent" options={{ headerShown: false }} />
           <Stack.Screen name="+not-found" />
         </Stack>
         <StatusBar style="auto" />

@@ -192,8 +192,9 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CommunityWelcomeScreen;
-
 export const options = {
   headerShown: false,
 };
+export default CommunityWelcomeScreen;
+
+
