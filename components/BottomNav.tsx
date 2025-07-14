@@ -5,11 +5,11 @@ import { useRouter, usePathname } from 'expo-router';
 import CustomText from '@/components/CustomText';
 
 const tabs = [
-  { name: 'Home', icon: 'home', route: '/home' },
-  { name: 'Trials', icon: 'flask', route: '/trials' },
-  { name: 'Calendar', icon: 'calendar', route: '/calendar' },
-  { name: 'Groups', icon: 'people', route: '/groups' },
-  { name: 'Profile', icon: 'person', route: '/profile' },
+  { name: 'Home', icon: 'home', routes: ['/home'] },
+  { name: 'Trials', icon: 'flask', routes: ['/trials'] },
+  { name: 'Calendar', icon: 'calendar', routes: ['/calendar'] },
+  { name: 'Groups', icon: 'people', routes: ['/groups', '/feed'] },
+  { name: 'Profile', icon: 'person', routes: ['/profile'] },
 ];
 
 export default function BottomNav() {
@@ -20,14 +20,15 @@ export default function BottomNav() {
     <View style={styles.wrapper}>
       <View style={styles.bottomNav}>
         {tabs.map(tab => {
-          const isActive = pathname === tab.route;
+          const isActive = tab.routes.includes(pathname);
           return (
             <TouchableOpacity
               key={tab.name}
               style={styles.navItem}
               onPress={() => {
-                if (pathname !== tab.route) {
-                  router.push(tab.route as any);
+                if (!tab.routes.includes(pathname)) {
+                  // Always navigate to the first route for the tab
+                  router.push(tab.routes[0] as any);
                 }
               }}
               accessibilityRole="button"
