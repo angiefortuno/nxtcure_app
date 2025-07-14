@@ -89,10 +89,6 @@ const ClinicalTrialsScreen = () => {
     }
   };
 
-  const formatMatchPercentage = (similarity: number): string => {
-    return `${Math.round(similarity * 100)}% match`;
-  };
-
   const formatDistance = (distance?: number): string => {
     if (!distance) return 'Distance N/A';
     return `${Math.round(distance)} miles`;
@@ -144,7 +140,7 @@ const ClinicalTrialsScreen = () => {
               <View style={{ flex: 1 }}>
                 <CustomText style={styles.trialTitle}>{trial.title}</CustomText>
                 <CustomText style={styles.trialMeta}>
-                  {`${formatMatchPercentage(trial.similarity)} · ${formatDistance(trial.distance)} · ${trial.status || 'Status N/A'}`}
+                  {`${formatDistance(trial.distance)} · ${trial.status || 'Status N/A'}`}
                 </CustomText>
                 {trial.condition && (
                   <CustomText style={styles.trialCondition}>{trial.condition}</CustomText>
