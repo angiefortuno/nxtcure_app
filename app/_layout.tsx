@@ -36,6 +36,10 @@ export default function RootLayout() {
           <Stack.Screen name="role-selection" options={{ headerShown: false }} />
           <Stack.Screen name="journey" options={{ headerShown: false }} />
           <Stack.Screen name="community-welcome" options={{ headerShown: false }} />
+          <Stack.Screen name="calendar" options={{ headerShown: false }} />
+          <Stack.Screen name="todayAgenda" options={{ headerShown: false }} />
+          <Stack.Screen name="medicationList" options={{ headerShown: false }} />
+          <Stack.Screen name="addEvent" options={{ headerShown: false }} />
           <Stack.Screen name="+not-found" />
         </Stack>
         <StatusBar style="auto" />
