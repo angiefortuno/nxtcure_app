@@ -41,3 +41,8 @@ app-example
 
 # scripts
 scripts/
+
+#scrapfiles(feature branch)
+components/CustomIcon.tsx
+assets/fonts/medication-h3-icon.ttf
+custom-icon-selection.json

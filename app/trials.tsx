@@ -1,7 +1,6 @@
 import React from 'react';
-import { ScrollView, View, TextInput, Image, StyleSheet } from 'react-native';
+import { ScrollView, View, TextInput, Image, StyleSheet, TouchableOpacity} from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 import CustomText from '@/components/CustomText';
 import BottomNav from '@/components/BottomNav';
 import { SafeAreaView } from 'react-native-safe-area-context';
