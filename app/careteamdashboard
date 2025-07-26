@@ -1,0 +1,60 @@
+import React from 'react';
+import './CareTeamDashboard.css';
+
+const CareTeamDashboard = () => {
+  return (
+    <div className="dashboard">
+      <div className="section">
+        <h3>My Care Team</h3>
+        <div className="care-team-member">
+          <div className="role">Primary Oncologist</div>
+          <div className="name">Dr. Amelia Chen</div>
+          <div className="specialty">Medical Oncology</div>
+        </div>
+        <div className="divider"></div>
+        <div className="care-team-member">
+          <div className="name">Dr. Marcus Reed</div>
+          <div className="specialty">Radiation Oncology</div>
+        </div>
+        <div className="divider"></div>
+        <div className="care-team-member">
+          <div className="name">Dr. Isabella Rossi</div>
+          <div className="specialty">Surgical Oncology</div>
+        </div>
+      </div>
+
+      <div className="section">
+        <h3>Shared Information</h3>
+        <p>Share information</p>
+        <p>Allow all team members to view your medical history, treatment plan, and</p>
+        <button className="add-member-btn">Add Care Team Member</button>
+      </div>
+
+      <div className="section">
+        <h3>Recent Communications</h3>
+        <div className="communication">
+          <div className="time">Today, 10:30 AM</div>
+          <div className="message">Sent a message to Dr. Chen</div>
+        </div>
+        <div className="communication">
+          <div className="time">Yesterday, 2:15 PM</div>
+          <div className="message">Scheduled a video call with Dr. Reed</div>
+        </div>
+        <div className="communication">
+          <div className="time">2 days ago, 9:45 AM</div>
+          <div className="message">Received a message from Dr. Rossi</div>
+        </div>
+      </div>
+
+      <div className="navigation">
+        <button>Home</button>
+        <button>Trials</button>
+        <button>Calendar</button>
+        <button>Groups</button>
+        <button>Profile</button>
+      </div>
+    </div>
+  );
+};
+
+export default CareTeamDashboard;
