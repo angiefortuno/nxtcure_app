@@ -1,0 +1,98 @@
+.medical-profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #2980b9;
+  margin-top: 25px;
+}
+
+h3 {
+  color: #16a085;
+  margin: 10px 0 5px 0;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.info-table, .meds-table, .contact-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+
+.info-table td, .contact-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.info-table .label, .contact-table .label {
+  font-weight: bold;
+  width: 30%;
+}
+
+.meds-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.treatment-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.treatment-list li {
+  margin-bottom: 15px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.treatment-list li:before {
+  content: "•";
+  color: #e74c3c;
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.share-button, .export-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.export-button {
+  background-color: #2ecc71;
+}
+
+.share-button:hover {
+  background-color: #2980b9;
+}
+
+.export-button:hover {
+  background-color: #27ae60;
+}
+
+.allergy {
+  background-color: #f8d7da;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
