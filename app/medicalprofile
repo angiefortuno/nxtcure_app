@@ -1,0 +1,96 @@
+import React from 'react';
+import './MedicalProfile.css';
+
+const MedicalProfile = () => {
+  return (
+    <div className="medical-profile">
+      <h1>Medical Profile</h1>
+
+      <div className="section">
+        <h2>Cancer Information</h2>
+        <table className="info-table">
+          <tbody>
+            <tr>
+              <td className="label">Cancer Type</td>
+              <td>Breast Cancer</td>
+            </tr>
+            <tr>
+              <td className="label">Stage</td>
+              <td>Stage II</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div className="section">
+        <h2>Treatment History</h2>
+        <ul className="treatment-list">
+          <li>
+            <strong>Chemotherapy</strong><br />
+            2021–2022
+          </li>
+          <li>
+            <strong>Surgery</strong><br />
+            2022
+          </li>
+          <li>
+            <strong>Radiation Therapy</strong><br />
+            2022–2023
+          </li>
+        </ul>
+      </div>
+
+      <div className="section">
+        <h2>Current Medications</h2>
+        <table className="meds-table">
+          <tbody>
+            <tr>
+              <td>Tamoxifen</td>
+              <td>20mg</td>
+            </tr>
+            <tr>
+              <td>Letrozole</td>
+              <td>2.5mg</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div className="section">
+        <h2>Allergies</h2>
+        <div className="allergy">
+          <h3>Penicillin</h3>
+        </div>
+      </div>
+
+      <div className="section">
+        <h2>Important Notes</h2>
+        <p>No known drug interactions</p>
+      </div>
+
+      <div className="section">
+        <h2>Sharing</h2>
+        <button className="share-button">Share with Care Team</button>
+        <button className="export-button">Export Medical Summary</button>
+      </div>
+
+      <div className="section">
+        <h2>Emergency Contact</h2>
+        <table className="contact-table">
+          <tbody>
+            <tr>
+              <td className="label">Name</td>
+              <td>Dr. Emily Carter</td>
+            </tr>
+            <tr>
+              <td className="label">Relationship</td>
+              <td>Oncologist</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+};
+
+export default MedicalProfile;
