@@ -1,0 +1,73 @@
+.dashboard {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.care-team-member {
+  margin: 15px 0;
+}
+
+.role {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.name {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.specialty {
+  color: #7f8c8d;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ddd;
+  margin: 15px 0;
+}
+
+.communication {
+  margin: 10px 0;
+}
+
+.time {
+  color: #7f8c8d;
+  font-size: 14px;
+}
+
+.message {
+  margin-top: 5px;
+}
+
+.add-member-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.navigation button {
+  padding: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
