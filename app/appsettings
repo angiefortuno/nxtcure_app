@@ -1,0 +1,86 @@
+import React from 'react';
+import './AppSettings.css';
+
+const AppSettings = () => {
+  return (
+    <div className="settings">
+      <div className="settings-section">
+        <h3>Account</h3>
+        <div className="setting-item">
+          <label>Email</label>
+          <div className="value">jane.doe@example.com</div>
+        </div>
+        <div className="setting-item">
+          <label>Password</label>
+          <button className="change-btn">Change</button>
+        </div>
+      </div>
+
+      <div className="settings-section">
+        <h3>Privacy</h3>
+        <div className="setting-item toggle">
+          <label>Push Notifications</label>
+          <div className="toggle-switch"></div>
+        </div>
+        <div className="setting-item toggle">
+          <label>Email Notifications</label>
+          <div className="toggle-switch"></div>
+        </div>
+        <div className="setting-item toggle">
+          <label>SMS Notifications</label>
+          <div className="toggle-switch"></div>
+        </div>
+      </div>
+
+      <div className="settings-section">
+        <h3>Accessibility</h3>
+        <div className="setting-item">
+          <label>Text Size</label>
+          <select>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra Large</option>
+          </select>
+        </div>
+        <div className="setting-item toggle">
+          <label>Voice Controls</label>
+          <div className="toggle-switch"></div>
+        </div>
+        <div className="setting-item toggle">
+          <label>Contrast</label>
+          <div className="toggle-switch"></div>
+        </div>
+      </div>
+
+      <div className="settings-section">
+        <h3>Data & Privacy</h3>
+        <div className="setting-item">
+          <label>Sharing Permissions</label>
+          <button className="manage-btn">Manage</button>
+        </div>
+        <div className="setting-item">
+          <label>Export Data</label>
+          <button className="export-btn">Export</button>
+        </div>
+      </div>
+
+      <div className="settings-section">
+        <h3>Help & Support</h3>
+        <div className="setting-item">
+          <label>FAQ</label>
+          <button className="view-btn">View</button>
+        </div>
+        <div className="setting-item">
+          <label>Contact Us</label>
+          <button className="contact-btn">Contact</button>
+        </div>
+        <div className="setting-item">
+          <label>Tutorials</label>
+          <button className="view-btn">View</button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default AppSettings;
