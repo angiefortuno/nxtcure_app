@@ -1,0 +1,57 @@
+import React from 'react';
+import './DataPrivacy.css';
+
+const DataPrivacy = () => {
+  return (
+    <div className="data-privacy">
+      <div className="section">
+        <h3>Your Data & Privacy</h3>
+        
+        <div className="subsection">
+          <h4>Data Sharing Permissions</h4>
+          <div className="permission-item toggle">
+            <label>Care Team Access</label>
+            <div className="description">Share my data with my care team</div>
+            <div className="toggle-switch"></div>
+          </div>
+          <div className="permission-item toggle">
+            <label>Research Participation</label>
+            <div className="description">Share my data with researchers for clinical trials</div>
+            <div className="toggle-switch"></div>
+          </div>
+        </div>
+
+        <div className="subsection">
+          <h4>Data Management</h4>
+          <button className="data-btn">Download My Data</button>
+        </div>
+
+        <div className="subsection">
+          <h4>Legal & Compliance</h4>
+          <button className="legal-btn">Privacy Policy</button>
+          <button className="legal-btn">Terms of Service</button>
+        </div>
+
+        <div className="subsection">
+          <h4>Account Actions</h4>
+          <button className="danger-btn">Delete Account</button>
+        </div>
+
+        <div className="info-box">
+          <h4>Data Security</h4>
+          <p>Your data is encrypted and stored securely. We adhere to strict privacy standards to protect your information.</p>
+        </div>
+
+        <div className="subsection">
+          <h4>Third-Party Sharing</h4>
+          <button className="manage-btn">Manage App Permissions</button>
+          <div className="description">Control which third-party apps can access your data</div>
+        </div>
+
+        <button className="signout-btn">Sign Out</button>
+      </div>
+    </div>
+  );
+};
+
+export default DataPrivacy;
