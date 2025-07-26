@@ -1,0 +1,237 @@
+import React, { useState } from 'react';
+import {
+  View,
+  Text,
+  Image,
+  ScrollView,
+  StyleSheet,
+  TouchableOpacity,
+  Switch,
+} from 'react-native';
+import {
+  AntDesign,
+  Feather,
+  MaterialIcons,
+  FontAwesome5,
+} from '@expo/vector-icons'; 
+
+export default function UserProfileScreen({ 
+  name = "User Name",
+  title = "Patient",
+  diagnosis = "Not specified",
+  treatment = "Not specified",
+  remissionStatus = "Not specified",
+  daysSince = "0",
+  TrialsApplied = "0",
+  CommunityConnections = "0"
+}) {
+  const [share, setShare] = useState(false);
+
+  return (
+    <View style={styles.container}>
+      <ScrollView showsVerticalScrollIndicator={false}>
+        {/* Header */}
+        <View style={styles.header}>
+          <Image
+            source={{
+              uri: 'https://source.unsplash.com/100x100/?portrait',
+            }}
+            style={styles.avatar}
+          />
+          <Text style={styles.name}>{name}</Text>
+          <Text style={styles.subtitle}>{title}</Text>
+
+          <TouchableOpacity style={styles.editBtn}>
+            <Text style={styles.editBtnText}>Edit Profile</Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* My Journey */}
+        <Text style={styles.sectionTitle}>My Journey</Text>
+        <View style={styles.timeline}>
+          <TimelineItem
+            icon={<Feather name="activity" size={18} />}
+            title="Diagnosis"
+            subtitle={diagnosis}
+            first
+          />
+          <TimelineItem
+            icon={<MaterialIcons name="medical-services" size={18} />}
+            title="Treatment Start"
+            subtitle={treatment}
+          />
+          <TimelineItem
+            icon={<AntDesign name="checkcircle" size={18} />}
+            title="Remission"
+            subtitle={remissionStatus}
+            last
+          />
+        </View>
+
+        {/* Quick Stats */}
+        <Text style={styles.sectionTitle}>Quick Stats</Text>
+        <View style={styles.cardRow}>
+          <StatCard label="Days Since Diagnosis" value={daysSince} />
+          <StatCard label="Trials Applied" value={TrialsApplied} />
+        </View>
+        <View style={styles.cardRow}>
+          <StatCard label="Community Connections" value={CommunityConnections} full />
+        </View>
+
+        {/* Medical Summary */}
+        <Text style={styles.sectionTitle}>Medical Summary</Text>
+        <View style={styles.summary}>
+          <Text style={styles.summaryKey}>{diagnosis}</Text>
+          <Text style={styles.summaryValue}>
+            Treatment: {treatment}
+          </Text>
+        </View>
+
+        {/* Achievements */}
+        <Text style={styles.sectionTitle}>Achievements</Text>
+        <View style={styles.achievements}>
+          <Badge label="Community Supporter" icon="users" />
+          <Badge label="Trial Participant" icon="vial" />
+        </View>
+
+        {/* Privacy */}
+        <Text style={styles.sectionTitle}>Privacy</Text>
+        <View style={styles.privacyRow}>
+          <Text style={styles.privacyLabel}>Share Profile</Text>
+          <Switch value={share} onValueChange={setShare} />
+        </View>
+
+        <View style={{ height: 80 }} />
+      </ScrollView>
+    </View>
+  );
+}
+
+/* ───────── Helper Components ───────── */
+
+const TimelineItem = ({ icon, title, subtitle, first, last }) => (
+  <View style={styles.timelineItem}>
+    <View style={styles.timelineLeft}>
+      {!first && <View style={styles.line} />}
+      <View style={styles.bullet}>{icon}</View>
+      {!last && <View style={styles.line} />}
+    </View>
+    <View style={styles.timelineContent}>
+      <Text style={styles.timelineTitle}>{title}</Text>
+      <Text style={styles.timelineSubtitle}>{subtitle}</Text>
+    </View>
+  </View>
+);
+
+const StatCard = ({ label, value, full }) => (
+  <View style={[styles.statCard, full && { marginRight: 0, flex: 1 }]}>
+    <Text style={styles.statLabel}>{label}</Text>
+    <Text style={styles.statValue}>{value}</Text>
+  </View>
+);
+
+const Badge = ({ label, icon }) => (
+  <View style={styles.badge}>
+    <FontAwesome5 name={icon} size={14} style={{ marginRight: 6 }} />
+    <Text style={styles.badgeText}>{label}</Text>
+  </View>
+);
+
+/* ───────── Styles ───────── */
+
+const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: '#fff' },
+  header: { alignItems: 'center', paddingVertical: 24 },
+  avatar: {
+    width: 96,
+    height: 96,
+    borderRadius: 48,
+    marginBottom: 8,
+  },
+  name: { fontSize: 20, fontWeight: '600' },
+  subtitle: { color: '#6e6e6e' },
+  editBtn: {
+    marginTop: 12,
+    paddingHorizontal: 24,
+    paddingVertical: 6,
+    backgroundColor: '#f1f3f6',
+    borderRadius: 20,
+  },
+  editBtnText: { fontWeight: '500', color: '#333' },
+
+  sectionTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    marginLeft: 20,
+    marginTop: 12,
+    marginBottom: 4,
+  },
+
+  /* Timeline */
+  timeline: { marginHorizontal: 20 },
+  timelineItem: { flexDirection: 'row' },
+  timelineLeft: { alignItems: 'center', width: 24 },
+  bullet: {
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+    backgroundColor: '#fff',
+    borderWidth: 2,
+    borderColor: '#3498db',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  line: { width: 2, flex: 1, backgroundColor: '#3498db' },
+  timelineContent: { marginLeft: 12, paddingBottom: 12 },
+  timelineTitle: { fontWeight: '500' },
+  timelineSubtitle: { color: '#6e6e6e' },
+
+  /* Stat cards */
+  cardRow: { flexDirection: 'row', marginHorizontal: 20 },
+  statCard: {
+    flex: 1,
+    borderWidth: 1,
+    borderColor: '#e4e6ea',
+    borderRadius: 12,
+    padding: 16,
+    marginRight: 12,
+    marginBottom: 12,
+  },
+  statLabel: { fontSize: 12, color: '#6e6e6e', marginBottom: 6 },
+  statValue: { fontSize: 20, fontWeight: '600' },
+
+  /* Summary */
+  summary: {
+    marginHorizontal: 20,
+    padding: 16,
+    borderWidth: 1,
+    borderColor: '#e4e6ea',
+    borderRadius: 12,
+  },
+  summaryKey: { fontWeight: '500', marginBottom: 4 },
+  summaryValue: { color: '#6e6e6e' },
+
+  /* Achievements */
+  achievements: { flexDirection: 'row', marginHorizontal: 20 },
+  badge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#e4e6ea',
+    borderRadius: 20,
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    marginRight: 12,
+  },
+  badgeText: { fontSize: 12, fontWeight: '500' },
+
+  /* Privacy */
+  privacyRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginHorizontal: 20,
+    paddingVertical: 12,
+  },
+  privacyLabel: { fontSize: 14, fontWeight: '500' },
+});
